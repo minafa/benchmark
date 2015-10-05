@@ -1,0 +1,67 @@
+Command:		/home/jeremie/pgashpc/Code/NPB_Original/c2OMP/bin/cg.C 
+Resources:		1 node (16 physical, 32 logical cores per node, 2 GPUs per node available)
+Memory:			31 GB per node, 5 GB per GPU
+Tasks:			1 process, OMP_NUM_THREADS was 16
+Machine:		lizhi
+Started on:		Tue Jun 30 09:57:44 2015
+Total time:		51 seconds (1 minute)
+Executable:		cg.C
+Full path:		/home/jeremie/pgashpc/Code/NPB_Original/c2OMP/bin
+Input file:		
+Notes:			
+
+Summary: cg.C is Compute-bound in this configuration
+Compute:				 100.0% |=========|
+MPI:					   0.0% |
+I/O:					   0.0% |
+This application run was Compute-bound. A breakdown of this time and advice for investigating further is found in the CPU and accelerator sections below.
+As very little time is spent in MPI calls, this code may also benefit from running at larger scales.
+
+CPU:
+A breakdown of the 100.0% total compute time:
+Single-core code:			    0.0% |
+OpenMP regions:				  100.0% |=========|
+Scalar numeric ops:			   30.5% |==|
+Vector numeric ops:			    0.0% |
+Memory accesses:			   69.5% |======|
+Waiting for accelerators:		    0.0% |
+The per-core performance is memory-bound. Use a profiler to identify time-consuming loops and check their cache performance.
+No time is spent in vectorized instructions. Check the compiler's vectorization advice to see why key loops could not be vectorized.
+
+OpenMP:
+A breakdown of the 100.0% time in OpenMP regions:
+Computation:				   62.3% |=====|
+Synchronization:			   37.7% |===|
+Physical core utilization:		  100.0% |=========|
+System load:				   77.1% |=======|
+Significant time is spent synchronizing threads in parallel regions. Check the affected regions with a profiler.
+This may be a sign of overly fine-grained parallelism (OpenMP regions in tight loops) or workload imbalance.
+
+MPI:
+A breakdown of the 0.0% MPI time:
+Time in collective calls:		    0.0% |
+Time in point-to-point calls:		    0.0% |
+Estimated collective rate:		0.00e+00 bytes/s
+Estimated point-to-point rate:		0.00e+00 bytes/s
+No time is spent in MPI operations. There's nothing to optimize here!
+
+
+I/O:
+A breakdown of the 0.0% I/O time:
+Time in reads:				    0.0% |
+Time in writes:				    0.0% |
+Estimated read rate:			0.00e+00 bytes/s
+Estimated write rate:			0.00e+00 bytes/s
+No time is spent in I/O operations. There's nothing to optimize here!
+
+
+Memory:
+Per-process memory usage may also affect scaling:
+Mean process memory usage:		9.67e+08 bytes
+Peak process memory usage:		9.85e+08 bytes
+Peak node memory usage:			    4.0% |
+The peak node memory usage is very low. Running with fewer MPI processes and more data on each process may be more efficient.
+
+
+Accelerators:
+Error reading metric: Unknown Error

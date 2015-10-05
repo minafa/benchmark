@@ -1,0 +1,20 @@
+#!/bin/bash
+export OMP_NUM_THREADS=2 
+/home/jeremie/pgashpc/EnergyManagement/IntelPCM/pcm-power.x --external_program ./cg.D > CG-2-D-no-bind
+/home/jeremie/pgashpc/EnergyManagement/IntelPCM/pcm-power.x --external_program numactl --interleave=all -C 0,8 ./cg.D > CG-2-D-bind
+
+export OMP_NUM_THREADS=4
+/home/jeremie/pgashpc/EnergyManagement/IntelPCM/pcm-power.x --external_program ./cg.D > CG-4-D-no-bind
+/home/jeremie/pgashpc/EnergyManagement/IntelPCM/pcm-power.x --external_program numactl --interleave=all -C 0-1,8-9 ./cg.D > CG-4-D-bind
+
+export OMP_NUM_THREADS=8
+/home/jeremie/pgashpc/EnergyManagement/IntelPCM/pcm-power.x --external_program ./cg.D > CG-8-D-no-bind
+/home/jeremie/pgashpc/EnergyManagement/IntelPCM/pcm-power.x --external_program numactl --interleave=all -C 0-3,8-11 ./cg.D > CG-8-D-bind
+
+export OMP_NUM_THREADS=16
+/home/jeremie/pgashpc/EnergyManagement/IntelPCM/pcm-power.x --external_program ./cg.D > CG-16-D-no-bind
+/home/jeremie/pgashpc/EnergyManagement/IntelPCM/pcm-power.x --external_program numactl --interleave=all -C 0-7,8-15 ./cg.D > CG-16-D-bind
+
+export OMP_NUM_THREADS=32
+/home/jeremie/pgashpc/EnergyManagement/IntelPCM/pcm-power.x --external_program ./cg.D > CG-32-D-no-bind
+
