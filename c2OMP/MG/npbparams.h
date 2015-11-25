@@ -18,20 +18,20 @@ c
         logical  convertdouble
         parameter (convertdouble = .false.)
         character compiletime*11
-        parameter (compiletime='13 Apr 2015')
+        parameter (compiletime='26 Oct 2015')
         character npbversion*3
         parameter (npbversion='3.3')
-        character cs1*42
-        parameter (cs1='gfortran-4.8 -fopenmp -mcmodel=medium -m64')
+        character cs1*34
+        parameter (cs1='ifort -fopenmp -mcmodel=medium -g ')
         character cs2*6
         parameter (cs2='$(F77)')
-        character cs3*6
-        parameter (cs3='(none)')
-        character cs4*6
-        parameter (cs4='(none)')
-        character cs5*2
-        parameter (cs5='-O')
-        character cs6*2
-        parameter (cs6='-O')
+        character cs3*46
+        parameter (cs3='-L/cluster/software/VERSIONS/openmpi.intel-...')
+        character cs4*46
+        parameter (cs4='-I/cluster/software/VERSIONS/openmpi.intel-...')
+        character cs5*12
+        parameter (cs5='-O3 -fopenmp')
+        character cs6*12
+        parameter (cs6='-O3 -fopenmp')
         character cs7*6
-        parameter (cs7='randi8')
+        parameter (cs7='randdp')

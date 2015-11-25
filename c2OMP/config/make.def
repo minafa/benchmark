@@ -29,30 +29,30 @@
 #---------------------------------------------------------------------------
 # This is the fortran compiler used for Fortran programs
 #---------------------------------------------------------------------------
-F77 = gfortran-4.8 -fopenmp -mcmodel=medium -g 
+F77 = ifort -fopenmp -mcmodel=medium -g 
 # This links fortran programs; usually the same as ${F77}
 FLINK	= $(F77)
 
 #---------------------------------------------------------------------------
 # These macros are passed to the linker 
 #---------------------------------------------------------------------------
-F_LIB  = 
+F_LIB  = -L/cluster/software/VERSIONS/openmpi.intel-1.8.6/lib
 
 #---------------------------------------------------------------------------
 # These macros are passed to the compiler 
 #---------------------------------------------------------------------------
-F_INC =
+F_INC = -I/cluster/software/VERSIONS/openmpi.intel-1.8.6/include -I/..common
 
 #---------------------------------------------------------------------------
 # Global *compile time* flags for Fortran programs
 #---------------------------------------------------------------------------
-FFLAGS	= -O
+FFLAGS	= -O3 -fopenmp
 
 #---------------------------------------------------------------------------
 # Global *link time* flags. Flags for increasing maximum executable 
 # size usually go here. 
 #---------------------------------------------------------------------------
-FLINKFLAGS = -O
+FLINKFLAGS = -O3 -fopenmp
 
 
 #---------------------------------------------------------------------------
@@ -75,7 +75,7 @@ FLINKFLAGS = -O
 #---------------------------------------------------------------------------
 # This is the C compiler used for C programs
 #---------------------------------------------------------------------------
-CC = cc -mcmodel=medium 
+CC = icc -mcmodel=medium 
 # This links C programs; usually the same as ${CC}
 CLINK	= $(CC)
 
@@ -104,13 +104,14 @@ C_INC =
 # _LARGEFILE64_SOURCE - are standard compiler flags which allow to work with 
 # files larger than 2GB.
 #---------------------------------------------------------------------------
-CFLAGS	= -O
-
+#CFLAGS	= -O
+CFLAGS = -O3 -openmp
 #---------------------------------------------------------------------------
 # Global *link time* flags. Flags for increasing maximum executable 
 # size usually go here. 
 #---------------------------------------------------------------------------
-CLINKFLAGS = -O
+#CLINKFLAGS = -O
+CLINKFLAGS = -O3 -openmp
 
 
 #---------------------------------------------------------------------------
