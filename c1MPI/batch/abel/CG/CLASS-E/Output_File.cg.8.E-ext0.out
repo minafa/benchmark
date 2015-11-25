@@ -1,0 +1,79 @@
+Starting job 13144082 ("cg.E.8-t0") on c11-19,c14-28 at Wed Nov 11 12:28:24 CET 2015
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libintlc.so.5      00007FC0C68B8961  Unknown               Unknown  Unknown
+libintlc.so.5      00007FC0C68B70B7  Unknown               Unknown  Unknown
+libmpi_usempif08.  00007FC0C8BBE6B2  Unknown               Unknown  Unknown
+libmpi_usempif08.  00007FC0C8BBE506  Unknown               Unknown  Unknown
+libmpi_usempif08.  00007FC0C8BACD5C  Unknown               Unknown  Unknown
+libmpi_usempif08.  00007FC0C8B8DEC3  Unknown               Unknown  Unknown
+libpthread.so.0    00007FC0C669E790  Unknown               Unknown  Unknown
+cg.E.8             00000000004025FD  Unknown               Unknown  Unknown
+cg.E.8             000000000040139E  Unknown               Unknown  Unknown
+libc.so.6          00007FC0C6319D5D  Unknown               Unknown  Unknown
+cg.E.8             00000000004012A9  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libintlc.so.5      00007F23FC5AC961  Unknown               Unknown  Unknown
+libintlc.so.5      00007F23FC5AB0B7  Unknown               Unknown  Unknown
+libmpi_usempif08.  00007F23FE8B26B2  Unknown               Unknown  Unknown
+libmpi_usempif08.  00007F23FE8B2506  Unknown               Unknown  Unknown
+libmpi_usempif08.  00007F23FE8A0D5C  Unknown               Unknown  Unknown
+libmpi_usempif08.  00007F23FE881EC3  Unknown               Unknown  Unknown
+libpthread.so.0    00007F23FC392790  Unknown               Unknown  Unknown
+cg.E.8             000000000040262A  Unknown               Unknown  Unknown
+cg.E.8             000000000040139E  Unknown               Unknown  Unknown
+libc.so.6          00007F23FC00DD5D  Unknown               Unknown  Unknown
+cg.E.8             00000000004012A9  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libintlc.so.5      00007F9DED5A6961  Unknown               Unknown  Unknown
+libintlc.so.5      00007F9DED5A50B7  Unknown               Unknown  Unknown
+libmpi_usempif08.  00007F9DEF8AC6B2  Unknown               Unknown  Unknown
+libmpi_usempif08.  00007F9DEF8AC506  Unknown               Unknown  Unknown
+libmpi_usempif08.  00007F9DEF89AD5C  Unknown               Unknown  Unknown
+libmpi_usempif08.  00007F9DEF87BEC3  Unknown               Unknown  Unknown
+libpthread.so.0    00007F9DED38C790  Unknown               Unknown  Unknown
+cg.E.8             0000000000402644  Unknown               Unknown  Unknown
+cg.E.8             000000000040139E  Unknown               Unknown  Unknown
+libc.so.6          00007F9DED007D5D  Unknown               Unknown  Unknown
+cg.E.8             00000000004012A9  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libintlc.so.5      00007FA0DD74E961  Unknown               Unknown  Unknown
+libintlc.so.5      00007FA0DD74D0B7  Unknown               Unknown  Unknown
+libmpi_usempif08.  00007FA0DFA546B2  Unknown               Unknown  Unknown
+libmpi_usempif08.  00007FA0DFA54506  Unknown               Unknown  Unknown
+libmpi_usempif08.  00007FA0DFA42D5C  Unknown               Unknown  Unknown
+libmpi_usempif08.  00007FA0DFA23EC3  Unknown               Unknown  Unknown
+libpthread.so.0    00007FA0DD534790  Unknown               Unknown  Unknown
+cg.E.8             0000000000402623  Unknown               Unknown  Unknown
+cg.E.8             000000000040139E  Unknown               Unknown  Unknown
+libc.so.6          00007FA0DD1AFD5D  Unknown               Unknown  Unknown
+cg.E.8             00000000004012A9  Unknown               Unknown  Unknown
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libintlc.so.5      00007F1938F98961  Unknown               Unknown  Unknown
+libintlc.so.5      00007F1938F970B7  Unknown               Unknown  Unknown
+libmpi_usempif08.  00007F193B29E6B2  Unknown               Unknown  Unknown
+libmpi_usempif08.  00007F193B29E506  Unknown               Unknown  Unknown
+libmpi_usempif08.  00007F193B28CD5C  Unknown               Unknown  Unknown
+libmpi_usempif08.  00007F193B26DEC3  Unknown               Unknown  Unknown
+libpthread.so.0    00007F1938D7E790  Unknown               Unknown  Unknown
+cg.E.8             0000000000402623  Unknown               Unknown  Unknown
+cg.E.8             000000000040139E  Unknown               Unknown  Unknown
+libc.so.6          00007F19389F9D5D  Unknown               Unknown  Unknown
+cg.E.8             00000000004012A9  Unknown               Unknown  Unknown
+
+Currently Loaded Modulefiles:
+  1) intel/2015.3          2) openmpi.intel/1.8.6
+
+Job step resource usage:
+       JobID    JobName  AllocCPUS  MaxVMSize     MaxRSS    Elapsed ExitCode 
+------------ ---------- ---------- ---------- ---------- ---------- -------- 
+13144082      cg.E.8-t0         32                         00:01:37      0:0 
+13144082.0         true          2    270436K      1540K   00:00:00      0:0 
+13144082.1        orted          1  99599172K  61233488K   00:01:31      0:0 
+
+Job 13144082 ("cg.E.8-t0") completed on c11-19,c14-28 at Wed Nov 11 12:29:59 CET 2015
+slurmstepd: Exceeded step memory limit at some point. oom-killer likely killed a process.

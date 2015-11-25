@@ -1,0 +1,13 @@
+Starting job 13123355 ("cg.B.32-t4") on c9-[2,13] at Mon Nov 9 10:19:03 CET 2015
+
+Currently Loaded Modulefiles:
+  1) intel/2015.3          2) openmpi.intel/1.8.6
+
+Job step resource usage:
+       JobID    JobName  AllocCPUS  MaxVMSize     MaxRSS    Elapsed ExitCode 
+------------ ---------- ---------- ---------- ---------- ---------- -------- 
+13123355     cg.B.32-t4         32                         00:00:05      0:0 
+13123355.0         true          2    270436K      1.50M   00:00:00      0:0 
+13123355.1        orted          1          0          0   00:00:04      0:0 
+
+Job 13123355 ("cg.B.32-t4") completed on c9-[2,13] at Mon Nov 9 10:19:08 CET 2015

@@ -1,0 +1,13 @@
+Starting job 13117494 ("cg.B.128-t3") on c3-[3,8],c6-[2,4,13-14],c15-22,c16-28 at Sun Nov 8 17:55:55 CET 2015
+
+Currently Loaded Modulefiles:
+  1) intel/2015.3          2) openmpi.intel/1.8.6
+
+Job step resource usage:
+       JobID    JobName  AllocCPUS  MaxVMSize     MaxRSS    Elapsed ExitCode 
+------------ ---------- ---------- ---------- ---------- ---------- -------- 
+13117494     cg.B.128-+        128                         00:00:06      0:0 
+13117494.0         true          8    270436K      1576K   00:00:00      0:0 
+13117494.1        orted          7   2646892K    104956K   00:00:05      0:0 
+
+Job 13117494 ("cg.B.128-t3") completed on c3-[3,8],c6-[2,4,13-14],c15-22,c16-28 at Sun Nov 8 17:56:00 CET 2015

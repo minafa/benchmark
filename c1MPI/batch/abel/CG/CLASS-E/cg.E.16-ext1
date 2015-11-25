@@ -1,0 +1,37 @@
+
+
+ NAS Parallel Benchmarks 3.3 -- CG Benchmark
+
+ Size:    9000000
+ Iterations:   100
+ Number of active processes:    16
+ Number of nonzeroes per row:       26
+ Eigenvalue shift: .150E+04
+
+   iteration           ||r||                 zeta
+        1       0.13435567221088E-11  1499.9998413806252
+        2       0.38561415691720E-15    72.8774756683836
+        3       0.39900556037294E-15    73.2915890919419
+        4       0.40412051093434E-15    73.6707042243695
+        5       0.40641312289348E-15    74.0174332195531
+        6       0.40834482828252E-15    74.3342550247023
+        7       0.40931622074258E-15    74.6235104535606
+        8       0.41016912295109E-15    74.8874001511365
+        9       0.41085448463896E-15    75.1279849102984
+       10       0.41117765429770E-15    75.3471878618359
+       11       0.41146600557719E-15    75.5467981208008
+       12       0.41182155497841E-15    75.7284755317212
+       13       0.41209602166805E-15    75.8937562100671
+       14       0.41229600397289E-15    76.0440586262155
+       15       0.41258330120185E-15    76.1806900244972
+--------------------------------------------------------------------------
+ORTE has lost communication with its daemon located on node:
+
+  hostname:  c1-28
+
+This is usually due to either a failure of the TCP network
+connection to the node, or possibly an internal failure of
+the daemon itself. We cannot recover from this failure, and
+therefore will terminate the job.
+
+--------------------------------------------------------------------------

@@ -1,0 +1,41 @@
+#!/bin/bash
+
+class=$2
+program=$1
+numberOfThreads=$3
+numberOfNodes=$((numberOfThreads / 16))
+time=30
+
+echo "#!/bin/bash
+#SBATCH --job-name=$program.$class.$numberOfThreads
+#SBATCH --time=00:$time:00
+#SBATCH --account=nn2849k
+#SBATCH --output=./Output_File.$program.$numberOfThreads.out
+#SBATCH --nodes=$numberOfNodes
+#SBATCH --ntasks-per-node=16
+#SBATCH --mem-per-cpu=3G
+
+source /cluster/bin/jobsetup
+#export OMP_NUM_THREADS=16
+#export PATH=/cluster/home/jeremie/myRepo/pgashpc/Compilers/BerkeleyUPCForAbel/opt/bin:$PATH
+
+module load intel/2015.3
+module load openmpi.intel/1.8.6
+
+#export GASNET_PHYSMEM_MAX=4G
+#export GASNET_PHYSMEM_NOPROBE=1
+
+
+mpirun -n $numberOfThreads mg.$class.$numberOfThreads  > $program.$class.$numberOfThreads.results
+" > runfileD
+
+sbatch runfileD
+
+
+class=zzz
+program=zzz
+numberOfThreads=zzz
+numberOfNodes=zzz
+
+
+rm runfileD

@@ -1,0 +1,32 @@
+Starting job 13047749 ("cg.D.16-t5") on c4-19 at Tue Nov 3 09:38:58 CET 2015
+
+Currently Loaded Modulefiles:
+  1) intel/2015.3          2) openmpi.intel/1.8.6
+
+Job script resource usage:
+       JobID  MaxVMSize     MaxRSS 
+------------ ---------- ---------- 
+13047749.ba+  31012692K  21100388K 
+
+Job step resource usage:
+       JobID    JobName  AllocCPUS  MaxVMSize     MaxRSS    Elapsed ExitCode 
+------------ ---------- ---------- ---------- ---------- ---------- -------- 
+13047749     cg.D.16-t5         16                         00:19:49      0:0 
+
+Job 13047749 ("cg.D.16-t5") completed on c4-19 at Tue Nov 3 09:58:44 CET 2015
+Starting job 13099574 ("cg.D.16-t5") on c2-3 at Fri Nov 6 09:47:39 CET 2015
+
+Currently Loaded Modulefiles:
+  1) intel/2015.3          2) openmpi.intel/1.8.6
+
+Job script resource usage:
+       JobID  MaxVMSize     MaxRSS 
+------------ ---------- ---------- 
+13099574.ba+  31011292K  21121400K 
+
+Job step resource usage:
+       JobID    JobName  AllocCPUS  MaxVMSize     MaxRSS    Elapsed ExitCode 
+------------ ---------- ---------- ---------- ---------- ---------- -------- 
+13099574     cg.D.16-t5         16                         00:19:16      0:0 
+
+Job 13099574 ("cg.D.16-t5") completed on c2-3 at Fri Nov 6 10:06:53 CET 2015

@@ -1,0 +1,26 @@
+Starting job 13047754 ("cg.D.128-t5") on c3-9,c4-[2,7,13],c18-[25-28] at Tue Nov 3 09:42:48 CET 2015
+
+Currently Loaded Modulefiles:
+  1) intel/2015.3          2) openmpi.intel/1.8.6
+
+Job step resource usage:
+       JobID    JobName  AllocCPUS  MaxVMSize     MaxRSS    Elapsed ExitCode 
+------------ ---------- ---------- ---------- ---------- ---------- -------- 
+13047754     cg.D.128-+        128                         00:03:15      0:0 
+13047754.0         true          8    270436K      1568K   00:00:00      0:0 
+13047754.1        orted          7          0          0   00:03:10      0:0 
+
+Job 13047754 ("cg.D.128-t5") completed on c3-9,c4-[2,7,13],c18-[25-28] at Tue Nov 3 09:45:59 CET 2015
+Starting job 13099578 ("cg.D.128-t5") on c2-10,c4-[9,28],c6-[13-14,18],c8-25,c31-24 at Fri Nov 6 10:00:39 CET 2015
+
+Currently Loaded Modulefiles:
+  1) intel/2015.3          2) openmpi.intel/1.8.6
+
+Job step resource usage:
+       JobID    JobName  AllocCPUS  MaxVMSize     MaxRSS    Elapsed ExitCode 
+------------ ---------- ---------- ---------- ---------- ---------- -------- 
+13099578     cg.D.128-+        132                         00:02:41      0:0 
+13099578.0         true          8    270436K      1668K   00:00:00      0:0 
+13099578.1        orted          7  10990116K   4118968K   00:02:36      0:0 
+
+Job 13099578 ("cg.D.128-t5") completed on c2-10,c4-[9,28],c6-[13-14,18],c8-25,c31-24 at Fri Nov 6 10:03:18 CET 2015

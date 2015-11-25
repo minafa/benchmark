@@ -1,0 +1,13 @@
+Starting job 12864919 ("NAS-MG") on c4-5,c9-25,c14-26,c17-4 at Wed Oct 21 13:10:18 CEST 2015
+
+Currently Loaded Modulefiles:
+  1) intel/2015.3          2) openmpi.intel/1.8.6
+
+Job step resource usage:
+       JobID    JobName  AllocCPUS  MaxVMSize     MaxRSS    Elapsed ExitCode 
+------------ ---------- ---------- ---------- ---------- ---------- -------- 
+12864919         NAS-MG         64                         00:01:16      0:0 
+12864919.0         true          4    270436K      1.50M   00:00:00      0:0 
+12864919.1        orted          3          0          0   00:01:08      0:0 
+
+Job 12864919 ("NAS-MG") completed on c4-5,c9-25,c14-26,c17-4 at Wed Oct 21 13:11:29 CEST 2015

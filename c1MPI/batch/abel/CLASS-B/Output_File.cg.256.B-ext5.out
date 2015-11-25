@@ -1,0 +1,20 @@
+srun: error: Task launch for 13132265.0 failed on node c9-28: User not found on host
+srun: error: Application launch failed: User not found on host
+srun: Job step aborted: Waiting up to 2 seconds for job step to finish.
+srun: error: c4-7: task 2: Killed
+srun: error: c4-5: task 1: Killed
+srun: error: c5-26: task 14: Killed
+srun: error: Timed out waiting for job step to complete
+Starting job 13132265 ("cg.B.256-t5") on c4-[2,5,7,9-10,18],c5-[5,7-8,11-12,14-15,19,26],c9-28 at Tue Nov 10 10:00:52 CET 2015
+
+Currently Loaded Modulefiles:
+  1) intel/2015.3          2) openmpi.intel/1.8.6
+
+Job step resource usage:
+       JobID    JobName  AllocCPUS  MaxVMSize     MaxRSS    Elapsed ExitCode 
+------------ ---------- ---------- ---------- ---------- ---------- -------- 
+13132265     cg.B.256-+        256                         00:00:05      0:0 
+13132265.0         true         16          0          0   00:00:04      0:0 
+13132265.1        orted         15          0          0   00:00:02      0:0 
+
+Job 13132265 ("cg.B.256-t5") completed on c4-[2,5,7,9-10,18],c5-[5,7-8,11-12,14-15,19,26],c9-28 at Tue Nov 10 10:00:54 CET 2015

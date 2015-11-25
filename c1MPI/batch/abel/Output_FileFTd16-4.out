@@ -1,0 +1,13 @@
+Starting job 12888081 ("NAS-FT-D") on c7-9,c8-13 at Fri Oct 23 18:54:12 CEST 2015
+
+Currently Loaded Modulefiles:
+  1) intel/2015.3          2) openmpi.intel/1.8.6
+
+Job step resource usage:
+       JobID    JobName  AllocCPUS  MaxVMSize     MaxRSS    Elapsed ExitCode 
+------------ ---------- ---------- ---------- ---------- ---------- -------- 
+12888081       NAS-FT-D         32                         00:17:39      0:0 
+12888081.0         true          8    270436K      1532K   00:00:00      0:0 
+12888081.1        orted          4  60279832K  58870536K   00:17:35      0:0 
+
+Job 12888081 ("NAS-FT-D") completed on c7-9,c8-13 at Fri Oct 23 19:11:49 CEST 2015

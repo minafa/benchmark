@@ -1,0 +1,32 @@
+Starting job 12846585 ("NAS-FT-C") on c5-25 at Mon Oct 19 15:40:12 CEST 2015
+
+Currently Loaded Modulefiles:
+  1) intel/2015.3          2) openmpi.intel/1.8.6
+
+Job script resource usage:
+       JobID  MaxVMSize     MaxRSS 
+------------ ---------- ---------- 
+12846585.ba+  10650860K    117996K 
+
+Job step resource usage:
+       JobID    JobName  AllocCPUS  MaxVMSize     MaxRSS    Elapsed ExitCode 
+------------ ---------- ---------- ---------- ---------- ---------- -------- 
+12846585       NAS-FT-C         16                         00:00:28      0:0 
+
+Job 12846585 ("NAS-FT-C") completed on c5-25 at Mon Oct 19 15:40:38 CEST 2015
+Starting job 12846622 ("NAS-FT-C") on c13-18 at Mon Oct 19 15:44:16 CEST 2015
+
+Currently Loaded Modulefiles:
+  1) intel/2015.3          2) openmpi.intel/1.8.6
+
+Job script resource usage:
+       JobID  MaxVMSize     MaxRSS 
+------------ ---------- ---------- 
+12846622.ba+  13863352K   7586976K 
+
+Job step resource usage:
+       JobID    JobName  AllocCPUS  MaxVMSize     MaxRSS    Elapsed ExitCode 
+------------ ---------- ---------- ---------- ---------- ---------- -------- 
+12846622       NAS-FT-C         16                         00:00:45      0:0 
+
+Job 12846622 ("NAS-FT-C") completed on c13-18 at Mon Oct 19 15:44:59 CEST 2015

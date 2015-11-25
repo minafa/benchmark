@@ -1,0 +1,13 @@
+Starting job 13135617 ("cg.E.64-t3") on c1-3,c2-22,c6-[7,11,13,17],c16-[19-20,27],c18-[8-9,13-14,19,21],c31-11 at Tue Nov 10 17:19:32 CET 2015
+
+Currently Loaded Modulefiles:
+  1) intel/2015.3          2) openmpi.intel/1.8.6
+
+Job step resource usage:
+       JobID    JobName  AllocCPUS  MaxVMSize     MaxRSS    Elapsed ExitCode 
+------------ ---------- ---------- ---------- ---------- ---------- -------- 
+13135617     cg.E.64-t3        260                         01:18:50      0:0 
+13135617.0         true         16    270436K      1580K   00:00:00      0:0 
+13135617.1        orted         15  17174004K  12813984K   01:18:44      0:0 
+
+Job 13135617 ("cg.E.64-t3") completed on c1-3,c2-22,c6-[7,11,13,17],c16-[19-20,27],c18-[8-9,13-14,19,21],c31-11 at Tue Nov 10 18:38:20 CET 2015

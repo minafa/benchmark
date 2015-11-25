@@ -1,0 +1,12 @@
+
+
+ NAS Parallel Benchmarks 3.3 -- CG Benchmark
+
+ Size:    9000000
+ Iterations:   100
+ Number of active processes:     8
+ Number of nonzeroes per row:       26
+ Eigenvalue shift: .150E+04
+--------------------------------------------------------------------------
+mpirun noticed that process rank 1 with PID 24670 on node compute-11-19 exited on signal 9 (Killed).
+--------------------------------------------------------------------------

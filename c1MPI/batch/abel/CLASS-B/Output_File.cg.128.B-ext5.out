@@ -1,0 +1,13 @@
+Starting job 13132264 ("cg.B.128-t5") on c5-[5,7-8,11-12,14-15,19] at Tue Nov 10 09:59:50 CET 2015
+
+Currently Loaded Modulefiles:
+  1) intel/2015.3          2) openmpi.intel/1.8.6
+
+Job step resource usage:
+       JobID    JobName  AllocCPUS  MaxVMSize     MaxRSS    Elapsed ExitCode 
+------------ ---------- ---------- ---------- ---------- ---------- -------- 
+13132264     cg.B.128-+        128                         00:00:27      0:0 
+13132264.0         true          8    270436K      1540K   00:00:00      0:0 
+13132264.1        orted          7          0          0   00:00:25      0:0 
+
+Job 13132264 ("cg.B.128-t5") completed on c5-[5,7-8,11-12,14-15,19] at Tue Nov 10 10:00:16 CET 2015

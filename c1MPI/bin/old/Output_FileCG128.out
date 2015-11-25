@@ -1,0 +1,550 @@
+Starting job 12160345 ("NASUPC") on c18-[28,31,33,35] at Fri Aug 7 11:15:51 CEST 2015
+
+Currently Loaded Modulefiles:
+  1) intel/2015.3          2) openmpi.intel/1.8.6
+
+Job step resource usage:
+       JobID    JobName  AllocCPUS  MaxVMSize     MaxRSS    Elapsed ExitCode 
+------------ ---------- ---------- ---------- ---------- ---------- -------- 
+12160345         NASUPC         64                         00:00:05      0:0 
+12160345.0         true          4    270500K      3468K   00:00:00      0:0 
+12160345.1        orted          3    270504K      3028K   00:00:01      0:0 
+
+Job 12160345 ("NASUPC") completed on c18-[28,31,33,35] at Fri Aug 7 11:15:54 CEST 2015
+Starting job 12160346 ("NASUPC") on c10-27,c11-9 at Fri Aug 7 12:17:31 CEST 2015
+
+Currently Loaded Modulefiles:
+  1) intel/2015.3          2) openmpi.intel/1.8.6
+
+Job step resource usage:
+       JobID    JobName  AllocCPUS  MaxVMSize     MaxRSS    Elapsed ExitCode 
+------------ ---------- ---------- ---------- ---------- ---------- -------- 
+12160346         NASUPC         32                         00:00:02      0:0 
+12160346.0         true          2    270496K      3392K   00:00:01      0:0 
+12160346.1        orted          1    270504K      2896K   00:00:00      0:0 
+
+Job 12160346 ("NASUPC") completed on c10-27,c11-9 at Fri Aug 7 12:17:32 CEST 2015
+Starting job 12161585 ("NASUPC") on c13-[16-17] at Fri Aug 7 13:38:31 CEST 2015
+
+Currently Loaded Modulefiles:
+  1) intel/2015.3          2) openmpi.intel/1.8.6
+
+Job step resource usage:
+       JobID    JobName  AllocCPUS  MaxVMSize     MaxRSS    Elapsed ExitCode 
+------------ ---------- ---------- ---------- ---------- ---------- -------- 
+12161585         NASUPC         32                         00:00:02      0:0 
+12161585.0         true          2    270500K      2940K   00:00:00      0:0 
+12161585.1        orted          1    270500K      3448K   00:00:00      0:0 
+
+Job 12161585 ("NASUPC") completed on c13-[16-17] at Fri Aug 7 13:38:32 CEST 2015
+Starting job 12187685 ("NASUPC") on c2-[8,25] at Mon Aug 10 12:40:47 CEST 2015
+Starting job 12187689 ("NASUPC") on c13-[6,8,13,15] at Mon Aug 10 12:40:48 CEST 2015
+
+Currently Loaded Modulefiles:
+  1) intel/2015.3          2) openmpi.intel/1.8.6
+
+Job step resource usage:
+       JobID    JobName  AllocCPUS  MaxVMSize     MaxRSS    Elapsed ExitCode 
+------------ ---------- ---------- ---------- ---------- ---------- -------- 
+12187689         NASUPC         64                         00:00:58      0:0 
+12187689.0         true          4    270500K      3416K   00:00:00      0:0 
+12187689.1        orted          3  13881812K   7838548K   00:00:54      0:0 
+
+Job 12187689 ("NASUPC") completed on c13-[6,8,13,15] at Mon Aug 10 12:41:43 CEST 2015
+Starting job 12187696 ("NASUPC") on c13-[6,8,13,15,28],c31-[13,18,21] at Mon Aug 10 12:41:57 CEST 2015
+
+Currently Loaded Modulefiles:
+  1) intel/2015.3          2) openmpi.intel/1.8.6
+
+Job step resource usage:
+       JobID    JobName  AllocCPUS  MaxVMSize     MaxRSS    Elapsed ExitCode 
+------------ ---------- ---------- ---------- ---------- ---------- -------- 
+12187696         NASUPC        128                         00:00:50      0:0 
+12187696.0         true          8    270500K      3460K   00:00:00      0:0 
+12187696.1        orted          7  10481992K   4445760K   00:00:45      0:0 
+
+Job 12187696 ("NASUPC") completed on c13-[6,8,13,15,28],c31-[13,18,21] at Mon Aug 10 12:42:45 CEST 2015
+
+Currently Loaded Modulefiles:
+  1) intel/2015.3          2) openmpi.intel/1.8.6
+
+Job step resource usage:
+       JobID    JobName  AllocCPUS  MaxVMSize     MaxRSS    Elapsed ExitCode 
+------------ ---------- ---------- ---------- ---------- ---------- -------- 
+12187685         NASUPC         32                         00:02:45      0:0 
+12187685.0         true          2    270500K      3432K   00:00:00      0:0 
+12187685.1        orted          1  21128216K  15025088K   00:02:41      0:0 
+
+Job 12187685 ("NASUPC") completed on c2-[8,25] at Mon Aug 10 12:43:30 CEST 2015
+Starting job 12187698 ("NASUPC") on c2-[8,10,25],c13-[6,8,13,15,28],c15-[12,15,26-27,35],c31-[13,18,21] at Mon Aug 10 12:44:16 CEST 2015
+
+Currently Loaded Modulefiles:
+  1) intel/2015.3          2) openmpi.intel/1.8.6
+
+Job step resource usage:
+       JobID    JobName  AllocCPUS  MaxVMSize     MaxRSS    Elapsed ExitCode 
+------------ ---------- ---------- ---------- ---------- ---------- -------- 
+12187698         NASUPC        256                         00:00:26      0:0 
+12187698.0         true         16    270500K      3476K   00:00:00      0:0 
+12187698.1        orted         15   3113460K    106216K   00:00:23      0:0 
+
+Job 12187698 ("NASUPC") completed on c2-[8,10,25],c13-[6,8,13,15,28],c15-[12,15,26-27,35],c31-[13,18,21] at Mon Aug 10 12:44:40 CEST 2015
+Starting job 12187777 ("NASUPC") on c17-[20,36] at Mon Aug 10 12:52:06 CEST 2015
+Starting job 12187785 ("NASUPC") on c2-[1-2,8,10-11,13-14,21,25,32],c8-12,c13-[6,8,13,15,28] at Mon Aug 10 12:53:07 CEST 2015
+Starting job 12187784 ("NASUPC") on c13-31,c16-32,c18-[12,17,20],c31-[13,18,21] at Mon Aug 10 12:53:07 CEST 2015
+
+Currently Loaded Modulefiles:
+  1) intel/2015.3          2) openmpi.intel/1.8.6
+
+Job step resource usage:
+       JobID    JobName  AllocCPUS  MaxVMSize     MaxRSS    Elapsed ExitCode 
+------------ ---------- ---------- ---------- ---------- ---------- -------- 
+12187785         NASUPC        256                         00:01:25      0:0 
+12187785.0         true         16    274644K      3504K   00:00:01      0:0 
+12187785.1        orted         15   9813016K   2972848K   00:01:24      0:0 
+
+Job 12187785 ("NASUPC") completed on c2-[1-2,8,10-11,13-14,21,25,32],c8-12,c13-[6,8,13,15,28] at Mon Aug 10 12:54:31 CEST 2015
+Starting job 12187783 ("NASUPC") on c2-[1-2,8,10] at Mon Aug 10 12:55:07 CEST 2015
+
+Currently Loaded Modulefiles:
+  1) intel/2015.3          2) openmpi.intel/1.8.6
+
+Job step resource usage:
+       JobID    JobName  AllocCPUS  MaxVMSize     MaxRSS    Elapsed ExitCode 
+------------ ---------- ---------- ---------- ---------- ---------- -------- 
+12187784         NASUPC        128                         00:05:19      0:0 
+12187784.0         true          8    270500K      3480K   00:00:00      0:0 
+12187784.1        orted          7  10991888K   4173552K   00:05:18      0:0 
+
+Job 12187784 ("NASUPC") completed on c13-31,c16-32,c18-[12,17,20],c31-[13,18,21] at Mon Aug 10 12:58:25 CEST 2015
+Starting job 12187707 ("NASUPC") on c2-[11,13-14,17,20-21,25-27,32],c5-25,c8-12,c13-[8,13,15,28,30-31],c16-32,c17-[7,9,14,16],c18-[8,10,12,17,20,22],c31-[13,18,21] at Mon Aug 10 12:58:37 CEST 2015
+
+Currently Loaded Modulefiles:
+  1) intel/2015.3          2) openmpi.intel/1.8.6
+
+Job step resource usage:
+       JobID    JobName  AllocCPUS  MaxVMSize     MaxRSS    Elapsed ExitCode 
+------------ ---------- ---------- ---------- ---------- ---------- -------- 
+12187707         NASUPC        512                         00:00:14      0:0 
+12187707.0         true         32    341208K      3508K   00:00:00      0:0 
+12187707.1        orted         31   2293492K    113308K   00:00:12      0:0 
+
+Job 12187707 ("NASUPC") completed on c2-[11,13-14,17,20-21,25-27,32],c5-25,c8-12,c13-[8,13,15,28,30-31],c16-32,c17-[7,9,14,16],c18-[8,10,12,17,20,22],c31-[13,18,21] at Mon Aug 10 12:58:51 CEST 2015
+Starting job 12187786 ("NASUPC") on c2-[11,13-14,17,20-21,25-27,32],c5-25,c8-12,c13-[8,13,15,28,30-31],c16-32,c17-[7,9,14,16],c18-[8,10,12,17,20,22],c31-[13,18,21] at Mon Aug 10 12:59:06 CEST 2015
+Starting job 12187814 ("NASUPC") on c15-10,c16-26 at Mon Aug 10 12:59:07 CEST 2015
+
+Currently Loaded Modulefiles:
+  1) intel/2015.3          2) openmpi.intel/1.8.6
+
+Job step resource usage:
+       JobID    JobName  AllocCPUS  MaxVMSize     MaxRSS    Elapsed ExitCode 
+------------ ---------- ---------- ---------- ---------- ---------- -------- 
+12187814         NASUPC         32                         00:00:14      0:0 
+12187814.0         true          2    270500K      3032K   00:00:01      0:0 
+12187814.1        orted          1   2220124K    116576K   00:00:13      0:0 
+
+Job 12187814 ("NASUPC") completed on c15-10,c16-26 at Mon Aug 10 12:59:20 CEST 2015
+
+Currently Loaded Modulefiles:
+  1) intel/2015.3          2) openmpi.intel/1.8.6
+
+Job step resource usage:
+       JobID    JobName  AllocCPUS  MaxVMSize     MaxRSS    Elapsed ExitCode 
+------------ ---------- ---------- ---------- ---------- ---------- -------- 
+12187783         NASUPC         64                         00:04:28      0:0 
+12187783.0         true          4    270500K      3460K   00:00:01      0:0 
+12187783.1        orted          3  14288456K   6513952K   00:04:27      0:0 
+
+Job 12187783 ("NASUPC") completed on c2-[1-2,8,10] at Mon Aug 10 12:59:34 CEST 2015
+Starting job 12187816 ("NASUPC") on c2-[1-2,8,10] at Mon Aug 10 12:59:37 CEST 2015
+
+Currently Loaded Modulefiles:
+  1) intel/2015.3          2) openmpi.intel/1.8.6
+
+Job step resource usage:
+       JobID    JobName  AllocCPUS  MaxVMSize     MaxRSS    Elapsed ExitCode 
+------------ ---------- ---------- ---------- ---------- ---------- -------- 
+12187816         NASUPC         64                         00:00:08      0:0 
+12187816.0         true          4    270500K      3020K   00:00:00      0:0 
+12187816.1        orted          3   6808168K    517604K   00:00:07      0:0 
+
+Job 12187816 ("NASUPC") completed on c2-[1-2,8,10] at Mon Aug 10 12:59:44 CEST 2015
+Starting job 12187817 ("NASUPC") on c2-[1-2,8,10,22],c10-4,c15-10,c16-26 at Mon Aug 10 13:00:07 CEST 2015
+
+Currently Loaded Modulefiles:
+  1) intel/2015.3          2) openmpi.intel/1.8.6
+
+Job step resource usage:
+       JobID    JobName  AllocCPUS  MaxVMSize     MaxRSS    Elapsed ExitCode 
+------------ ---------- ---------- ---------- ---------- ---------- -------- 
+12187817         NASUPC        128                         00:00:06      0:0 
+12187817.0         true          8    270500K      3372K   00:00:00      0:0 
+12187817.1        orted          7   3399124K    172300K   00:00:05      0:0 
+
+Job 12187817 ("NASUPC") completed on c2-[1-2,8,10,22],c10-4,c15-10,c16-26 at Mon Aug 10 13:00:12 CEST 2015
+
+Currently Loaded Modulefiles:
+  1) intel/2015.3          2) openmpi.intel/1.8.6
+
+Job step resource usage:
+
+Currently Loaded Modulefiles:
+  1) intel/2015.3          2) openmpi.intel/1.8.6
+
+Job step resource usage:
+       JobID    JobName  AllocCPUS  MaxVMSize     MaxRSS    Elapsed ExitCode 
+------------ ---------- ---------- ---------- ---------- ---------- -------- 
+12187786         NASUPC        512                         00:01:49      0:0 
+12187786.0         true         32    341212K      3056K   00:00:00      0:0 
+12187786.1        orted         31   9094428K   2767684K   00:01:48      0:0 
+
+Job 12187786 ("NASUPC") completed on c2-[11,13-14,17,20-21,25-27,32],c5-25,c8-12,c13-[8,13,15,28,30-31],c16-32,c17-[7,9,14,16],c18-[8,10,12,17,20,22],c31-[13,18,21] at Mon Aug 10 13:00:55 CEST 2015
+       JobID    JobName  AllocCPUS  MaxVMSize     MaxRSS    Elapsed ExitCode 
+------------ ---------- ---------- ---------- ---------- ---------- -------- 
+12187777         NASUPC         32                         00:08:50      0:0 
+12187777.0         true          2    270500K      2964K   00:00:00      0:0 
+12187777.1        orted          1  19366612K  11618092K   00:08:48      0:0 
+
+Job 12187777 ("NASUPC") completed on c17-[20,36] at Mon Aug 10 13:00:55 CEST 2015
+Starting job 12187821 ("NASUPC") on c2-[1-2,8,10-11,13-14,17,20-22,25-27,32],c5-25,c8-12,c10-4,c13-[8,13,15,28,30-31],c15-[10,21],c16-[19,26,32],c31-[13,18,21] at Mon Aug 10 13:01:07 CEST 2015
+
+Currently Loaded Modulefiles:
+  1) intel/2015.3          2) openmpi.intel/1.8.6
+
+Job step resource usage:
+       JobID    JobName  AllocCPUS  MaxVMSize     MaxRSS    Elapsed ExitCode 
+------------ ---------- ---------- ---------- ---------- ---------- -------- 
+12187821         NASUPC        512                         00:00:01      0:0 
+12187821.0         true         32          0          0   00:00:00      0:0 
+12187821.1        orted         31    270504K      3492K   00:00:00      0:0 
+
+Job 12187821 ("NASUPC") completed on c2-[1-2,8,10-11,13-14,17,20-22,25-27,32],c5-25,c8-12,c10-4,c13-[8,13,15,28,30-31],c15-[10,21],c16-[19,26,32],c31-[13,18,21] at Mon Aug 10 13:01:08 CEST 2015
+Starting job 12187820 ("NASUPC") on c2-[1-2,8,10-11,13-14,17,20-22,25-27],c16-[19,26] at Mon Aug 10 13:02:07 CEST 2015
+
+Currently Loaded Modulefiles:
+  1) intel/2015.3          2) openmpi.intel/1.8.6
+
+Job step resource usage:
+       JobID    JobName  AllocCPUS  MaxVMSize     MaxRSS    Elapsed ExitCode 
+------------ ---------- ---------- ---------- ---------- ---------- -------- 
+12187820         NASUPC        256                         00:00:07      0:0 
+12187820.0         true         16    341208K      3388K   00:00:00      0:0 
+12187820.1        orted         15   1868060K    124036K   00:00:06      0:0 
+
+Job 12187820 ("NASUPC") completed on c2-[1-2,8,10-11,13-14,17,20-22,25-27],c16-[19,26] at Mon Aug 10 13:02:13 CEST 2015
+Starting job 12188239 ("NASUPC") on c2-[1-2,8,10-11,13-14,17-18,20-23,25-27],c16-[19,26],c17-[4,7,9,14,16,20],c18-[5,7-8,10,12,17,20,22] at Mon Aug 10 13:05:37 CEST 2015
+
+Currently Loaded Modulefiles:
+  1) intel/2015.3          2) openmpi.intel/1.8.6
+
+Job step resource usage:
+       JobID    JobName  AllocCPUS  MaxVMSize     MaxRSS    Elapsed ExitCode 
+------------ ---------- ---------- ---------- ---------- ---------- -------- 
+12188239         NASUPC        512                         00:00:09      0:0 
+12188239.0         true         32    274644K      3480K   00:00:00      0:0 
+12188239.1        orted         31   1386440K    106748K   00:00:08      0:0 
+
+Job 12188239 ("NASUPC") completed on c2-[1-2,8,10-11,13-14,17-18,20-23,25-27],c16-[19,26],c17-[4,7,9,14,16,20],c18-[5,7-8,10,12,17,20,22] at Mon Aug 10 13:05:45 CEST 2015
+Starting job 12188281 ("NASUPC") on c2-[1-2,8,10-11,13-15,17-18,20-23,25-27,32],c5-8,c13-[15,18,28],c15-[2,8,16-17],c16-[19,26,28],c31-[13,18,21] at Mon Aug 10 13:12:37 CEST 2015
+Starting job 12188276 ("NASUPC") on c17-[32-33,36],c18-[12,17,20,22,33] at Mon Aug 10 13:12:37 CEST 2015
+Starting job 12188278 ("NASUPC") on c17-[4-5,7-9,14,16,19-20,28],c18-[2,5,7-8,10-11] at Mon Aug 10 13:12:37 CEST 2015
+
+Currently Loaded Modulefiles:
+
+  1) intel/2015.3          2) openmpi.intel/1.8.6
+
+Job step resource usage:
+Currently Loaded Modulefiles:
+  1) intel/2015.3          2) openmpi.intel/1.8.6
+
+Job step resource usage:
+       JobID    JobName  AllocCPUS  MaxVMSize     MaxRSS    Elapsed ExitCode 
+------------ ---------- ---------- ---------- ---------- ---------- -------- 
+12188281         NASUPC        512                         00:00:09      0:0 
+12188281.0         true         32    274644K      3508K   00:00:01      0:0 
+12188281.1        orted         31   1343696K    104916K   00:00:07      0:0 
+
+Job 12188281 ("NASUPC") completed on c2-[1-2,8,10-11,13-15,17-18,20-23,25-27,32],c5-8,c13-[15,18,28],c15-[2,8,16-17],c16-[19,26,28],c31-[13,18,21] at Mon Aug 10 13:12:45 CEST 2015
+       JobID    JobName  AllocCPUS  MaxVMSize     MaxRSS    Elapsed ExitCode 
+------------ ---------- ---------- ---------- ---------- ---------- -------- 
+12188276         NASUPC        128                         00:00:09      0:0 
+12188276.0         true          8    270500K      3364K   00:00:00      0:0 
+12188276.1        orted          7          0          0   00:00:08      0:0 
+
+Job 12188276 ("NASUPC") completed on c17-[32-33,36],c18-[12,17,20,22,33] at Mon Aug 10 13:12:45 CEST 2015
+
+Currently Loaded Modulefiles:
+  1) intel/2015.3          2) openmpi.intel/1.8.6
+
+Job step resource usage:
+       JobID    JobName  AllocCPUS  MaxVMSize     MaxRSS    Elapsed ExitCode 
+------------ ---------- ---------- ---------- ---------- ---------- -------- 
+12188278         NASUPC        256                         00:00:10      0:0 
+12188278.0         true         16    270500K      3480K   00:00:00      0:0 
+12188278.1        orted         15    270504K      4156K   00:00:08      0:0 
+
+Job 12188278 ("NASUPC") completed on c17-[4-5,7-9,14,16,19-20,28],c18-[2,5,7-8,10-11] at Mon Aug 10 13:12:46 CEST 2015
+Starting job 12188267 ("NASUPC") on c16-[19,26] at Mon Aug 10 13:13:06 CEST 2015
+Starting job 12188273 ("NASUPC") on c15-[2,8,16-17] at Mon Aug 10 13:13:07 CEST 2015
+
+Currently Loaded Modulefiles:
+  1) intel/2015.3          2) openmpi.intel/1.8.6
+
+Job step resource usage:
+       JobID    JobName  AllocCPUS  MaxVMSize     MaxRSS    Elapsed ExitCode 
+------------ ---------- ---------- ---------- ---------- ---------- -------- 
+12188273         NASUPC         64                         00:00:05      0:0 
+12188273.0         true          4    270500K      2996K   00:00:00      0:0 
+12188273.1        orted          3   7608936K   1243392K   00:00:03      0:0 
+
+Job 12188273 ("NASUPC") completed on c15-[2,8,16-17] at Mon Aug 10 13:13:11 CEST 2015
+
+Currently Loaded Modulefiles:
+  1) intel/2015.3          2) openmpi.intel/1.8.6
+
+Job step resource usage:
+       JobID    JobName  AllocCPUS  MaxVMSize     MaxRSS    Elapsed ExitCode 
+------------ ---------- ---------- ---------- ---------- ---------- -------- 
+12188267         NASUPC         32                         00:00:05      0:0 
+12188267.0         true          2    270500K      3000K   00:00:00      0:0 
+12188267.1        orted          1   8532700K   2495092K   00:00:04      0:0 
+
+Job 12188267 ("NASUPC") completed on c16-[19,26] at Mon Aug 10 13:13:11 CEST 2015
+Starting job 12187822 ("NASUPC") on c2-[1-2,8,10-11,13-18,20-23,25-28],c13-[15,18],c15-[2-3,8,12,15-18,23,26-27],c16-[17,19,26,28],c17-[4-5,7-9,14,16,19-20,28,32-33,36],c18-[2,5,7-8,10-12,17,20,22,33],c31-[5,13,18,21] at Mon Aug 10 13:17:07 CEST 2015
+
+Currently Loaded Modulefiles:
+  1) intel/2015.3          2) openmpi.intel/1.8.6
+
+Job step resource usage:
+       JobID    JobName  AllocCPUS  MaxVMSize     MaxRSS    Elapsed ExitCode 
+------------ ---------- ---------- ---------- ---------- ---------- -------- 
+12187822         NASUPC       1024                         00:00:18      0:0 
+12187822.0         true         64    341212K      3512K   00:00:01      0:0 
+12187822.1        orted         63          0          0   00:00:16      0:0 
+
+Job 12187822 ("NASUPC") completed on c2-[1-2,8,10-11,13-18,20-23,25-28],c13-[15,18],c15-[2-3,8,12,15-18,23,26-27],c16-[17,19,26,28],c17-[4-5,7-9,14,16,19-20,28,32-33,36],c18-[2,5,7-8,10-12,17,20,22,33],c31-[5,13,18,21] at Mon Aug 10 13:17:24 CEST 2015
+Starting job 12188238 ("NASUPC") on c2-[1-2,8,10-11,13-18,20-23,25-28],c13-[15,18],c15-[2-3,8,12,15-18,23,26-27],c16-[17,19,26,28],c17-[4-5,7-9,14,16,19-20,28,32-33,36],c18-[2,5,7-8,10-12,17,20,22,33],c31-[5,13,18,21] at Mon Aug 10 13:17:36 CEST 2015
+
+Currently Loaded Modulefiles:
+  1) intel/2015.3          2) openmpi.intel/1.8.6
+
+Job step resource usage:
+       JobID    JobName  AllocCPUS  MaxVMSize     MaxRSS    Elapsed ExitCode 
+------------ ---------- ---------- ---------- ---------- ---------- -------- 
+12188238         NASUPC       1024                         00:00:14      0:0 
+12188238.0         true         64    341212K      3512K   00:00:01      0:0 
+12188238.1        orted         63   1283644K    102308K   00:00:13      0:0 
+
+Job 12188238 ("NASUPC") completed on c2-[1-2,8,10-11,13-18,20-23,25-28],c13-[15,18],c15-[2-3,8,12,15-18,23,26-27],c16-[17,19,26,28],c17-[4-5,7-9,14,16,19-20,28,32-33,36],c18-[2,5,7-8,10-12,17,20,22,33],c31-[5,13,18,21] at Mon Aug 10 13:17:50 CEST 2015
+Starting job 12188335 ("NASUPC") on c13-18 at Mon Aug 10 13:18:06 CEST 2015
+Starting job 12188283 ("NASUPC") on c2-[1-2,8,10-11,13-18,20-23,25-28],c13-15,c15-[2-3,8,12,14-18,23,26-27],c16-[17,19,26,28],c17-[4-5,7-9,14,16,19-20,28,32-33,36],c18-[2,5,7-8,10-12,17,20,22,33],c31-[5,13,18,21] at Mon Aug 10 13:18:06 CEST 2015
+
+Currently Loaded Modulefiles:
+  1) intel/2015.3          2) openmpi.intel/1.8.6
+
+Job script resource usage:
+       JobID  MaxVMSize     MaxRSS 
+------------ ---------- ---------- 
+12188335.ba+  10157444K   2481276K 
+
+Job step resource usage:
+       JobID    JobName  AllocCPUS  MaxVMSize     MaxRSS    Elapsed ExitCode 
+------------ ---------- ---------- ---------- ---------- ---------- -------- 
+12188335         NASUPC         16                         00:00:10      0:0 
+
+Job 12188335 ("NASUPC") completed on c13-18 at Mon Aug 10 13:18:16 CEST 2015
+
+Currently Loaded Modulefiles:
+  1) intel/2015.3          2) openmpi.intel/1.8.6
+
+Job step resource usage:
+       JobID    JobName  AllocCPUS  MaxVMSize     MaxRSS    Elapsed ExitCode 
+------------ ---------- ---------- ---------- ---------- ---------- -------- 
+12188283         NASUPC       1024                         00:00:12      0:0 
+12188283.0         true         64    341212K      3524K   00:00:01      0:0 
+12188283.1        orted         63   1228464K     94716K   00:00:11      0:0 
+
+Job 12188283 ("NASUPC") completed on c2-[1-2,8,10-11,13-18,20-23,25-28],c13-15,c15-[2-3,8,12,14-18,23,26-27],c16-[17,19,26,28],c17-[4-5,7-9,14,16,19-20,28,32-33,36],c18-[2,5,7-8,10-12,17,20,22,33],c31-[5,13,18,21] at Mon Aug 10 13:18:18 CEST 2015
+Starting job 12187718 ("NASUPC") on c2-[1-2,8,10-11,13-18,20-23,25-28],c13-15,c15-[2-3,8,12,14-18,23,26-27],c16-[17,19,26,28],c17-[4-5,7-9,14,16,19-20,28,32-33,36],c18-[2,5,7-8,10-12,17,20,22,33],c31-[5,13,18,21] at Mon Aug 10 13:18:36 CEST 2015
+
+Currently Loaded Modulefiles:
+  1) intel/2015.3          2) openmpi.intel/1.8.6
+
+Job step resource usage:
+       JobID    JobName  AllocCPUS  MaxVMSize     MaxRSS    Elapsed ExitCode 
+------------ ---------- ---------- ---------- ---------- ---------- -------- 
+12187718         NASUPC       1024                         00:00:15      0:0 
+12187718.0         true         64    341212K      3520K   00:00:01      0:0 
+12187718.1        orted         63   1650468K    102072K   00:00:14      0:0 
+
+Job 12187718 ("NASUPC") completed on c2-[1-2,8,10-11,13-18,20-23,25-28],c13-15,c15-[2-3,8,12,14-18,23,26-27],c16-[17,19,26,28],c17-[4-5,7-9,14,16,19-20,28,32-33,36],c18-[2,5,7-8,10-12,17,20,22,33],c31-[5,13,18,21] at Mon Aug 10 13:18:51 CEST 2015
+Starting job 12187794 ("NASUPC") on c2-[1-2,8,10-11,13-18,20-23,25-28],c15-[2-3,8,12,14-18,23,26-27],c16-[17,19,26,28],c17-[4-5,7-9,14,16,19-20,28,32-33,36],c18-[2,5,7-8,10-12,17-18,20,22,33],c31-[5,13,18,21] at Mon Aug 10 13:19:07 CEST 2015
+Starting job 12188342 ("NASUPC") on c15-25 at Mon Aug 10 13:20:07 CEST 2015
+
+Currently Loaded Modulefiles:
+  1) intel/2015.3          2) openmpi.intel/1.8.6
+
+Job script resource usage:
+       JobID  MaxVMSize     MaxRSS 
+------------ ---------- ---------- 
+12188342.ba+   7848552K    207820K 
+
+Job step resource usage:
+       JobID    JobName  AllocCPUS  MaxVMSize     MaxRSS    Elapsed ExitCode 
+------------ ---------- ---------- ---------- ---------- ---------- -------- 
+12188342         NASUPC         16                         00:00:21      0:0 
+
+Job 12188342 ("NASUPC") completed on c15-25 at Mon Aug 10 13:20:27 CEST 2015
+
+Currently Loaded Modulefiles:
+  1) intel/2015.3          2) openmpi.intel/1.8.6
+
+Job step resource usage:
+       JobID    JobName  AllocCPUS  MaxVMSize     MaxRSS    Elapsed ExitCode 
+------------ ---------- ---------- ---------- ---------- ---------- -------- 
+12187794         NASUPC       1024                         00:03:04      0:0 
+12187794.0         true         64    341208K      3488K   00:00:01      0:0 
+12187794.1        orted         63   9409748K   2999200K   00:03:03      0:0 
+
+Job 12187794 ("NASUPC") completed on c2-[1-2,8,10-11,13-18,20-23,25-28],c15-[2-3,8,12,14-18,23,26-27],c16-[17,19,26,28],c17-[4-5,7-9,14,16,19-20,28,32-33,36],c18-[2,5,7-8,10-12,17-18,20,22,33],c31-[5,13,18,21] at Mon Aug 10 13:22:10 CEST 2015
+Starting job 12188346 ("NASUPC") on c2-[1-2,8,10-11,13-18,20-28],c15-[2-3,8,12,14-18,23,26-27] at Mon Aug 10 13:22:37 CEST 2015
+
+Currently Loaded Modulefiles:
+  1) intel/2015.3          2) openmpi.intel/1.8.6
+
+Job step resource usage:
+       JobID    JobName  AllocCPUS  MaxVMSize     MaxRSS    Elapsed ExitCode 
+------------ ---------- ---------- ---------- ---------- ---------- -------- 
+12188346         NASUPC        512                         00:00:02      0:0 
+12188346.0         true         32          0          0   00:00:01      0:0 
+12188346.1        orted         31    270504K      3520K   00:00:01      0:0 
+
+Job 12188346 ("NASUPC") completed on c2-[1-2,8,10-11,13-18,20-28],c15-[2-3,8,12,14-18,23,26-27] at Mon Aug 10 13:22:38 CEST 2015
+Starting job 12188351 ("NASUPC") on c2-[1-2,8,10-11,13-28],c17-[4-5,7-9,14,16,19-20,28],c18-16 at Mon Aug 10 13:24:37 CEST 2015
+
+Currently Loaded Modulefiles:
+  1) intel/2015.3          2) openmpi.intel/1.8.6
+
+Job step resource usage:
+       JobID    JobName  AllocCPUS  MaxVMSize     MaxRSS    Elapsed ExitCode 
+------------ ---------- ---------- ---------- ---------- ---------- -------- 
+12188351         NASUPC        512                         00:00:52      0:0 
+12188351.0         true         32    341208K      3464K   00:00:02      0:0 
+12188351.1        orted         31   9015416K   2689896K   00:00:51      0:0 
+
+Job 12188351 ("NASUPC") completed on c2-[1-2,8,10-11,13-28],c17-[4-5,7-9,14,16,19-20,28],c18-16 at Mon Aug 10 13:25:28 CEST 2015
+Starting job 12188356 ("NASUPC") on c16-26 at Mon Aug 10 13:26:37 CEST 2015
+
+Currently Loaded Modulefiles:
+  1) intel/2015.3          2) openmpi.intel/1.8.6
+
+Job script resource usage:
+       JobID  MaxVMSize     MaxRSS 
+------------ ---------- ---------- 
+12188356.ba+    227836K      8064K 
+
+Job step resource usage:
+       JobID    JobName  AllocCPUS  MaxVMSize     MaxRSS    Elapsed ExitCode 
+------------ ---------- ---------- ---------- ---------- ---------- -------- 
+12188356         NASUPC         16                         00:00:02      0:0 
+
+Job 12188356 ("NASUPC") completed on c16-26 at Mon Aug 10 13:26:38 CEST 2015
+Starting job 12188363 ("NASUPC") on c16-28 at Mon Aug 10 13:28:07 CEST 2015
+Starting job 12188361 ("NASUPC") on c16-26 at Mon Aug 10 13:28:07 CEST 2015
+
+Currently Loaded Modulefiles:
+  1) intel/2015.3          2) openmpi.intel/1.8.6
+
+Job script resource usage:
+       JobID  MaxVMSize     MaxRSS 
+------------ ---------- ---------- 
+12188361.ba+   7919444K   1207196K 
+
+Job step resource usage:
+       JobID    JobName  AllocCPUS  MaxVMSize     MaxRSS    Elapsed ExitCode 
+------------ ---------- ---------- ---------- ---------- ---------- -------- 
+12188361         NASUPC         16                         00:00:20      0:0 
+
+Job 12188361 ("NASUPC") completed on c16-26 at Mon Aug 10 13:28:26 CEST 2015
+Starting job 12188368 ("NASUPC") on c16-26 at Mon Aug 10 13:29:06 CEST 2015
+slurmstepd: *** JOB 12188363 CANCELLED AT 2015-08-10T13:32:18 DUE TO TIME LIMIT ***
+
+Currently Loaded Modulefiles:
+  1) intel/2015.3          2) openmpi.intel/1.8.6
+
+Job script resource usage:
+       JobID  MaxVMSize     MaxRSS 
+------------ ---------- ---------- 
+12188363.ba+  31035196K  21074200K 
+
+Job step resource usage:
+       JobID    JobName  AllocCPUS  MaxVMSize     MaxRSS    Elapsed ExitCode 
+------------ ---------- ---------- ---------- ---------- ---------- -------- 
+12188363         NASUPC         16                         00:04:12      1:0 
+
+Job 12188363 ("NASUPC") completed on c16-28 at Mon Aug 10 13:32:19 CEST 2015
+slurmstepd: _slurm_cgroup_destroy: problem deleting step cgroup path /dev/cgroup/freezer/slurm/uid_200378/job_12188363/step_batch: Device or resource busy
+slurmstepd: *** JOB 12188368 CANCELLED AT 2015-08-10T13:32:23 ***
+
+Currently Loaded Modulefiles:
+  1) intel/2015.3          2) openmpi.intel/1.8.6
+
+Job script resource usage:
+       JobID  MaxVMSize     MaxRSS 
+------------ ---------- ---------- 
+12188368.ba+  31043104K  21094252K 
+
+Job step resource usage:
+       JobID    JobName  AllocCPUS  MaxVMSize     MaxRSS    Elapsed ExitCode 
+------------ ---------- ---------- ---------- ---------- ---------- -------- 
+12188368         NASUPC         16                         00:03:17      0:0 
+
+Job 12188368 ("NASUPC") completed on c16-26 at Mon Aug 10 13:32:24 CEST 2015
+slurmstepd: _slurm_cgroup_destroy: problem deleting step cgroup path /dev/cgroup/freezer/slurm/uid_200378/job_12188368/step_batch: Device or resource busy
+Starting job 12188403 ("NASUPC") on c16-26 at Mon Aug 10 13:34:37 CEST 2015
+Starting job 12188406 ("NASUPC") on c16-28 at Mon Aug 10 13:35:07 CEST 2015
+
+Currently Loaded Modulefiles:
+  1) intel/2015.3          2) openmpi.intel/1.8.6
+
+Job script resource usage:
+       JobID  MaxVMSize     MaxRSS 
+------------ ---------- ---------- 
+12188403.ba+  34936064K  28697072K 
+
+Job step resource usage:
+       JobID    JobName  AllocCPUS  MaxVMSize     MaxRSS    Elapsed ExitCode 
+------------ ---------- ---------- ---------- ---------- ---------- -------- 
+12188403         NASUPC         16                         00:02:43      0:0 
+
+Job 12188403 ("NASUPC") completed on c16-26 at Mon Aug 10 13:37:20 CEST 2015
+Starting job 12188483 ("NASUPC") on c2-[1-2,8,10-11,13-15] at Mon Aug 10 13:46:37 CEST 2015
+
+Currently Loaded Modulefiles:
+  1) intel/2015.3          2) openmpi.intel/1.8.6
+
+Job step resource usage:
+       JobID    JobName  AllocCPUS  MaxVMSize     MaxRSS    Elapsed ExitCode 
+------------ ---------- ---------- ---------- ---------- ---------- -------- 
+12188483         NASUPC        128                         00:02:04      0:0 
+12188483.0         true          8    270500K      3436K   00:00:00      0:0 
+12188483.1        orted          7  10989940K   4172184K   00:02:03      0:0 
+
+Job 12188483 ("NASUPC") completed on c2-[1-2,8,10-11,13-15] at Mon Aug 10 13:48:40 CEST 2015
+slurmstepd: *** JOB 12188406 CANCELLED AT 2015-08-10T14:00:18 DUE TO TIME LIMIT ***
+
+Currently Loaded Modulefiles:
+  1) intel/2015.3          2) openmpi.intel/1.8.6
+
+Job script resource usage:
+       JobID  MaxVMSize     MaxRSS 
+------------ ---------- ---------- 
+12188406.ba+  31092784K  21141808K 
+
+Job step resource usage:
+       JobID    JobName  AllocCPUS  MaxVMSize     MaxRSS    Elapsed ExitCode 
+------------ ---------- ---------- ---------- ---------- ---------- -------- 
+12188406         NASUPC         16                         00:25:12      1:0 
+
+Job 12188406 ("NASUPC") completed on c16-28 at Mon Aug 10 14:00:18 CEST 2015
+slurmstepd: _slurm_cgroup_destroy: problem deleting step cgroup path /dev/cgroup/freezer/slurm/uid_200378/job_12188406/step_batch: Device or resource busy

@@ -1,0 +1,26 @@
+Starting job 12214302 ("mg.C.256") on c16-[1-9,11-17] at Wed Aug 12 21:36:20 CEST 2015
+
+Currently Loaded Modulefiles:
+  1) intel/2015.3          2) openmpi.intel/1.8.6
+
+Job step resource usage:
+       JobID    JobName  AllocCPUS  MaxVMSize     MaxRSS    Elapsed ExitCode 
+------------ ---------- ---------- ---------- ---------- ---------- -------- 
+12214302       mg.C.256        256                         00:00:13      0:0 
+12214302.0         true         16    341204K      3476K   00:00:00      0:0 
+12214302.1        orted         15   1971220K    125964K   00:00:08      0:0 
+
+Job 12214302 ("mg.C.256") completed on c16-[1-9,11-17] at Wed Aug 12 21:36:31 CEST 2015
+Starting job 12230736 ("mg.D.256") on c15-[10-13,15,18-21],c18-[4,9],c31-[2,12,24,27-28] at Thu Aug 13 14:47:24 CEST 2015
+
+Currently Loaded Modulefiles:
+  1) intel/2015.3          2) openmpi.intel/1.8.6
+
+Job step resource usage:
+       JobID    JobName  AllocCPUS  MaxVMSize     MaxRSS    Elapsed ExitCode 
+------------ ---------- ---------- ---------- ---------- ---------- -------- 
+12230736       mg.D.256        256                         00:00:37      0:0 
+12230736.0         true         16    407768K      3112K   00:00:00      0:0 
+12230736.1        orted         15          0          0   00:00:35      0:0 
+
+Job 12230736 ("mg.D.256") completed on c15-[10-13,15,18-21],c18-[4,9],c31-[2,12,24,27-28] at Thu Aug 13 14:48:01 CEST 2015

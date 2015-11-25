@@ -1,0 +1,43 @@
+srun: error: Task launch for 13117490.0 failed on node c9-28: User not found on host
+srun: error: Application launch failed: User not found on host
+srun: Job step aborted: Waiting up to 2 seconds for job step to finish.
+srun: error: c2-2: task 1: Killed
+srun: error: c15-10: task 43: Killed
+srun: error: c10-14: task 37: Killed
+srun: error: c31-17: task 60: Killed
+srun: error: c8-20: task 32: Killed
+srun: error: c2-20: task 6: Killed
+srun: error: c10-23: task 38: Killed
+srun: error: c15-24: task 52: Killed
+srun: error: c5-15: task 17: Killed
+srun: error: c4-2: task 9: Killed
+srun: error: c15-21: task 50: Killed
+srun: error: c9-13: task 34: Killed
+srun: error: c15-22: task 51: Killed
+srun: error: c5-19: task 18: Killed
+srun: error: c5-12: task 15: Killed
+srun: error: c10-24: task 39: Killed
+srun: error: c6-3: task 19: Killed
+srun: error: c31-13: task 59: Killed
+srun: error: c7-16: task 25: Killed
+srun: error: c2-21: task 7: Killed
+srun: error: c7-19: task 26: Killed
+slurmstepd: write to unblock task 0 failed: Broken pipe
+slurmstepd: write to unblock task 0 failed: Broken pipe
+slurmstepd: write to unblock task 0 failed: Broken pipe
+slurmstepd: write to unblock task 0 failed: Broken pipe
+srun: error: c8-2: task 27: Killed
+srun: error: Timed out waiting for job step to complete
+Starting job 13117490 ("cg.B.1024-t2") on c1-19,c2-[2,16-21,26],c4-[2,7],c5-[5,7-8,11-12,14-15,19],c6-[3,8,14-15,25],c7-[15-16,19],c8-[2,4,7,14-15,20],c9-[2,13-14,28],c10-[14,23-24,26],c15-[2,5,10,12,14-17,20-22,24],c18-[1-2,5,12-14],c31-[13,17,19-21] at Tue Nov 10 09:34:24 CET 2015
+
+Currently Loaded Modulefiles:
+  1) intel/2015.3          2) openmpi.intel/1.8.6
+
+Job step resource usage:
+       JobID    JobName  AllocCPUS  MaxVMSize     MaxRSS    Elapsed ExitCode 
+------------ ---------- ---------- ---------- ---------- ---------- -------- 
+13117490     cg.B.1024+       1044                         00:00:11      0:0 
+13117490.0         true         64          0          0   00:00:10      0:0 
+13117490.1        orted         63          0          0   00:00:02      0:0 
+
+Job 13117490 ("cg.B.1024-t2") completed on c1-19,c2-[2,16-21,26],c4-[2,7],c5-[5,7-8,11-12,14-15,19],c6-[3,8,14-15,25],c7-[15-16,19],c8-[2,4,7,14-15,20],c9-[2,13-14,28],c10-[14,23-24,26],c15-[2,5,10,12,14-17,20-22,24],c18-[1-2,5,12-14],c31-[13,17,19-21] at Tue Nov 10 09:34:30 CET 2015

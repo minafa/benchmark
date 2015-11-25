@@ -1,0 +1,13 @@
+
+
+ NAS Parallel Benchmarks 3.3 -- FT Benchmark
+
+ No input file inputft.data. Using compiled defaults
+ Size                : 2048x1024x1024
+ Iterations          :             25
+ Number of processes :             16
+ Processor array     :         1x  16
+ Layout type         :             1D
+--------------------------------------------------------------------------
+mpirun noticed that process rank 1 with PID 5294 on node compute-3-2 exited on signal 9 (Killed).
+--------------------------------------------------------------------------

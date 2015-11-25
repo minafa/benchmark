@@ -1,0 +1,13 @@
+Starting job 13259771 ("cg.D.64-t6") on c4-[16,22],c15-26,c31-36 at Thu Nov 19 14:06:18 CET 2015
+
+Currently Loaded Modulefiles:
+  1) intel/2015.3          2) openmpi.intel/1.8.6
+
+Job step resource usage:
+       JobID    JobName  AllocCPUS  MaxVMSize     MaxRSS    Elapsed ExitCode 
+------------ ---------- ---------- ---------- ---------- ---------- -------- 
+13259771     cg.D.64-t6         68                         00:06:48      0:0 
+13259771.0         true          4    270436K      1640K   00:00:01      0:0 
+13259771.1        orted          3          0          0   00:06:42      0:0 
+
+Job 13259771 ("cg.D.64-t6") completed on c4-[16,22],c15-26,c31-36 at Thu Nov 19 14:13:01 CET 2015

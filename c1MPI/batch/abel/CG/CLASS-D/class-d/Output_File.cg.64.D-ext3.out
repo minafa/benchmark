@@ -1,0 +1,13 @@
+Starting job 13041074 ("cg.D.64-t3") on c4-28,c18-[26,28,36] at Mon Nov 2 11:52:06 CET 2015
+
+Currently Loaded Modulefiles:
+  1) intel/2015.3          2) openmpi.intel/1.8.6
+
+Job step resource usage:
+       JobID    JobName  AllocCPUS  MaxVMSize     MaxRSS    Elapsed ExitCode 
+------------ ---------- ---------- ---------- ---------- ---------- -------- 
+13041074     cg.D.64-t3         64                         00:09:01      0:0 
+13041074.0         true          4    270436K      1540K   00:00:00      0:0 
+13041074.1        orted          3  14296128K   6470000K   00:08:52      0:0 
+
+Job 13041074 ("cg.D.64-t3") completed on c4-28,c18-[26,28,36] at Mon Nov 2 12:01:02 CET 2015

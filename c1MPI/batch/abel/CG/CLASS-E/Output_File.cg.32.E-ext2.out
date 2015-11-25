@@ -1,0 +1,13 @@
+Starting job 13132251 ("cg.E.32-t2") on c2-[2,16-21,26] at Tue Nov 10 09:57:50 CET 2015
+
+Currently Loaded Modulefiles:
+  1) intel/2015.3          2) openmpi.intel/1.8.6
+
+Job step resource usage:
+       JobID    JobName  AllocCPUS  MaxVMSize     MaxRSS    Elapsed ExitCode 
+------------ ---------- ---------- ---------- ---------- ---------- -------- 
+13132251     cg.E.32-t2        128                         02:30:16      0:0 
+13132251.0         true          8    270436K      1544K   00:00:01      0:0 
+13132251.1        orted          7  28590444K  24675092K   02:30:13      0:0 
+
+Job 13132251 ("cg.E.32-t2") completed on c2-[2,16-21,26] at Tue Nov 10 12:28:05 CET 2015

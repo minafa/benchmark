@@ -1,0 +1,16 @@
+Starting job 13117491 ("cg.B.16-t3") on c15-22 at Sun Nov 8 17:56:25 CET 2015
+
+Currently Loaded Modulefiles:
+  1) intel/2015.3          2) openmpi.intel/1.8.6
+
+Job script resource usage:
+       JobID  MaxVMSize     MaxRSS 
+------------ ---------- ---------- 
+13117491.ba+   3581960K    112544K 
+
+Job step resource usage:
+       JobID    JobName  AllocCPUS  MaxVMSize     MaxRSS    Elapsed ExitCode 
+------------ ---------- ---------- ---------- ---------- ---------- -------- 
+13117491     cg.B.16-t3         16                         00:00:08      0:0 
+
+Job 13117491 ("cg.B.16-t3") completed on c15-22 at Sun Nov 8 17:56:32 CET 2015

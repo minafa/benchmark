@@ -1,0 +1,12 @@
+
+
+ NAS Parallel Benchmarks 3.3 -- CG Benchmark
+
+ Size:    9000000
+ Iterations:   100
+ Number of active processes:    16
+ Number of nonzeroes per row:       26
+ Eigenvalue shift: .150E+04
+--------------------------------------------------------------------------
+mpirun noticed that process rank 0 with PID 16391 on node compute-16-9 exited on signal 9 (Killed).
+--------------------------------------------------------------------------

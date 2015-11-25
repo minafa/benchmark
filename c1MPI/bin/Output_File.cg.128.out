@@ -1,0 +1,26 @@
+Starting job 12214308 ("cg.D.128") on c16-[1-8] at Wed Aug 12 21:39:00 CEST 2015
+
+Currently Loaded Modulefiles:
+  1) intel/2015.3          2) openmpi.intel/1.8.6
+
+Job step resource usage:
+       JobID    JobName  AllocCPUS  MaxVMSize     MaxRSS    Elapsed ExitCode 
+------------ ---------- ---------- ---------- ---------- ---------- -------- 
+12214308       cg.D.128        128                         00:00:24      0:0 
+12214308.0         true          8    270500K      3028K   00:00:00      0:0 
+12214308.1        orted          7   5203236K    116.50M   00:00:20      0:0 
+
+Job 12214308 ("cg.D.128") completed on c16-[1-8] at Wed Aug 12 21:39:23 CEST 2015
+Starting job 12230743 ("cg.C.128") on c18-[9-10,17],c31-[2,12,24,27-28] at Thu Aug 13 15:07:20 CEST 2015
+
+Currently Loaded Modulefiles:
+  1) intel/2015.3          2) openmpi.intel/1.8.6
+
+Job step resource usage:
+       JobID    JobName  AllocCPUS  MaxVMSize     MaxRSS    Elapsed ExitCode 
+------------ ---------- ---------- ---------- ---------- ---------- -------- 
+12230743       cg.C.128        128                         00:00:06      0:0 
+12230743.0         true          8    270492K      3440K   00:00:00      0:0 
+12230743.1        orted          7   3619052K    173128K   00:00:04      0:0 
+
+Job 12230743 ("cg.C.128") completed on c18-[9-10,17],c31-[2,12,24,27-28] at Thu Aug 13 15:07:24 CEST 2015

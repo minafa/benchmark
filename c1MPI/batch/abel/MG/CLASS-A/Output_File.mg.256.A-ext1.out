@@ -1,0 +1,13 @@
+Starting job 13227749 ("mg.A.256-t1") on c1-[1,17],c3-25,c5-[2-3,15,18],c10-8,c13-[4,19],c17-[16,21],c31-[7,9-10,12] at Tue Nov 17 14:58:54 CET 2015
+
+Currently Loaded Modulefiles:
+  1) intel/2015.3          2) openmpi.intel/1.8.6
+
+Job step resource usage:
+       JobID    JobName  AllocCPUS  MaxVMSize     MaxRSS    Elapsed ExitCode 
+------------ ---------- ---------- ---------- ---------- ---------- -------- 
+13227749     mg.A.256-+        272                         00:00:17      0:0 
+13227749.0         true         16    270436K      1640K   00:00:00      0:0 
+13227749.1        orted         15          0          0   00:00:09      0:0 
+
+Job 13227749 ("mg.A.256-t1") completed on c1-[1,17],c3-25,c5-[2-3,15,18],c10-8,c13-[4,19],c17-[16,21],c31-[7,9-10,12] at Tue Nov 17 14:59:09 CET 2015

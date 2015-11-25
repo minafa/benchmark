@@ -1,0 +1,50 @@
+Starting job 13002203 ("cg.C.16-t3") on c1-1 at Thu Oct 29 20:09:43 CET 2015
+
+Currently Loaded Modulefiles:
+  1) intel/2015.3          2) openmpi.intel/1.8.6
+
+Job script resource usage:
+       JobID  MaxVMSize     MaxRSS 
+------------ ---------- ---------- 
+13002203.ba+   4495980K    117332K 
+
+Job step resource usage:
+       JobID    JobName  AllocCPUS  MaxVMSize     MaxRSS    Elapsed ExitCode 
+------------ ---------- ---------- ---------- ---------- ---------- -------- 
+13002203     cg.C.16-t3         16                         00:00:25      0:0 
+
+Job 13002203 ("cg.C.16-t3") completed on c1-1 at Thu Oct 29 20:10:06 CET 2015
+Starting job 13007216 ("cg.C.16-t4") on c7-10 at Fri Oct 30 09:34:00 CET 2015
+slurmstepd: *** JOB 13007216 CANCELLED AT 2015-10-30T09:34:04 ***
+
+Currently Loaded Modulefiles:
+  1) intel/2015.3          2) openmpi.intel/1.8.6
+
+Job script resource usage:
+       JobID  MaxVMSize     MaxRSS 
+------------ ---------- ---------- 
+13007216.ba+   4843720K    121548K 
+
+Job step resource usage:
+       JobID    JobName  AllocCPUS  MaxVMSize     MaxRSS    Elapsed ExitCode 
+------------ ---------- ---------- ---------- ---------- ---------- -------- 
+13007216     cg.C.16-t4         16                         00:00:05      0:0 
+
+Job 13007216 ("cg.C.16-t4") completed on c7-10 at Fri Oct 30 09:34:04 CET 2015
+slurmstepd: _slurm_cgroup_destroy: problem deleting step cgroup path /dev/cgroup/freezer/slurm/uid_231636/job_13007216/step_batch: Device or resource busy
+Starting job 13007239 ("cg.C.16-t4") on c8-26 at Fri Oct 30 09:34:59 CET 2015
+
+Currently Loaded Modulefiles:
+  1) intel/2015.3          2) openmpi.intel/1.8.6
+
+Job script resource usage:
+       JobID  MaxVMSize     MaxRSS 
+------------ ---------- ---------- 
+13007239.ba+   4695604K    117140K 
+
+Job step resource usage:
+       JobID    JobName  AllocCPUS  MaxVMSize     MaxRSS    Elapsed ExitCode 
+------------ ---------- ---------- ---------- ---------- ---------- -------- 
+13007239     cg.C.16-t4         16                         00:00:26      0:0 
+
+Job 13007239 ("cg.C.16-t4") completed on c8-26 at Fri Oct 30 09:35:25 CET 2015

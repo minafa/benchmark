@@ -1,0 +1,17 @@
+Starting job 12845948 ("NASUPC") on c6-36 at Mon Oct 19 14:57:33 CEST 2015
+
+Currently Loaded Modulefiles:
+  1) intel/2015.3          2) openmpi.intel/1.8.6
+
+Job script resource usage:
+       JobID  MaxVMSize     MaxRSS 
+------------ ---------- ---------- 
+12845948.ba+    227720K      4472K 
+
+Job step resource usage:
+       JobID    JobName  AllocCPUS  MaxVMSize     MaxRSS    Elapsed ExitCode 
+------------ ---------- ---------- ---------- ---------- ---------- -------- 
+12845948         NASUPC         16                         00:00:28      0:0 
+
+Job 12845948 ("NASUPC") completed on c6-36 at Mon Oct 19 14:58:00 CEST 2015
+slurmstepd: Exceeded step memory limit at some point. oom-killer likely killed a process.

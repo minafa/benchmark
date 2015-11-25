@@ -1,0 +1,13 @@
+Starting job 13292468 ("mg.C.128-1") on c4-14,c5-20,c7-[11-12,18,27],c16-[4,9] at Mon Nov 23 12:40:02 CET 2015
+
+Currently Loaded Modulefiles:
+  1) intel/2015.3          2) openmpi.intel/1.8.6
+
+Job step resource usage:
+       JobID    JobName  AllocCPUS  MaxVMSize     MaxRSS    Elapsed ExitCode 
+------------ ---------- ---------- ---------- ---------- ---------- -------- 
+13292468     mg.C.128-1        128                         00:00:04      0:0 
+13292468.0         true          8    270436K      1540K   00:00:01      0:0 
+13292468.1        orted          7    270436K      1540K   00:00:01      0:0 
+
+Job 13292468 ("mg.C.128-1") completed on c4-14,c5-20,c7-[11-12,18,27],c16-[4,9] at Mon Nov 23 12:40:04 CET 2015

@@ -1,0 +1,50 @@
+Starting job 12876464 ("NAS-FT-D") on c10-7 at Thu Oct 22 20:14:22 CEST 2015
+
+Currently Loaded Modulefiles:
+  1) intel/2015.3          2) openmpi.intel/1.8.6
+
+Job script resource usage:
+       JobID  MaxVMSize     MaxRSS 
+------------ ---------- ---------- 
+12876464.ba+ 120611056K  56186600K 
+
+Job step resource usage:
+       JobID    JobName  AllocCPUS  MaxVMSize     MaxRSS    Elapsed ExitCode 
+------------ ---------- ---------- ---------- ---------- ---------- -------- 
+12876464       NAS-FT-D         16                         00:00:36      0:0 
+
+Job 12876464 ("NAS-FT-D") completed on c10-7 at Thu Oct 22 20:14:57 CEST 2015
+slurmstepd: Exceeded step memory limit at some point. oom-killer likely killed a process.
+Starting job 12887871 ("NAS-FT-D") on c1-20 at Fri Oct 23 18:24:01 CEST 2015
+
+Currently Loaded Modulefiles:
+  1) intel/2015.3          2) openmpi.intel/1.8.6
+
+Job script resource usage:
+       JobID  MaxVMSize     MaxRSS 
+------------ ---------- ---------- 
+12887871.ba+    227716K      4424K 
+
+Job step resource usage:
+       JobID    JobName  AllocCPUS  MaxVMSize     MaxRSS    Elapsed ExitCode 
+------------ ---------- ---------- ---------- ---------- ---------- -------- 
+12887871       NAS-FT-D          8                         00:00:07      0:0 
+
+Job 12887871 ("NAS-FT-D") completed on c1-20 at Fri Oct 23 18:24:06 CEST 2015
+Starting job 12887898 ("NAS-FT-D") on c1-20 at Fri Oct 23 18:29:33 CEST 2015
+
+Currently Loaded Modulefiles:
+  1) intel/2015.3          2) openmpi.intel/1.8.6
+
+Job script resource usage:
+       JobID  MaxVMSize     MaxRSS 
+------------ ---------- ---------- 
+12887898.ba+ 117880540K      8524K 
+
+Job step resource usage:
+       JobID    JobName  AllocCPUS  MaxVMSize     MaxRSS    Elapsed ExitCode 
+------------ ---------- ---------- ---------- ---------- ---------- -------- 
+12887898       NAS-FT-D          8                         00:00:16      0:0 
+
+Job 12887898 ("NAS-FT-D") completed on c1-20 at Fri Oct 23 18:29:47 CEST 2015
+slurmstepd: Exceeded step memory limit at some point. Step may have been partially swapped out to disk.

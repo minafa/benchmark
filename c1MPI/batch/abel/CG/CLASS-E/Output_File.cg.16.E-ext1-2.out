@@ -1,0 +1,13 @@
+Starting job 13125862 ("cg.E.16-t1-2") on c8-[4,7-8,18] at Mon Nov 9 14:31:07 CET 2015
+
+Currently Loaded Modulefiles:
+  1) intel/2015.3          2) openmpi.intel/1.8.6
+
+Job step resource usage:
+       JobID    JobName  AllocCPUS  MaxVMSize     MaxRSS    Elapsed ExitCode 
+------------ ---------- ---------- ---------- ---------- ---------- -------- 
+13125862     cg.E.16-t+         64                         05:41:44      0:0 
+13125862.0         true          4    270436K      1540K   00:00:00      0:0 
+13125862.1        orted          3  54444864K  46221576K   05:41:39      0:0 
+
+Job 13125862 ("cg.E.16-t1-2") completed on c8-[4,7-8,18] at Mon Nov 9 20:12:50 CET 2015

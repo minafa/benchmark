@@ -1,0 +1,18 @@
+Starting job 12910702 ("NAS-FT-D") on c3-2 at Sun Oct 25 16:12:21 CET 2015
+
+Currently Loaded Modulefiles:
+  1) intel/2015.3          2) openmpi.intel/1.8.6
+
+Job script resource usage:
+       JobID  MaxVMSize     MaxRSS 
+------------ ---------- ---------- 
+12910702.ba+ 123986652K   2298544K 
+
+Job step resource usage:
+       JobID    JobName  AllocCPUS  MaxVMSize     MaxRSS    Elapsed ExitCode 
+------------ ---------- ---------- ---------- ---------- ---------- -------- 
+12910702       NAS-FT-D         16                         00:00:23      0:0 
+
+Job 12910702 ("NAS-FT-D") completed on c3-2 at Sun Oct 25 16:12:44 CET 2015
+slurmstepd: Exceeded step memory limit at some point. oom-killer likely killed a process.
+slurmstepd: Exceeded job memory limit at some point. oom-killer likely killed a process.

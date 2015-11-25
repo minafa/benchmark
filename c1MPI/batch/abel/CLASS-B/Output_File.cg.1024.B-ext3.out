@@ -1,0 +1,28 @@
+srun: error: Task launch for 13117497.0 failed on node c9-28: User not found on host
+srun: error: Application launch failed: User not found on host
+srun: Job step aborted: Waiting up to 2 seconds for job step to finish.
+srun: error: c8-7: task 29: Killed
+srun: error: c5-11: task 13: Killed
+srun: error: c6-3: task 19: Killed
+srun: error: c15-22: task 51: Killed
+srun: error: c18-12: task 56: Killed
+srun: error: c9-14: task 35: Killed
+srun: error: c15-2: task 41: Killed
+slurmstepd: _slurm_cgroup_destroy: problem deleting step cgroup path /dev/cgroup/freezer/slurm/uid_231636/job_13117497/step_0: Device or resource busy
+slurmstepd: write to unblock task 0 failed: Broken pipe
+slurmstepd: write to unblock task 0 failed: Broken pipe
+slurmstepd: write to unblock task 0 failed: Broken pipe
+srun: error: Timed out waiting for job step to complete
+Starting job 13117497 ("cg.B.1024-t3") on c2-[2,16-21,26],c4-[2,7],c5-[5,7-8,11-12,14-15,19],c6-[2-3,8,14-15,25],c7-[15-16,19],c8-[2,4,7,14-15,20],c9-[2,13-14,28],c10-[14,23-24,26],c15-[2,5,10,12,14-17,20-22,24],c18-[1-2,5,12-14],c31-[13,17,19-21] at Tue Nov 10 09:38:52 CET 2015
+
+Currently Loaded Modulefiles:
+  1) intel/2015.3          2) openmpi.intel/1.8.6
+
+Job step resource usage:
+       JobID    JobName  AllocCPUS  MaxVMSize     MaxRSS    Elapsed ExitCode 
+------------ ---------- ---------- ---------- ---------- ---------- -------- 
+13117497     cg.B.1024+       1044                         00:00:07      0:0 
+13117497.0         true         64          0          0   00:00:07      0:0 
+13117497.1        orted         63          0          0   00:00:02      0:0 
+
+Job 13117497 ("cg.B.1024-t3") completed on c2-[2,16-21,26],c4-[2,7],c5-[5,7-8,11-12,14-15,19],c6-[2-3,8,14-15,25],c7-[15-16,19],c8-[2,4,7,14-15,20],c9-[2,13-14,28],c10-[14,23-24,26],c15-[2,5,10,12,14-17,20-22,24],c18-[1-2,5,12-14],c31-[13,17,19-21] at Tue Nov 10 09:38:56 CET 2015

@@ -1,0 +1,13 @@
+Starting job 13117496 ("cg.B.512-t3") on c2-28,c3-[15-16],c6-[2,4-8,13-14],c8-[14-15,20,25],c15-[5,11],c16-[3,7,14,19,24,28],c31-[7-10,19,24-27] at Sun Nov 8 20:37:55 CET 2015
+
+Currently Loaded Modulefiles:
+  1) intel/2015.3          2) openmpi.intel/1.8.6
+
+Job step resource usage:
+       JobID    JobName  AllocCPUS  MaxVMSize     MaxRSS    Elapsed ExitCode 
+------------ ---------- ---------- ---------- ---------- ---------- -------- 
+13117496     cg.B.512-+        548                         00:00:23      0:0 
+13117496.0         true         32    341144K      1672K   00:00:00      0:0 
+13117496.1        orted         31          0          0   00:00:19      0:0 
+
+Job 13117496 ("cg.B.512-t3") completed on c2-28,c3-[15-16],c6-[2,4-8,13-14],c8-[14-15,20,25],c15-[5,11],c16-[3,7,14,19,24,28],c31-[7-10,19,24-27] at Sun Nov 8 20:38:17 CET 2015

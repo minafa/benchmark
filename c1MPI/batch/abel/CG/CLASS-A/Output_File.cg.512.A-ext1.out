@@ -1,0 +1,14 @@
+Starting job 13235603 ("cg.A.512-t1") on c1-[1,8,17,25],c2-33,c4-35,c5-[5,33],c6-25,c7-[12,30],c8-[7,10],c9-[10,13,28],c10-[8,13],c12-21,c13-[2-3,21,29],c16-[11,26],c18-[9,13-14],c31-[7,9,14,22] at Wed Nov 18 00:15:33 CET 2015
+
+Currently Loaded Modulefiles:
+  1) intel/2015.3          2) openmpi.intel/1.8.6
+
+Job step resource usage:
+       JobID    JobName  AllocCPUS  MaxVMSize     MaxRSS    Elapsed ExitCode 
+------------ ---------- ---------- ---------- ---------- ---------- -------- 
+13235603     cg.A.512-+        528                         00:00:18      0:0 
+13235603.0         true         32    270436K      1672K   00:00:00      0:0 
+13235603.1        orted         31          0          0   00:00:13      0:0 
+
+Job 13235603 ("cg.A.512-t1") completed on c1-[1,8,17,25],c2-33,c4-35,c5-[5,33],c6-25,c7-[12,30],c8-[7,10],c9-[10,13,28],c10-[8,13],c12-21,c13-[2-3,21,29],c16-[11,26],c18-[9,13-14],c31-[7,9,14,22] at Wed Nov 18 00:15:49 CET 2015
+slurmstepd: _slurm_cgroup_destroy: problem deleting step cgroup path /dev/cgroup/freezer/slurm/uid_231636/job_13235603/step_batch: Device or resource busy

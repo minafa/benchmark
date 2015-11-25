@@ -1,0 +1,16 @@
+Starting job 12882111 ("NAS-IS-D") on c7-9 at Fri Oct 23 10:23:10 CEST 2015
+
+Currently Loaded Modulefiles:
+  1) intel/2015.3          2) openmpi.intel/1.8.6
+
+Job script resource usage:
+       JobID  MaxVMSize     MaxRSS 
+------------ ---------- ---------- 
+12882111.ba+  44051196K  25528036K 
+
+Job step resource usage:
+       JobID    JobName  AllocCPUS  MaxVMSize     MaxRSS    Elapsed ExitCode 
+------------ ---------- ---------- ---------- ---------- ---------- -------- 
+12882111       NAS-IS-D         16                         00:01:03      0:0 
+
+Job 12882111 ("NAS-IS-D") completed on c7-9 at Fri Oct 23 10:24:12 CEST 2015

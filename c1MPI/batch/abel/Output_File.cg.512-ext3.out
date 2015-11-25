@@ -1,0 +1,26 @@
+Starting job 13002210 ("cg.C.512-t3") on c1-[1,35],c2-[10-11,26,28],c6-[7,9,25,31],c7-[4,7,13-14,19],c8-28,c10-[2,4,22,31,33-35],c12-[6-7],c13-[2,5-7,32],c18-[2,12] at Thu Oct 29 20:09:14 CET 2015
+
+Currently Loaded Modulefiles:
+  1) intel/2015.3          2) openmpi.intel/1.8.6
+
+Job step resource usage:
+       JobID    JobName  AllocCPUS  MaxVMSize     MaxRSS    Elapsed ExitCode 
+------------ ---------- ---------- ---------- ---------- ---------- -------- 
+13002210     cg.C.512-+        512                         00:00:39      0:0 
+13002210.0         true         32    270436K      1580K   00:00:01      0:0 
+13002210.1        orted         31          0          0   00:00:23      0:0 
+
+Job 13002210 ("cg.C.512-t3") completed on c1-[1,35],c2-[10-11,26,28],c6-[7,9,25,31],c7-[4,7,13-14,19],c8-28,c10-[2,4,22,31,33-35],c12-[6-7],c13-[2,5-7,32],c18-[2,12] at Thu Oct 29 20:09:38 CET 2015
+Starting job 13007245 ("cg.C.512-t4") on c6-[2-7,9-11,24-25],c7-[10-11,15],c13-[2,4-8,11,13,15-19,21,23,25-26,28] at Fri Oct 30 09:37:01 CET 2015
+
+Currently Loaded Modulefiles:
+  1) intel/2015.3          2) openmpi.intel/1.8.6
+
+Job step resource usage:
+       JobID    JobName  AllocCPUS  MaxVMSize     MaxRSS    Elapsed ExitCode 
+------------ ---------- ---------- ---------- ---------- ---------- -------- 
+13007245     cg.C.512-+        512                         00:00:27      0:0 
+13007245.0         true         32    270436K      1576K   00:00:00      0:0 
+13007245.1        orted         31          0          0   00:00:22      0:0 
+
+Job 13007245 ("cg.C.512-t4") completed on c6-[2-7,9-11,24-25],c7-[10-11,15],c13-[2,4-8,11,13,15-19,21,23,25-26,28] at Fri Oct 30 09:37:26 CET 2015

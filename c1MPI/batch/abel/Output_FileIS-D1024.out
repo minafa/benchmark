@@ -1,0 +1,28 @@
+Starting job 12882308 ("NAS-IS-D") on c3-[4,6,14-15,18,23,26],c4-[30,32,34],c5-[29,31-32,35-36],c6-[12,16-17,20,29,32-33,35-36],c7-31,c8-[1,6,13,16,18,24,26],c9-[1,4-6,8,14,17,23,27],c11-[1,4,7,9,11-12,16,19,26],c14-[1,4,8,10,12-13,15-19,22,25,27] at Sun Oct 25 04:48:43 CET 2015
+[compute-3-6:29351] *** Process received signal ***
+[compute-3-6:29351] Signal: Segmentation fault (11)
+[compute-3-6:29351] Signal code: Address not mapped (1)
+[compute-3-6:29351] Failing at address: 0x30
+[compute-3-6:29351] [ 0] /lib64/libpthread.so.0(+0xf790)[0x7f815c97f790]
+[compute-3-6:29351] [ 1] /cluster/software/VERSIONS/openmpi.intel-1.8.6/lib/openmpi/mca_btl_openib.so(+0x258a2)[0x7f8157f318a2]
+[compute-3-6:29351] [ 2] /cluster/software/VERSIONS/openmpi.intel-1.8.6/lib/openmpi/mca_btl_openib.so(mca_btl_openib_finalize+0x3db)[0x7f8157f171bb]
+[compute-3-6:29351] [ 3] /cluster/software/VERSIONS/openmpi.intel-1.8.6/lib/libmpi.so.1(+0x88276)[0x7f815e89f276]
+[compute-3-6:29351] [ 4] /cluster/software/VERSIONS/openmpi.intel-1.8.6/lib/libopen-pal.so.6(mca_base_framework_close+0x5d)[0x7f815be9090d]
+[compute-3-6:29351] [ 5] /cluster/software/VERSIONS/openmpi.intel-1.8.6/lib/libopen-pal.so.6(mca_base_framework_close+0x5d)[0x7f815be9090d]
+[compute-3-6:29351] [ 6] /cluster/software/VERSIONS/openmpi.intel-1.8.6/lib/libmpi.so.1(ompi_mpi_finalize+0x5ea)[0x7f815e85de1a]
+[compute-3-6:29351] [ 7] /usit/abel/u1/minafa/benchmark/c1MPI/bin/is.D.1024[0x4018fc]
+[compute-3-6:29351] [ 8] /lib64/libc.so.6(__libc_start_main+0xfd)[0x7f815c5fad5d]
+[compute-3-6:29351] [ 9] /usit/abel/u1/minafa/benchmark/c1MPI/bin/is.D.1024[0x400c49]
+[compute-3-6:29351] *** End of error message ***
+
+Currently Loaded Modulefiles:
+  1) intel/2015.3          2) openmpi.intel/1.8.6
+
+Job step resource usage:
+       JobID    JobName  AllocCPUS  MaxVMSize     MaxRSS    Elapsed ExitCode 
+------------ ---------- ---------- ---------- ---------- ---------- -------- 
+12882308       NAS-IS-D       1024                         00:02:27      0:0 
+12882308.0         true         64    341148K      1640K   00:00:01      0:0 
+12882308.1        orted         63  15245108K   7302012K   00:02:25      0:0 
+
+Job 12882308 ("NAS-IS-D") completed on c3-[4,6,14-15,18,23,26],c4-[30,32,34],c5-[29,31-32,35-36],c6-[12,16-17,20,29,32-33,35-36],c7-31,c8-[1,6,13,16,18,24,26],c9-[1,4-6,8,14,17,23,27],c11-[1,4,7,9,11-12,16,19,26],c14-[1,4,8,10,12-13,15-19,22,25,27] at Sun Oct 25 04:51:08 CET 2015

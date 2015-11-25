@@ -1,0 +1,26 @@
+Starting job 12214307 ("cg.D.64") on c16-[33-36] at Wed Aug 12 21:39:01 CEST 2015
+
+Currently Loaded Modulefiles:
+  1) intel/2015.3          2) openmpi.intel/1.8.6
+
+Job step resource usage:
+       JobID    JobName  AllocCPUS  MaxVMSize     MaxRSS    Elapsed ExitCode 
+------------ ---------- ---------- ---------- ---------- ---------- -------- 
+12214307        cg.D.64         64                         00:01:28      0:0 
+12214307.0         true          4    270500K      3340K   00:00:00      0:0 
+12214307.1        orted          3  13898316K   7854420K   00:01:24      0:0 
+
+Job 12214307 ("cg.D.64") completed on c16-[33-36] at Wed Aug 12 21:40:27 CEST 2015
+Starting job 12230742 ("cg.C.64") on c2-11,c18-29,c31-[2,30] at Thu Aug 13 14:49:45 CEST 2015
+
+Currently Loaded Modulefiles:
+  1) intel/2015.3          2) openmpi.intel/1.8.6
+
+Job step resource usage:
+       JobID    JobName  AllocCPUS  MaxVMSize     MaxRSS    Elapsed ExitCode 
+------------ ---------- ---------- ---------- ---------- ---------- -------- 
+12230742        cg.C.64         64                         00:00:06      0:0 
+12230742.0         true          4    270492K      3372K   00:00:00      0:0 
+12230742.1        orted          3   7625068K   1582172K   00:00:05      0:0 
+
+Job 12230742 ("cg.C.64") completed on c2-11,c18-29,c31-[2,30] at Thu Aug 13 14:49:50 CEST 2015

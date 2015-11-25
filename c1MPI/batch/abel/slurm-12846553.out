@@ -1,0 +1,16 @@
+Starting job 12846553 ("NAS-FT-C") on c8-3 at Mon Oct 19 15:35:02 CEST 2015
+
+Currently Loaded Modulefiles:
+  1) intel/2015.3          2) openmpi.intel/1.8.6
+
+Job script resource usage:
+       JobID  MaxVMSize     MaxRSS 
+------------ ---------- ---------- 
+12846553.ba+  10498468K    117168K 
+
+Job step resource usage:
+       JobID    JobName  AllocCPUS  MaxVMSize     MaxRSS    Elapsed ExitCode 
+------------ ---------- ---------- ---------- ---------- ---------- -------- 
+12846553       NAS-FT-C         16                         00:00:27      0:0 
+
+Job 12846553 ("NAS-FT-C") completed on c8-3 at Mon Oct 19 15:35:28 CEST 2015

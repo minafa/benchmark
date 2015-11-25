@@ -1,0 +1,14 @@
+Starting job 13045138 ("cg.D.128-t4") on c4-28,c6-8,c16-[19-20,24],c18-[2,14,25] at Mon Nov 2 17:05:33 CET 2015
+
+Currently Loaded Modulefiles:
+  1) intel/2015.3          2) openmpi.intel/1.8.6
+
+Job step resource usage:
+       JobID    JobName  AllocCPUS  MaxVMSize     MaxRSS    Elapsed ExitCode 
+------------ ---------- ---------- ---------- ---------- ---------- -------- 
+13045138     cg.D.128-+        128                         00:04:54      0:0 
+13045138.0         true          8    270436K      1.50M   00:00:00      0:0 
+13045138.1        orted          7          0          0   00:04:38      0:0 
+
+Job 13045138 ("cg.D.128-t4") completed on c4-28,c6-8,c16-[19-20,24],c18-[2,14,25] at Mon Nov 2 17:10:21 CET 2015
+slurmstepd: _slurm_cgroup_destroy: problem deleting step cgroup path /dev/cgroup/freezer/slurm/uid_231636/job_13045138/step_batch: Device or resource busy

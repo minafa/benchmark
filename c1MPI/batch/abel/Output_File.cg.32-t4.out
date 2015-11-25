@@ -1,0 +1,13 @@
+Starting job 12986518 ("cg.C.32-t4") on c2-[26,28] at Wed Oct 28 13:17:50 CET 2015
+
+Currently Loaded Modulefiles:
+  1) intel/2015.3          2) openmpi.intel/1.8.6
+
+Job step resource usage:
+       JobID    JobName  AllocCPUS  MaxVMSize     MaxRSS    Elapsed ExitCode 
+------------ ---------- ---------- ---------- ---------- ---------- -------- 
+12986518     cg.C.32-t4         32                         00:00:24      0:0 
+12986518.0         true          2    270436K      1.50M   00:00:00      0:0 
+12986518.1        orted          1   7519728K   1404356K   00:00:22      0:0 
+
+Job 12986518 ("cg.C.32-t4") completed on c2-[26,28] at Wed Oct 28 13:18:13 CET 2015

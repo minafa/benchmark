@@ -1,0 +1,16 @@
+Starting job 12876085 ("NAS-CG") on c2-28 at Thu Oct 22 18:43:51 CEST 2015
+
+Currently Loaded Modulefiles:
+  1) intel/2015.3          2) openmpi.intel/1.8.6
+
+Job script resource usage:
+       JobID  MaxVMSize     MaxRSS 
+------------ ---------- ---------- 
+12876085.ba+  31012932K  21105728K 
+
+Job step resource usage:
+       JobID    JobName  AllocCPUS  MaxVMSize     MaxRSS    Elapsed ExitCode 
+------------ ---------- ---------- ---------- ---------- ---------- -------- 
+12876085         NAS-CG         16                         00:18:58      0:0 
+
+Job 12876085 ("NAS-CG") completed on c2-28 at Thu Oct 22 19:02:48 CEST 2015

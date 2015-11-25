@@ -1,0 +1,583 @@
+make[1]: Entering directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/CG'
+rm -f *.o *~ 
+rm -f npbparams.h core
+make[1]: Leaving directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/CG'
+make[1]: Entering directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/CG'
+make.def modified. Rebuilding npbparams.h just in case
+rm -f npbparams.h
+../sys/setparams cg 16 C 
+make[2]: Entering directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/sys'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/sys'
+../sys/setparams cg 16 C 
+mpifort -mcmodel=medium -fno-range-check -g   -c -I/cluster/software/VERSIONS/openmpi.intel-1.8.6/include -I/..common -O3 cg.f
+ifort: command line warning #10006: ignoring unknown option '-fno-range-check'
+cg.f(522): remark #8291: Recommended relationship between field width 'W' and the number of fractional digits 'D' in this edit descriptor is 'W>=D+7'.
+ 9001 format( 4x, i5, 7x, e20.14, f20.13 )
+---------------------------^
+cg.f(280): remark #8291: Recommended relationship between field width 'W' and the number of fractional digits 'D' in this edit descriptor is 'W>=D+7'.
+ 1005 format(' Eigenvalue shift: ', e8.3)
+-------------------------------------^
+make[1]: *** Deleting file `cg.o'
+make[1]: *** [cg.o] Interrupt
+make: *** [suite] Error 130
+make[1]: Entering directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/CG'
+rm -f *.o *~ 
+rm -f npbparams.h core
+make[1]: Leaving directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/CG'
+make[1]: Entering directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/CG'
+make.def modified. Rebuilding npbparams.h just in case
+rm -f npbparams.h
+../sys/setparams cg 16 C 
+make[2]: Entering directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/sys'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/sys'
+../sys/setparams cg 16 C 
+mpifort -mcmodel=medium -fno-range-check -g   -c -I/cluster/software/VERSIONS/openmpi.intel-1.8.6/include -I/..common -O3 cg.f
+ifort: command line warning #10006: ignoring unknown option '-fno-range-check'
+cg.f(522): remark #8291: Recommended relationship between field width 'W' and the number of fractional digits 'D' in this edit descriptor is 'W>=D+7'.
+ 9001 format( 4x, i5, 7x, e20.14, f20.13 )
+---------------------------^
+cg.f(280): remark #8291: Recommended relationship between field width 'W' and the number of fractional digits 'D' in this edit descriptor is 'W>=D+7'.
+ 1005 format(' Eigenvalue shift: ', e8.3)
+-------------------------------------^
+mpifort -mcmodel=medium -fno-range-check -g   -O3 -o ../bin/cg.C.16 cg.o ../common/print_results.o ../common/randi8.o ../common/timers.o -L/cluster/software/VERSIONS/openmpi.intel-1.8.6/lib -lmpi
+ifort: command line warning #10006: ignoring unknown option '-fno-range-check'
+make[1]: Leaving directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/CG'
+make[1]: Entering directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/CG'
+rm -f *.o *~ 
+rm -f npbparams.h core
+make[1]: Leaving directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/CG'
+make[1]: Entering directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/CG'
+make.def modified. Rebuilding npbparams.h just in case
+rm -f npbparams.h
+../sys/setparams cg 32 C 
+make[2]: Entering directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/sys'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/sys'
+../sys/setparams cg 32 C 
+mpifort -mcmodel=medium -fno-range-check -g   -c -I/cluster/software/VERSIONS/openmpi.intel-1.8.6/include -I/..common -O3 cg.f
+ifort: command line warning #10006: ignoring unknown option '-fno-range-check'
+cg.f(522): remark #8291: Recommended relationship between field width 'W' and the number of fractional digits 'D' in this edit descriptor is 'W>=D+7'.
+ 9001 format( 4x, i5, 7x, e20.14, f20.13 )
+---------------------------^
+cg.f(280): remark #8291: Recommended relationship between field width 'W' and the number of fractional digits 'D' in this edit descriptor is 'W>=D+7'.
+ 1005 format(' Eigenvalue shift: ', e8.3)
+-------------------------------------^
+mpifort -mcmodel=medium -fno-range-check -g   -O3 -o ../bin/cg.C.32 cg.o ../common/print_results.o ../common/randi8.o ../common/timers.o -L/cluster/software/VERSIONS/openmpi.intel-1.8.6/lib -lmpi
+ifort: command line warning #10006: ignoring unknown option '-fno-range-check'
+make[1]: Leaving directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/CG'
+make[1]: Entering directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/CG'
+rm -f *.o *~ 
+rm -f npbparams.h core
+make[1]: Leaving directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/CG'
+make[1]: Entering directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/CG'
+make.def modified. Rebuilding npbparams.h just in case
+rm -f npbparams.h
+../sys/setparams cg 64 C 
+make[2]: Entering directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/sys'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/sys'
+../sys/setparams cg 64 C 
+mpifort -mcmodel=medium -fno-range-check -g   -c -I/cluster/software/VERSIONS/openmpi.intel-1.8.6/include -I/..common -O3 cg.f
+ifort: command line warning #10006: ignoring unknown option '-fno-range-check'
+cg.f(522): remark #8291: Recommended relationship between field width 'W' and the number of fractional digits 'D' in this edit descriptor is 'W>=D+7'.
+ 9001 format( 4x, i5, 7x, e20.14, f20.13 )
+---------------------------^
+cg.f(280): remark #8291: Recommended relationship between field width 'W' and the number of fractional digits 'D' in this edit descriptor is 'W>=D+7'.
+ 1005 format(' Eigenvalue shift: ', e8.3)
+-------------------------------------^
+mpifort -mcmodel=medium -fno-range-check -g   -O3 -o ../bin/cg.C.64 cg.o ../common/print_results.o ../common/randi8.o ../common/timers.o -L/cluster/software/VERSIONS/openmpi.intel-1.8.6/lib -lmpi
+ifort: command line warning #10006: ignoring unknown option '-fno-range-check'
+make[1]: Leaving directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/CG'
+make[1]: Entering directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/CG'
+rm -f *.o *~ 
+rm -f npbparams.h core
+make[1]: Leaving directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/CG'
+make[1]: Entering directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/CG'
+make.def modified. Rebuilding npbparams.h just in case
+rm -f npbparams.h
+../sys/setparams cg 128 C 
+make[2]: Entering directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/sys'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/sys'
+../sys/setparams cg 128 C 
+mpifort -mcmodel=medium -fno-range-check -g   -c -I/cluster/software/VERSIONS/openmpi.intel-1.8.6/include -I/..common -O3 cg.f
+ifort: command line warning #10006: ignoring unknown option '-fno-range-check'
+cg.f(522): remark #8291: Recommended relationship between field width 'W' and the number of fractional digits 'D' in this edit descriptor is 'W>=D+7'.
+ 9001 format( 4x, i5, 7x, e20.14, f20.13 )
+---------------------------^
+cg.f(280): remark #8291: Recommended relationship between field width 'W' and the number of fractional digits 'D' in this edit descriptor is 'W>=D+7'.
+ 1005 format(' Eigenvalue shift: ', e8.3)
+-------------------------------------^
+mpifort -mcmodel=medium -fno-range-check -g   -O3 -o ../bin/cg.C.128 cg.o ../common/print_results.o ../common/randi8.o ../common/timers.o -L/cluster/software/VERSIONS/openmpi.intel-1.8.6/lib -lmpi
+ifort: command line warning #10006: ignoring unknown option '-fno-range-check'
+make[1]: Leaving directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/CG'
+make[1]: Entering directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/CG'
+rm -f *.o *~ 
+rm -f npbparams.h core
+make[1]: Leaving directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/CG'
+make[1]: Entering directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/CG'
+make.def modified. Rebuilding npbparams.h just in case
+rm -f npbparams.h
+../sys/setparams cg 256 C 
+make[2]: Entering directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/sys'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/sys'
+../sys/setparams cg 256 C 
+mpifort -mcmodel=medium -fno-range-check -g   -c -I/cluster/software/VERSIONS/openmpi.intel-1.8.6/include -I/..common -O3 cg.f
+ifort: command line warning #10006: ignoring unknown option '-fno-range-check'
+cg.f(522): remark #8291: Recommended relationship between field width 'W' and the number of fractional digits 'D' in this edit descriptor is 'W>=D+7'.
+ 9001 format( 4x, i5, 7x, e20.14, f20.13 )
+---------------------------^
+cg.f(280): remark #8291: Recommended relationship between field width 'W' and the number of fractional digits 'D' in this edit descriptor is 'W>=D+7'.
+ 1005 format(' Eigenvalue shift: ', e8.3)
+-------------------------------------^
+mpifort -mcmodel=medium -fno-range-check -g   -O3 -o ../bin/cg.C.256 cg.o ../common/print_results.o ../common/randi8.o ../common/timers.o -L/cluster/software/VERSIONS/openmpi.intel-1.8.6/lib -lmpi
+ifort: command line warning #10006: ignoring unknown option '-fno-range-check'
+make[1]: Leaving directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/CG'
+make[1]: Entering directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/CG'
+rm -f *.o *~ 
+rm -f npbparams.h core
+make[1]: Leaving directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/CG'
+make[1]: Entering directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/CG'
+make.def modified. Rebuilding npbparams.h just in case
+rm -f npbparams.h
+../sys/setparams cg 512 C 
+make[2]: Entering directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/sys'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/sys'
+../sys/setparams cg 512 C 
+mpifort -mcmodel=medium -fno-range-check -g   -c -I/cluster/software/VERSIONS/openmpi.intel-1.8.6/include -I/..common -O3 cg.f
+ifort: command line warning #10006: ignoring unknown option '-fno-range-check'
+cg.f(522): remark #8291: Recommended relationship between field width 'W' and the number of fractional digits 'D' in this edit descriptor is 'W>=D+7'.
+ 9001 format( 4x, i5, 7x, e20.14, f20.13 )
+---------------------------^
+cg.f(280): remark #8291: Recommended relationship between field width 'W' and the number of fractional digits 'D' in this edit descriptor is 'W>=D+7'.
+ 1005 format(' Eigenvalue shift: ', e8.3)
+-------------------------------------^
+mpifort -mcmodel=medium -fno-range-check -g   -O3 -o ../bin/cg.C.512 cg.o ../common/print_results.o ../common/randi8.o ../common/timers.o -L/cluster/software/VERSIONS/openmpi.intel-1.8.6/lib -lmpi
+ifort: command line warning #10006: ignoring unknown option '-fno-range-check'
+make[1]: Leaving directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/CG'
+make[1]: Entering directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/CG'
+rm -f *.o *~ 
+rm -f npbparams.h core
+make[1]: Leaving directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/CG'
+make[1]: Entering directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/CG'
+make.def modified. Rebuilding npbparams.h just in case
+rm -f npbparams.h
+../sys/setparams cg 1024 C 
+make[2]: Entering directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/sys'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/sys'
+../sys/setparams cg 1024 C 
+mpifort -mcmodel=medium -fno-range-check -g   -c -I/cluster/software/VERSIONS/openmpi.intel-1.8.6/include -I/..common -O3 cg.f
+ifort: command line warning #10006: ignoring unknown option '-fno-range-check'
+cg.f(522): remark #8291: Recommended relationship between field width 'W' and the number of fractional digits 'D' in this edit descriptor is 'W>=D+7'.
+ 9001 format( 4x, i5, 7x, e20.14, f20.13 )
+---------------------------^
+cg.f(280): remark #8291: Recommended relationship between field width 'W' and the number of fractional digits 'D' in this edit descriptor is 'W>=D+7'.
+ 1005 format(' Eigenvalue shift: ', e8.3)
+-------------------------------------^
+mpifort -mcmodel=medium -fno-range-check -g   -O3 -o ../bin/cg.C.1024 cg.o ../common/print_results.o ../common/randi8.o ../common/timers.o -L/cluster/software/VERSIONS/openmpi.intel-1.8.6/lib -lmpi
+ifort: command line warning #10006: ignoring unknown option '-fno-range-check'
+make[1]: Leaving directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/CG'
+make[1]: Entering directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/MG'
+rm -f *.o *~ 
+rm -f npbparams.h core
+make[1]: Leaving directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/MG'
+make[1]: Entering directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/MG'
+make.def modified. Rebuilding npbparams.h just in case
+rm -f npbparams.h
+../sys/setparams mg 16 C 
+make[2]: Entering directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/sys'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/sys'
+../sys/setparams mg 16 C 
+mpifort -mcmodel=medium -fno-range-check -g   -c -I/cluster/software/VERSIONS/openmpi.intel-1.8.6/include -I/..common -O3 mg.f
+ifort: command line warning #10006: ignoring unknown option '-fno-range-check'
+mpifort -mcmodel=medium -fno-range-check -g   -O3 -o ../bin/mg.C.16 mg.o ../common/print_results.o ../common/randi8.o ../common/timers.o -L/cluster/software/VERSIONS/openmpi.intel-1.8.6/lib -lmpi
+ifort: command line warning #10006: ignoring unknown option '-fno-range-check'
+make[1]: Leaving directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/MG'
+make[1]: Entering directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/MG'
+rm -f *.o *~ 
+rm -f npbparams.h core
+make[1]: Leaving directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/MG'
+make[1]: Entering directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/MG'
+make.def modified. Rebuilding npbparams.h just in case
+rm -f npbparams.h
+../sys/setparams mg 32 C 
+make[2]: Entering directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/sys'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/sys'
+../sys/setparams mg 32 C 
+mpifort -mcmodel=medium -fno-range-check -g   -c -I/cluster/software/VERSIONS/openmpi.intel-1.8.6/include -I/..common -O3 mg.f
+ifort: command line warning #10006: ignoring unknown option '-fno-range-check'
+mpifort -mcmodel=medium -fno-range-check -g   -O3 -o ../bin/mg.C.32 mg.o ../common/print_results.o ../common/randi8.o ../common/timers.o -L/cluster/software/VERSIONS/openmpi.intel-1.8.6/lib -lmpi
+ifort: command line warning #10006: ignoring unknown option '-fno-range-check'
+make[1]: Leaving directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/MG'
+make[1]: Entering directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/MG'
+rm -f *.o *~ 
+rm -f npbparams.h core
+make[1]: Leaving directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/MG'
+make[1]: Entering directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/MG'
+make.def modified. Rebuilding npbparams.h just in case
+rm -f npbparams.h
+../sys/setparams mg 64 C 
+make[2]: Entering directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/sys'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/sys'
+../sys/setparams mg 64 C 
+mpifort -mcmodel=medium -fno-range-check -g   -c -I/cluster/software/VERSIONS/openmpi.intel-1.8.6/include -I/..common -O3 mg.f
+ifort: command line warning #10006: ignoring unknown option '-fno-range-check'
+mpifort -mcmodel=medium -fno-range-check -g   -O3 -o ../bin/mg.C.64 mg.o ../common/print_results.o ../common/randi8.o ../common/timers.o -L/cluster/software/VERSIONS/openmpi.intel-1.8.6/lib -lmpi
+ifort: command line warning #10006: ignoring unknown option '-fno-range-check'
+make[1]: Leaving directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/MG'
+make[1]: Entering directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/MG'
+rm -f *.o *~ 
+rm -f npbparams.h core
+make[1]: Leaving directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/MG'
+make[1]: Entering directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/MG'
+make.def modified. Rebuilding npbparams.h just in case
+rm -f npbparams.h
+../sys/setparams mg 128 C 
+make[2]: Entering directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/sys'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/sys'
+../sys/setparams mg 128 C 
+mpifort -mcmodel=medium -fno-range-check -g   -c -I/cluster/software/VERSIONS/openmpi.intel-1.8.6/include -I/..common -O3 mg.f
+ifort: command line warning #10006: ignoring unknown option '-fno-range-check'
+mpifort -mcmodel=medium -fno-range-check -g   -O3 -o ../bin/mg.C.128 mg.o ../common/print_results.o ../common/randi8.o ../common/timers.o -L/cluster/software/VERSIONS/openmpi.intel-1.8.6/lib -lmpi
+ifort: command line warning #10006: ignoring unknown option '-fno-range-check'
+make[1]: Leaving directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/MG'
+make[1]: Entering directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/MG'
+rm -f *.o *~ 
+rm -f npbparams.h core
+make[1]: Leaving directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/MG'
+make[1]: Entering directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/MG'
+make.def modified. Rebuilding npbparams.h just in case
+rm -f npbparams.h
+../sys/setparams mg 256 C 
+make[2]: Entering directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/sys'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/sys'
+../sys/setparams mg 256 C 
+mpifort -mcmodel=medium -fno-range-check -g   -c -I/cluster/software/VERSIONS/openmpi.intel-1.8.6/include -I/..common -O3 mg.f
+ifort: command line warning #10006: ignoring unknown option '-fno-range-check'
+mpifort -mcmodel=medium -fno-range-check -g   -O3 -o ../bin/mg.C.256 mg.o ../common/print_results.o ../common/randi8.o ../common/timers.o -L/cluster/software/VERSIONS/openmpi.intel-1.8.6/lib -lmpi
+ifort: command line warning #10006: ignoring unknown option '-fno-range-check'
+make[1]: Leaving directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/MG'
+make[1]: Entering directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/MG'
+rm -f *.o *~ 
+rm -f npbparams.h core
+make[1]: Leaving directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/MG'
+make[1]: Entering directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/MG'
+make.def modified. Rebuilding npbparams.h just in case
+rm -f npbparams.h
+../sys/setparams mg 512 C 
+make[2]: Entering directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/sys'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/sys'
+../sys/setparams mg 512 C 
+mpifort -mcmodel=medium -fno-range-check -g   -c -I/cluster/software/VERSIONS/openmpi.intel-1.8.6/include -I/..common -O3 mg.f
+ifort: command line warning #10006: ignoring unknown option '-fno-range-check'
+mpifort -mcmodel=medium -fno-range-check -g   -O3 -o ../bin/mg.C.512 mg.o ../common/print_results.o ../common/randi8.o ../common/timers.o -L/cluster/software/VERSIONS/openmpi.intel-1.8.6/lib -lmpi
+ifort: command line warning #10006: ignoring unknown option '-fno-range-check'
+make[1]: Leaving directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/MG'
+make[1]: Entering directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/MG'
+rm -f *.o *~ 
+rm -f npbparams.h core
+make[1]: Leaving directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/MG'
+make[1]: Entering directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/MG'
+make.def modified. Rebuilding npbparams.h just in case
+rm -f npbparams.h
+../sys/setparams mg 1024 C 
+make[2]: Entering directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/sys'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/sys'
+../sys/setparams mg 1024 C 
+mpifort -mcmodel=medium -fno-range-check -g   -c -I/cluster/software/VERSIONS/openmpi.intel-1.8.6/include -I/..common -O3 mg.f
+ifort: command line warning #10006: ignoring unknown option '-fno-range-check'
+mpifort -mcmodel=medium -fno-range-check -g   -O3 -o ../bin/mg.C.1024 mg.o ../common/print_results.o ../common/randi8.o ../common/timers.o -L/cluster/software/VERSIONS/openmpi.intel-1.8.6/lib -lmpi
+ifort: command line warning #10006: ignoring unknown option '-fno-range-check'
+make[1]: Leaving directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/MG'
+make[1]: Entering directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/CG'
+rm -f *.o *~ 
+rm -f npbparams.h core
+make[1]: Leaving directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/CG'
+make[1]: Entering directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/CG'
+make.def modified. Rebuilding npbparams.h just in case
+rm -f npbparams.h
+../sys/setparams cg 16 D 
+make[2]: Entering directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/sys'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/sys'
+../sys/setparams cg 16 D 
+mpifort -mcmodel=medium -fno-range-check -g   -c -I/cluster/software/VERSIONS/openmpi.intel-1.8.6/include -I/..common -O3 cg.f
+ifort: command line warning #10006: ignoring unknown option '-fno-range-check'
+cg.f(522): remark #8291: Recommended relationship between field width 'W' and the number of fractional digits 'D' in this edit descriptor is 'W>=D+7'.
+ 9001 format( 4x, i5, 7x, e20.14, f20.13 )
+---------------------------^
+cg.f(280): remark #8291: Recommended relationship between field width 'W' and the number of fractional digits 'D' in this edit descriptor is 'W>=D+7'.
+ 1005 format(' Eigenvalue shift: ', e8.3)
+-------------------------------------^
+mpifort -mcmodel=medium -fno-range-check -g   -O3 -o ../bin/cg.D.16 cg.o ../common/print_results.o ../common/randi8.o ../common/timers.o -L/cluster/software/VERSIONS/openmpi.intel-1.8.6/lib -lmpi
+ifort: command line warning #10006: ignoring unknown option '-fno-range-check'
+make[1]: Leaving directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/CG'
+make[1]: Entering directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/CG'
+rm -f *.o *~ 
+rm -f npbparams.h core
+make[1]: Leaving directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/CG'
+make[1]: Entering directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/CG'
+make.def modified. Rebuilding npbparams.h just in case
+rm -f npbparams.h
+../sys/setparams cg 32 D 
+make[2]: Entering directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/sys'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/sys'
+../sys/setparams cg 32 D 
+mpifort -mcmodel=medium -fno-range-check -g   -c -I/cluster/software/VERSIONS/openmpi.intel-1.8.6/include -I/..common -O3 cg.f
+ifort: command line warning #10006: ignoring unknown option '-fno-range-check'
+cg.f(522): remark #8291: Recommended relationship between field width 'W' and the number of fractional digits 'D' in this edit descriptor is 'W>=D+7'.
+ 9001 format( 4x, i5, 7x, e20.14, f20.13 )
+---------------------------^
+cg.f(280): remark #8291: Recommended relationship between field width 'W' and the number of fractional digits 'D' in this edit descriptor is 'W>=D+7'.
+ 1005 format(' Eigenvalue shift: ', e8.3)
+-------------------------------------^
+mpifort -mcmodel=medium -fno-range-check -g   -O3 -o ../bin/cg.D.32 cg.o ../common/print_results.o ../common/randi8.o ../common/timers.o -L/cluster/software/VERSIONS/openmpi.intel-1.8.6/lib -lmpi
+ifort: command line warning #10006: ignoring unknown option '-fno-range-check'
+make[1]: Leaving directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/CG'
+make[1]: Entering directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/CG'
+rm -f *.o *~ 
+rm -f npbparams.h core
+make[1]: Leaving directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/CG'
+make[1]: Entering directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/CG'
+make.def modified. Rebuilding npbparams.h just in case
+rm -f npbparams.h
+../sys/setparams cg 64 D 
+make[2]: Entering directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/sys'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/sys'
+../sys/setparams cg 64 D 
+mpifort -mcmodel=medium -fno-range-check -g   -c -I/cluster/software/VERSIONS/openmpi.intel-1.8.6/include -I/..common -O3 cg.f
+ifort: command line warning #10006: ignoring unknown option '-fno-range-check'
+cg.f(522): remark #8291: Recommended relationship between field width 'W' and the number of fractional digits 'D' in this edit descriptor is 'W>=D+7'.
+ 9001 format( 4x, i5, 7x, e20.14, f20.13 )
+---------------------------^
+cg.f(280): remark #8291: Recommended relationship between field width 'W' and the number of fractional digits 'D' in this edit descriptor is 'W>=D+7'.
+ 1005 format(' Eigenvalue shift: ', e8.3)
+-------------------------------------^
+mpifort -mcmodel=medium -fno-range-check -g   -O3 -o ../bin/cg.D.64 cg.o ../common/print_results.o ../common/randi8.o ../common/timers.o -L/cluster/software/VERSIONS/openmpi.intel-1.8.6/lib -lmpi
+ifort: command line warning #10006: ignoring unknown option '-fno-range-check'
+make[1]: Leaving directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/CG'
+make[1]: Entering directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/CG'
+rm -f *.o *~ 
+rm -f npbparams.h core
+make[1]: Leaving directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/CG'
+make[1]: Entering directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/CG'
+make.def modified. Rebuilding npbparams.h just in case
+rm -f npbparams.h
+../sys/setparams cg 128 D 
+make[2]: Entering directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/sys'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/sys'
+../sys/setparams cg 128 D 
+mpifort -mcmodel=medium -fno-range-check -g   -c -I/cluster/software/VERSIONS/openmpi.intel-1.8.6/include -I/..common -O3 cg.f
+ifort: command line warning #10006: ignoring unknown option '-fno-range-check'
+cg.f(522): remark #8291: Recommended relationship between field width 'W' and the number of fractional digits 'D' in this edit descriptor is 'W>=D+7'.
+ 9001 format( 4x, i5, 7x, e20.14, f20.13 )
+---------------------------^
+cg.f(280): remark #8291: Recommended relationship between field width 'W' and the number of fractional digits 'D' in this edit descriptor is 'W>=D+7'.
+ 1005 format(' Eigenvalue shift: ', e8.3)
+-------------------------------------^
+mpifort -mcmodel=medium -fno-range-check -g   -O3 -o ../bin/cg.D.128 cg.o ../common/print_results.o ../common/randi8.o ../common/timers.o -L/cluster/software/VERSIONS/openmpi.intel-1.8.6/lib -lmpi
+ifort: command line warning #10006: ignoring unknown option '-fno-range-check'
+make[1]: Leaving directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/CG'
+make[1]: Entering directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/CG'
+rm -f *.o *~ 
+rm -f npbparams.h core
+make[1]: Leaving directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/CG'
+make[1]: Entering directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/CG'
+make.def modified. Rebuilding npbparams.h just in case
+rm -f npbparams.h
+../sys/setparams cg 256 D 
+make[2]: Entering directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/sys'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/sys'
+../sys/setparams cg 256 D 
+mpifort -mcmodel=medium -fno-range-check -g   -c -I/cluster/software/VERSIONS/openmpi.intel-1.8.6/include -I/..common -O3 cg.f
+ifort: command line warning #10006: ignoring unknown option '-fno-range-check'
+cg.f(522): remark #8291: Recommended relationship between field width 'W' and the number of fractional digits 'D' in this edit descriptor is 'W>=D+7'.
+ 9001 format( 4x, i5, 7x, e20.14, f20.13 )
+---------------------------^
+cg.f(280): remark #8291: Recommended relationship between field width 'W' and the number of fractional digits 'D' in this edit descriptor is 'W>=D+7'.
+ 1005 format(' Eigenvalue shift: ', e8.3)
+-------------------------------------^
+mpifort -mcmodel=medium -fno-range-check -g   -O3 -o ../bin/cg.D.256 cg.o ../common/print_results.o ../common/randi8.o ../common/timers.o -L/cluster/software/VERSIONS/openmpi.intel-1.8.6/lib -lmpi
+ifort: command line warning #10006: ignoring unknown option '-fno-range-check'
+make[1]: Leaving directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/CG'
+make[1]: Entering directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/CG'
+rm -f *.o *~ 
+rm -f npbparams.h core
+make[1]: Leaving directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/CG'
+make[1]: Entering directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/CG'
+make.def modified. Rebuilding npbparams.h just in case
+rm -f npbparams.h
+../sys/setparams cg 512 D 
+make[2]: Entering directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/sys'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/sys'
+../sys/setparams cg 512 D 
+mpifort -mcmodel=medium -fno-range-check -g   -c -I/cluster/software/VERSIONS/openmpi.intel-1.8.6/include -I/..common -O3 cg.f
+ifort: command line warning #10006: ignoring unknown option '-fno-range-check'
+cg.f(522): remark #8291: Recommended relationship between field width 'W' and the number of fractional digits 'D' in this edit descriptor is 'W>=D+7'.
+ 9001 format( 4x, i5, 7x, e20.14, f20.13 )
+---------------------------^
+cg.f(280): remark #8291: Recommended relationship between field width 'W' and the number of fractional digits 'D' in this edit descriptor is 'W>=D+7'.
+ 1005 format(' Eigenvalue shift: ', e8.3)
+-------------------------------------^
+mpifort -mcmodel=medium -fno-range-check -g   -O3 -o ../bin/cg.D.512 cg.o ../common/print_results.o ../common/randi8.o ../common/timers.o -L/cluster/software/VERSIONS/openmpi.intel-1.8.6/lib -lmpi
+ifort: command line warning #10006: ignoring unknown option '-fno-range-check'
+make[1]: Leaving directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/CG'
+make[1]: Entering directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/CG'
+rm -f *.o *~ 
+rm -f npbparams.h core
+make[1]: Leaving directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/CG'
+make[1]: Entering directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/CG'
+make.def modified. Rebuilding npbparams.h just in case
+rm -f npbparams.h
+../sys/setparams cg 1024 D 
+make[2]: Entering directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/sys'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/sys'
+../sys/setparams cg 1024 D 
+mpifort -mcmodel=medium -fno-range-check -g   -c -I/cluster/software/VERSIONS/openmpi.intel-1.8.6/include -I/..common -O3 cg.f
+ifort: command line warning #10006: ignoring unknown option '-fno-range-check'
+cg.f(522): remark #8291: Recommended relationship between field width 'W' and the number of fractional digits 'D' in this edit descriptor is 'W>=D+7'.
+ 9001 format( 4x, i5, 7x, e20.14, f20.13 )
+---------------------------^
+cg.f(280): remark #8291: Recommended relationship between field width 'W' and the number of fractional digits 'D' in this edit descriptor is 'W>=D+7'.
+ 1005 format(' Eigenvalue shift: ', e8.3)
+-------------------------------------^
+mpifort -mcmodel=medium -fno-range-check -g   -O3 -o ../bin/cg.D.1024 cg.o ../common/print_results.o ../common/randi8.o ../common/timers.o -L/cluster/software/VERSIONS/openmpi.intel-1.8.6/lib -lmpi
+ifort: command line warning #10006: ignoring unknown option '-fno-range-check'
+make[1]: Leaving directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/CG'
+make[1]: Entering directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/MG'
+rm -f *.o *~ 
+rm -f npbparams.h core
+make[1]: Leaving directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/MG'
+make[1]: Entering directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/MG'
+make.def modified. Rebuilding npbparams.h just in case
+rm -f npbparams.h
+../sys/setparams mg 16 D 
+make[2]: Entering directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/sys'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/sys'
+../sys/setparams mg 16 D 
+mpifort -mcmodel=medium -fno-range-check -g   -c -I/cluster/software/VERSIONS/openmpi.intel-1.8.6/include -I/..common -O3 mg.f
+ifort: command line warning #10006: ignoring unknown option '-fno-range-check'
+mpifort -mcmodel=medium -fno-range-check -g   -O3 -o ../bin/mg.D.16 mg.o ../common/print_results.o ../common/randi8.o ../common/timers.o -L/cluster/software/VERSIONS/openmpi.intel-1.8.6/lib -lmpi
+ifort: command line warning #10006: ignoring unknown option '-fno-range-check'
+make[1]: Leaving directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/MG'
+make[1]: Entering directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/MG'
+rm -f *.o *~ 
+rm -f npbparams.h core
+make[1]: Leaving directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/MG'
+make[1]: Entering directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/MG'
+make.def modified. Rebuilding npbparams.h just in case
+rm -f npbparams.h
+../sys/setparams mg 32 D 
+make[2]: Entering directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/sys'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/sys'
+../sys/setparams mg 32 D 
+mpifort -mcmodel=medium -fno-range-check -g   -c -I/cluster/software/VERSIONS/openmpi.intel-1.8.6/include -I/..common -O3 mg.f
+ifort: command line warning #10006: ignoring unknown option '-fno-range-check'
+mpifort -mcmodel=medium -fno-range-check -g   -O3 -o ../bin/mg.D.32 mg.o ../common/print_results.o ../common/randi8.o ../common/timers.o -L/cluster/software/VERSIONS/openmpi.intel-1.8.6/lib -lmpi
+ifort: command line warning #10006: ignoring unknown option '-fno-range-check'
+make[1]: Leaving directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/MG'
+make[1]: Entering directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/MG'
+rm -f *.o *~ 
+rm -f npbparams.h core
+make[1]: Leaving directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/MG'
+make[1]: Entering directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/MG'
+make.def modified. Rebuilding npbparams.h just in case
+rm -f npbparams.h
+../sys/setparams mg 64 D 
+make[2]: Entering directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/sys'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/sys'
+../sys/setparams mg 64 D 
+mpifort -mcmodel=medium -fno-range-check -g   -c -I/cluster/software/VERSIONS/openmpi.intel-1.8.6/include -I/..common -O3 mg.f
+ifort: command line warning #10006: ignoring unknown option '-fno-range-check'
+mpifort -mcmodel=medium -fno-range-check -g   -O3 -o ../bin/mg.D.64 mg.o ../common/print_results.o ../common/randi8.o ../common/timers.o -L/cluster/software/VERSIONS/openmpi.intel-1.8.6/lib -lmpi
+ifort: command line warning #10006: ignoring unknown option '-fno-range-check'
+make[1]: Leaving directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/MG'
+make[1]: Entering directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/MG'
+rm -f *.o *~ 
+rm -f npbparams.h core
+make[1]: Leaving directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/MG'
+make[1]: Entering directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/MG'
+make.def modified. Rebuilding npbparams.h just in case
+rm -f npbparams.h
+../sys/setparams mg 128 D 
+make[2]: Entering directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/sys'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/sys'
+../sys/setparams mg 128 D 
+mpifort -mcmodel=medium -fno-range-check -g   -c -I/cluster/software/VERSIONS/openmpi.intel-1.8.6/include -I/..common -O3 mg.f
+ifort: command line warning #10006: ignoring unknown option '-fno-range-check'
+mpifort -mcmodel=medium -fno-range-check -g   -O3 -o ../bin/mg.D.128 mg.o ../common/print_results.o ../common/randi8.o ../common/timers.o -L/cluster/software/VERSIONS/openmpi.intel-1.8.6/lib -lmpi
+ifort: command line warning #10006: ignoring unknown option '-fno-range-check'
+make[1]: Leaving directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/MG'
+make[1]: Entering directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/MG'
+rm -f *.o *~ 
+rm -f npbparams.h core
+make[1]: Leaving directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/MG'
+make[1]: Entering directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/MG'
+make.def modified. Rebuilding npbparams.h just in case
+rm -f npbparams.h
+../sys/setparams mg 256 D 
+make[2]: Entering directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/sys'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/sys'
+../sys/setparams mg 256 D 
+mpifort -mcmodel=medium -fno-range-check -g   -c -I/cluster/software/VERSIONS/openmpi.intel-1.8.6/include -I/..common -O3 mg.f
+ifort: command line warning #10006: ignoring unknown option '-fno-range-check'
+mpifort -mcmodel=medium -fno-range-check -g   -O3 -o ../bin/mg.D.256 mg.o ../common/print_results.o ../common/randi8.o ../common/timers.o -L/cluster/software/VERSIONS/openmpi.intel-1.8.6/lib -lmpi
+ifort: command line warning #10006: ignoring unknown option '-fno-range-check'
+make[1]: Leaving directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/MG'
+make[1]: Entering directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/MG'
+rm -f *.o *~ 
+rm -f npbparams.h core
+make[1]: Leaving directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/MG'
+make[1]: Entering directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/MG'
+make.def modified. Rebuilding npbparams.h just in case
+rm -f npbparams.h
+../sys/setparams mg 512 D 
+make[2]: Entering directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/sys'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/sys'
+../sys/setparams mg 512 D 
+mpifort -mcmodel=medium -fno-range-check -g   -c -I/cluster/software/VERSIONS/openmpi.intel-1.8.6/include -I/..common -O3 mg.f
+ifort: command line warning #10006: ignoring unknown option '-fno-range-check'
+mpifort -mcmodel=medium -fno-range-check -g   -O3 -o ../bin/mg.D.512 mg.o ../common/print_results.o ../common/randi8.o ../common/timers.o -L/cluster/software/VERSIONS/openmpi.intel-1.8.6/lib -lmpi
+ifort: command line warning #10006: ignoring unknown option '-fno-range-check'
+make[1]: Leaving directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/MG'
+make[1]: Entering directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/MG'
+rm -f *.o *~ 
+rm -f npbparams.h core
+make[1]: Leaving directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/MG'
+make[1]: Entering directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/MG'
+make.def modified. Rebuilding npbparams.h just in case
+rm -f npbparams.h
+../sys/setparams mg 1024 D 
+make[2]: Entering directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/sys'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/sys'
+../sys/setparams mg 1024 D 
+mpifort -mcmodel=medium -fno-range-check -g   -c -I/cluster/software/VERSIONS/openmpi.intel-1.8.6/include -I/..common -O3 mg.f
+ifort: command line warning #10006: ignoring unknown option '-fno-range-check'
+mpifort -mcmodel=medium -fno-range-check -g   -O3 -o ../bin/mg.D.1024 mg.o ../common/print_results.o ../common/randi8.o ../common/timers.o -L/cluster/software/VERSIONS/openmpi.intel-1.8.6/lib -lmpi
+ifort: command line warning #10006: ignoring unknown option '-fno-range-check'
+make[1]: Leaving directory `/cluster/home/jeremie/myRepo/pgashpc/Code/NPB_Original/c1MPI/MG'

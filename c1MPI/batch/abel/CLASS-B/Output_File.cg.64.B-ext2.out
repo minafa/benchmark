@@ -1,0 +1,13 @@
+Starting job 13113782 ("cg.B.64-t2") on c4-[7,13,19,28] at Sat Nov 7 23:59:52 CET 2015
+
+Currently Loaded Modulefiles:
+  1) intel/2015.3          2) openmpi.intel/1.8.6
+
+Job step resource usage:
+       JobID    JobName  AllocCPUS  MaxVMSize     MaxRSS    Elapsed ExitCode 
+------------ ---------- ---------- ---------- ---------- ---------- -------- 
+13113782     cg.B.64-t2         64                         00:00:18      0:0 
+13113782.0         true          4    270436K      1532K   00:00:00      0:0 
+13113782.1        orted          3          0          0   00:00:13      0:0 
+
+Job 13113782 ("cg.B.64-t2") completed on c4-[7,13,19,28] at Sun Nov 8 00:00:07 CET 2015

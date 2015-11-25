@@ -1,0 +1,16 @@
+Starting job 13123386 ("cg.E.16-t1-1") on c16-[6,15,22-23] at Mon Nov 9 11:00:04 CET 2015
+slurmstepd: *** JOB 13123386 CANCELLED AT 2015-11-09T14:00:11 DUE TO TIME LIMIT ***
+
+Currently Loaded Modulefiles:
+  1) intel/2015.3          2) openmpi.intel/1.8.6
+
+Job step resource usage:
+       JobID    JobName  AllocCPUS  MaxVMSize     MaxRSS    Elapsed ExitCode 
+------------ ---------- ---------- ---------- ---------- ---------- -------- 
+13123386     cg.E.16-t+         64                         03:00:08      1:0 
+13123386.0         true          4    270436K      1240K   00:00:00      0:0 
+13123386.1        orted          3          0          0   03:00:05      0:0 
+
+Job 13123386 ("cg.E.16-t1-1") completed on c16-[6,15,22-23] at Mon Nov 9 14:00:11 CET 2015
+slurmstepd: _slurm_cgroup_destroy: problem deleting step cgroup path /dev/cgroup/freezer/slurm/uid_231636/job_13123386/step_batch: Device or resource busy
+slurmstepd: _slurm_cgroup_destroy: problem deleting step cgroup path /dev/cgroup/freezer/slurm/uid_231636/job_13123386/step_batch: Device or resource busy
