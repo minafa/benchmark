@@ -1,0 +1,16 @@
+Starting job 13513791 ("CG-D-1n") on c1-13 at sø. 13. des. 23:02:00 +0100 2015
+
+Currently Loaded Modulefiles:
+  1) intel/2015.3          2) openmpi.intel/1.8.6
+
+Job script resource usage:
+       JobID  MaxVMSize     MaxRSS 
+------------ ---------- ---------- 
+13513791.ba+  31012384K  21121668K 
+
+Job step resource usage:
+       JobID    JobName  AllocCPUS  MaxVMSize     MaxRSS    Elapsed ExitCode 
+------------ ---------- ---------- ---------- ---------- ---------- -------- 
+13513791        CG-D-1n         16                         00:31:51      0:0 
+
+Job 13513791 ("CG-D-1n") completed on c1-13 at sø. 13. des. 23:33:51 +0100 2015

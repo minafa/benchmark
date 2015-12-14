@@ -1,0 +1,18 @@
+Starting job 13504005 ("CG-D") on c4-16 at lø. 12. des. 18:18:47 +0100 2015
+slurmstepd: *** JOB 13504005 CANCELLED AT 2015-12-12T18:38:46 DUE TO TIME LIMIT ***
+
+Currently Loaded Modulefiles:
+  1) intel/2015.3          2) openmpi.intel/1.8.6
+
+Job script resource usage:
+       JobID  MaxVMSize     MaxRSS 
+------------ ---------- ---------- 
+13504005.ba+  31087452K  21080472K 
+
+Job step resource usage:
+       JobID    JobName  AllocCPUS  MaxVMSize     MaxRSS    Elapsed ExitCode 
+------------ ---------- ---------- ---------- ---------- ---------- -------- 
+13504005           CG-D         16                         00:20:00      1:0 
+
+Job 13504005 ("CG-D") completed on c4-16 at lø. 12. des. 18:38:46 +0100 2015
+slurmstepd: _slurm_cgroup_destroy: problem deleting step cgroup path /dev/cgroup/freezer/slurm/uid_231636/job_13504005/step_batch: Device or resource busy

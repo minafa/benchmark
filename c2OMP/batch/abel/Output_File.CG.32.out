@@ -1,0 +1,22 @@
+Starting job 12942316 ("CG.C.32") on c5-[2,6,11],c6-[1,9,12],c8-33,c9-7,c10-18,c11-[9-13,15,29],c12-[5,8,13,16-17,19],c13-[2,15,23,34],c14-25,c18-[15,18,20],c31-[16,20] at Mon Oct 26 15:59:19 CET 2015
+----------------------------------------------------------------------------
+Open MPI has detected that a parameter given to a command line
+option does not match the expected format:
+
+  Option: n
+  Param:  32*16
+
+This is frequently caused by omitting to provide the parameter
+to an option that requires one. Please check the command line and try again.
+----------------------------------------------------------------------------
+
+Currently Loaded Modulefiles:
+  1) intel/2015.3          2) openmpi.intel/1.8.6
+
+Job step resource usage:
+       JobID    JobName  AllocCPUS  MaxVMSize     MaxRSS    Elapsed ExitCode 
+------------ ---------- ---------- ---------- ---------- ---------- -------- 
+12942316        CG.C.32        512                         00:00:12      0:0 
+12942316.0         true         32    270432K      1616K   00:00:00      0:0 
+
+Job 12942316 ("CG.C.32") completed on c5-[2,6,11],c6-[1,9,12],c8-33,c9-7,c10-18,c11-[9-13,15,29],c12-[5,8,13,16-17,19],c13-[2,15,23,34],c14-25,c18-[15,18,20],c31-[16,20] at Mon Oct 26 15:59:26 CET 2015

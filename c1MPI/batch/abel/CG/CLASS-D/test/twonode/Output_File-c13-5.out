@@ -1,0 +1,13 @@
+Starting job 13511717 ("CG-D-2n") on c13-[33,35] at sø. 13. des. 16:29:00 +0100 2015
+
+Currently Loaded Modulefiles:
+  1) intel/2015.3          2) openmpi.intel/1.8.6
+
+Job step resource usage:
+       JobID    JobName  AllocCPUS  MaxVMSize     MaxRSS    Elapsed ExitCode 
+------------ ---------- ---------- ---------- ---------- ---------- -------- 
+13511717        CG-D-2n         32                         00:09:36      0:0 
+13511717.0         true          2    270464K      1540K   00:00:00      0:0 
+13511717.1        orted          1          0          0   00:09:35      0:0 
+
+Job 13511717 ("CG-D-2n") completed on c13-[33,35] at sø. 13. des. 16:38:36 +0100 2015

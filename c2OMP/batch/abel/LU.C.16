@@ -1,0 +1,1152 @@
+
+
+ NAS Parallel Benchmarks (NPB3.3-OMP) - LU Benchmark
+
+ Size:  162x 162x 162
+ Iterations:                    250
+
+
+ NAS Parallel Benchmarks (NPB3.3-OMP) - LU Benchmark
+
+ Size:  162x 162x 162
+ Iterations:                    250
+ Number of available threads:     1
+ 
+ Number of available threads:     1
+ 
+
+
+ NAS Parallel Benchmarks (NPB3.3-OMP) - LU Benchmark
+
+ Size:  162x 162x 162
+ Iterations:                    250
+ Number of available threads:     1
+ 
+
+
+ NAS Parallel Benchmarks (NPB3.3-OMP) - LU Benchmark
+
+ Size:  162x 162x 162
+ Iterations:                    250
+ Number of available threads:     1
+ 
+
+
+ NAS Parallel Benchmarks (NPB3.3-OMP) - LU Benchmark
+
+ Size:  162x 162x 162
+ Iterations:                    250
+ Number of available threads:     1
+ 
+
+
+ NAS Parallel Benchmarks (NPB3.3-OMP) - LU Benchmark
+
+ Size:  162x 162x 162
+ Iterations:                    250
+ Number of available threads:     1
+ 
+
+
+ NAS Parallel Benchmarks (NPB3.3-OMP) - LU Benchmark
+
+ Size:  162x 162x 162
+ Iterations:                    250
+ Number of available threads:     1
+ 
+
+
+ NAS Parallel Benchmarks (NPB3.3-OMP) - LU Benchmark
+
+ Size:  162x 162x 162
+ Iterations:                    250
+
+
+ NAS Parallel Benchmarks (NPB3.3-OMP) - LU Benchmark
+
+ Size:  162x 162x 162
+ Iterations:                    250
+ Number of available threads:     1
+ 
+
+
+ NAS Parallel Benchmarks (NPB3.3-OMP) - LU Benchmark
+
+ Size:  162x 162x 162
+ Iterations:                    250
+ Number of available threads:     1
+ 
+ Number of available threads:     1
+ 
+
+
+ NAS Parallel Benchmarks (NPB3.3-OMP) - LU Benchmark
+
+ Size:  162x 162x 162
+ Iterations:                    250
+ Number of available threads:     1
+ 
+
+
+ NAS Parallel Benchmarks (NPB3.3-OMP) - LU Benchmark
+
+ Size:  162x 162x 162
+ Iterations:                    250
+ Number of available threads:     1
+ 
+
+
+ NAS Parallel Benchmarks (NPB3.3-OMP) - LU Benchmark
+
+ Size:  162x 162x 162
+ Iterations:                    250
+ Number of available threads:     1
+ 
+
+
+ NAS Parallel Benchmarks (NPB3.3-OMP) - LU Benchmark
+
+ Size:  162x 162x 162
+ Iterations:                    250
+
+
+ NAS Parallel Benchmarks (NPB3.3-OMP) - LU Benchmark
+
+ Size:  162x 162x 162
+ Iterations:                    250
+ Number of available threads:     1
+ 
+
+
+ NAS Parallel Benchmarks (NPB3.3-OMP) - LU Benchmark
+
+ Size:  162x 162x 162
+ Iterations:                    250
+ Number of available threads:     1
+ 
+ Number of available threads:     1
+ 
+ Time step    1
+ Time step    1
+ Time step    1
+ Time step    1
+ Time step    1
+ Time step    1
+ Time step    1
+ Time step    1
+ Time step    1
+ Time step    1
+ Time step    1
+ Time step    1
+ Time step    1
+ Time step    1
+ Time step    1
+ Time step    1
+ Time step   20
+ Time step   20
+ Time step   20
+ Time step   20
+ Time step   20
+ Time step   20
+ Time step   20
+ Time step   20
+ Time step   20
+ Time step   20
+ Time step   20
+ Time step   20
+ Time step   20
+ Time step   20
+ Time step   20
+ Time step   20
+ Time step   40
+ Time step   40
+ Time step   40
+ Time step   40
+ Time step   40
+ Time step   40
+ Time step   40
+ Time step   40
+ Time step   40
+ Time step   40
+ Time step   40
+ Time step   40
+ Time step   40
+ Time step   40
+ Time step   40
+ Time step   40
+ Time step   60
+ Time step   60
+ Time step   60
+ Time step   60
+ Time step   60
+ Time step   60
+ Time step   60
+ Time step   60
+ Time step   60
+ Time step   60
+ Time step   60
+ Time step   60
+ Time step   60
+ Time step   60
+ Time step   60
+ Time step   60
+ Time step   80
+ Time step   80
+ Time step   80
+ Time step   80
+ Time step   80
+ Time step   80
+ Time step   80
+ Time step   80
+ Time step   80
+ Time step   80
+ Time step   80
+ Time step   80
+ Time step   80
+ Time step   80
+ Time step   80
+ Time step   80
+ Time step  100
+ Time step  100
+ Time step  100
+ Time step  100
+ Time step  100
+ Time step  100
+ Time step  100
+ Time step  100
+ Time step  100
+ Time step  100
+ Time step  100
+ Time step  100
+ Time step  100
+ Time step  100
+ Time step  100
+ Time step  100
+ Time step  120
+ Time step  120
+ Time step  120
+ Time step  120
+ Time step  120
+ Time step  120
+ Time step  120
+ Time step  120
+ Time step  120
+ Time step  120
+ Time step  120
+ Time step  120
+ Time step  120
+ Time step  120
+ Time step  120
+ Time step  120
+ Time step  140
+ Time step  140
+ Time step  140
+ Time step  140
+ Time step  140
+ Time step  140
+ Time step  140
+ Time step  140
+ Time step  140
+ Time step  140
+ Time step  140
+ Time step  140
+ Time step  140
+ Time step  140
+ Time step  140
+ Time step  140
+ Time step  160
+ Time step  160
+ Time step  160
+ Time step  160
+ Time step  160
+ Time step  160
+ Time step  160
+ Time step  160
+ Time step  160
+ Time step  160
+ Time step  160
+ Time step  160
+ Time step  160
+ Time step  160
+ Time step  160
+ Time step  160
+ Time step  180
+ Time step  180
+ Time step  180
+ Time step  180
+ Time step  180
+ Time step  180
+ Time step  180
+ Time step  180
+ Time step  180
+ Time step  180
+ Time step  180
+ Time step  180
+ Time step  180
+ Time step  180
+ Time step  180
+ Time step  180
+ Time step  200
+ Time step  200
+ Time step  200
+ Time step  200
+ Time step  200
+ Time step  200
+ Time step  200
+ Time step  200
+ Time step  200
+ Time step  200
+ Time step  200
+ Time step  200
+ Time step  200
+ Time step  200
+ Time step  200
+ Time step  200
+ Time step  220
+ Time step  220
+ Time step  220
+ Time step  220
+ Time step  220
+ Time step  220
+ Time step  220
+ Time step  220
+ Time step  220
+ Time step  220
+ Time step  220
+ Time step  220
+ Time step  220
+ Time step  220
+ Time step  220
+ Time step  220
+ Time step  240
+ Time step  240
+ Time step  240
+ Time step  240
+ Time step  240
+ Time step  240
+ Time step  240
+ Time step  240
+ Time step  240
+ Time step  240
+ Time step  240
+ Time step  240
+ Time step  240
+ Time step  240
+ Time step  240
+ Time step  240
+ Time step  250
+ Time step  250
+ Time step  250
+ Time step  250
+
+ Verification being performed for class C
+ Accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1   0.1037669803235E+05 0.1037669803235E+05 0.4557685339280E-14
+           2   0.8922124588010E+03 0.8922124588010E+03 0.9684015933216E-14
+           3   0.2562388145827E+04 0.2562388145827E+04 0.1703713223783E-13
+           4   0.2191943438578E+04 0.2191943438578E+04 0.7261208022480E-14
+           5   0.1780780572611E+05 0.1780780572611E+05 0.3105226927916E-13
+ Comparison of RMS-norms of solution error
+           1   0.2159863997170E+03 0.2159863997169E+03 0.2105444377435E-13
+           2   0.1557895592399E+02 0.1557895592399E+02 0.1356871827098E-13
+           3   0.5413188630772E+02 0.5413188630772E+02 0.2625228065103E-14
+           4   0.4822626431540E+02 0.4822626431540E+02 0.1915357885585E-14
+           5   0.4559029100433E+03 0.4559029100433E+03 0.3715558389157E-13
+ Comparison of surface integral
+               0.6664045535722E+02 0.6664045535722E+02 0.1492726639894E-14
+ Verification Successful
+
+
+ LU Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      250
+ Time in seconds =                  1410.75
+ Total threads   =                        1
+ Avail threads   =                        1
+ Mop/s total     =                  1445.33
+ Mop/s/thread    =                  1445.33
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      3.3
+ Compile date    =              26 Oct 2015
+
+ Compile options:
+    F77          = ifort -fopenmp -mcmodel=medium -g 
+    FLINK        = $(F77)
+    F_LIB        = -L/cluster/software/VERSIONS/openmpi.intel-...
+    F_INC        = -I/cluster/software/VERSIONS/openmpi.intel-...
+    FFLAGS       = -O3 -fopenmp
+    FLINKFLAGS   = -O3 -fopenmp
+    RAND         = (none)
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+ Time step  250
+
+ Verification being performed for class C
+ Accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1   0.1037669803235E+05 0.1037669803235E+05 0.4557685339280E-14
+           2   0.8922124588010E+03 0.8922124588010E+03 0.9684015933216E-14
+           3   0.2562388145827E+04 0.2562388145827E+04 0.1703713223783E-13
+           4   0.2191943438578E+04 0.2191943438578E+04 0.7261208022480E-14
+           5   0.1780780572611E+05 0.1780780572611E+05 0.3105226927916E-13
+ Comparison of RMS-norms of solution error
+           1   0.2159863997170E+03 0.2159863997169E+03 0.2105444377435E-13
+           2   0.1557895592399E+02 0.1557895592399E+02 0.1356871827098E-13
+           3   0.5413188630772E+02 0.5413188630772E+02 0.2625228065103E-14
+           4   0.4822626431540E+02 0.4822626431540E+02 0.1915357885585E-14
+           5   0.4559029100433E+03 0.4559029100433E+03 0.3715558389157E-13
+ Comparison of surface integral
+               0.6664045535722E+02 0.6664045535722E+02 0.1492726639894E-14
+ Verification Successful
+
+
+ LU Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      250
+ Time in seconds =                  1413.78
+ Total threads   =                        1
+ Avail threads   =                        1
+ Mop/s total     =                  1442.23
+ Mop/s/thread    =                  1442.23
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      3.3
+ Compile date    =              26 Oct 2015
+
+ Compile options:
+    F77          = ifort -fopenmp -mcmodel=medium -g 
+    FLINK        = $(F77)
+    F_LIB        = -L/cluster/software/VERSIONS/openmpi.intel-...
+    F_INC        = -I/cluster/software/VERSIONS/openmpi.intel-...
+    FFLAGS       = -O3 -fopenmp
+    FLINKFLAGS   = -O3 -fopenmp
+    RAND         = (none)
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+
+ Verification being performed for class C
+ Accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1   0.1037669803235E+05 0.1037669803235E+05 0.4557685339280E-14
+           2   0.8922124588010E+03 0.8922124588010E+03 0.9684015933216E-14
+           3   0.2562388145827E+04 0.2562388145827E+04 0.1703713223783E-13
+           4   0.2191943438578E+04 0.2191943438578E+04 0.7261208022480E-14
+           5   0.1780780572611E+05 0.1780780572611E+05 0.3105226927916E-13
+ Comparison of RMS-norms of solution error
+           1   0.2159863997170E+03 0.2159863997169E+03 0.2105444377435E-13
+           2   0.1557895592399E+02 0.1557895592399E+02 0.1356871827098E-13
+           3   0.5413188630772E+02 0.5413188630772E+02 0.2625228065103E-14
+           4   0.4822626431540E+02 0.4822626431540E+02 0.1915357885585E-14
+           5   0.4559029100433E+03 0.4559029100433E+03 0.3715558389157E-13
+ Comparison of surface integral
+               0.6664045535722E+02 0.6664045535722E+02 0.1492726639894E-14
+ Verification Successful
+
+
+ LU Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      250
+ Time in seconds =                  1414.07
+ Total threads   =                        1
+ Avail threads   =                        1
+ Mop/s total     =                  1441.93
+ Mop/s/thread    =                  1441.93
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      3.3
+ Compile date    =              26 Oct 2015
+
+ Compile options:
+    F77          = ifort -fopenmp -mcmodel=medium -g 
+    FLINK        = $(F77)
+    F_LIB        = -L/cluster/software/VERSIONS/openmpi.intel-...
+    F_INC        = -I/cluster/software/VERSIONS/openmpi.intel-...
+    FFLAGS       = -O3 -fopenmp
+    FLINKFLAGS   = -O3 -fopenmp
+    RAND         = (none)
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+ Time step  250
+ Time step  250
+
+ Verification being performed for class C
+ Accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1   0.1037669803235E+05 0.1037669803235E+05 0.4557685339280E-14
+           2   0.8922124588010E+03 0.8922124588010E+03 0.9684015933216E-14
+           3   0.2562388145827E+04 0.2562388145827E+04 0.1703713223783E-13
+           4   0.2191943438578E+04 0.2191943438578E+04 0.7261208022480E-14
+           5   0.1780780572611E+05 0.1780780572611E+05 0.3105226927916E-13
+ Comparison of RMS-norms of solution error
+           1   0.2159863997170E+03 0.2159863997169E+03 0.2105444377435E-13
+           2   0.1557895592399E+02 0.1557895592399E+02 0.1356871827098E-13
+           3   0.5413188630772E+02 0.5413188630772E+02 0.2625228065103E-14
+           4   0.4822626431540E+02 0.4822626431540E+02 0.1915357885585E-14
+           5   0.4559029100433E+03 0.4559029100433E+03 0.3715558389157E-13
+ Comparison of surface integral
+               0.6664045535722E+02 0.6664045535722E+02 0.1492726639894E-14
+ Verification Successful
+
+
+ LU Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      250
+ Time in seconds =                  1415.82
+ Total threads   =                        1
+ Avail threads   =                        1
+ Mop/s total     =                  1440.16
+ Mop/s/thread    =                  1440.16
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      3.3
+ Compile date    =              26 Oct 2015
+
+ Compile options:
+    F77          = ifort -fopenmp -mcmodel=medium -g 
+    FLINK        = $(F77)
+    F_LIB        = -L/cluster/software/VERSIONS/openmpi.intel-...
+    F_INC        = -I/cluster/software/VERSIONS/openmpi.intel-...
+    FFLAGS       = -O3 -fopenmp
+    FLINKFLAGS   = -O3 -fopenmp
+    RAND         = (none)
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+ Time step  250
+ Time step  250
+
+ Verification being performed for class C
+ Accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1   0.1037669803235E+05 0.1037669803235E+05 0.4557685339280E-14
+           2   0.8922124588010E+03 0.8922124588010E+03 0.9684015933216E-14
+           3   0.2562388145827E+04 0.2562388145827E+04 0.1703713223783E-13
+           4   0.2191943438578E+04 0.2191943438578E+04 0.7261208022480E-14
+           5   0.1780780572611E+05 0.1780780572611E+05 0.3105226927916E-13
+ Comparison of RMS-norms of solution error
+           1   0.2159863997170E+03 0.2159863997169E+03 0.2105444377435E-13
+           2   0.1557895592399E+02 0.1557895592399E+02 0.1356871827098E-13
+           3   0.5413188630772E+02 0.5413188630772E+02 0.2625228065103E-14
+           4   0.4822626431540E+02 0.4822626431540E+02 0.1915357885585E-14
+           5   0.4559029100433E+03 0.4559029100433E+03 0.3715558389157E-13
+ Comparison of surface integral
+               0.6664045535722E+02 0.6664045535722E+02 0.1492726639894E-14
+ Verification Successful
+
+
+ LU Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      250
+ Time in seconds =                  1418.66
+ Total threads   =                        1
+ Avail threads   =                        1
+ Mop/s total     =                  1437.27
+ Mop/s/thread    =                  1437.27
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      3.3
+ Compile date    =              26 Oct 2015
+
+ Compile options:
+    F77          = ifort -fopenmp -mcmodel=medium -g 
+    FLINK        = $(F77)
+    F_LIB        = -L/cluster/software/VERSIONS/openmpi.intel-...
+    F_INC        = -I/cluster/software/VERSIONS/openmpi.intel-...
+    FFLAGS       = -O3 -fopenmp
+    FLINKFLAGS   = -O3 -fopenmp
+    RAND         = (none)
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+
+ Verification being performed for class C
+ Accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1   0.1037669803235E+05 0.1037669803235E+05 0.4557685339280E-14
+           2   0.8922124588010E+03 0.8922124588010E+03 0.9684015933216E-14
+           3   0.2562388145827E+04 0.2562388145827E+04 0.1703713223783E-13
+           4   0.2191943438578E+04 0.2191943438578E+04 0.7261208022480E-14
+           5   0.1780780572611E+05 0.1780780572611E+05 0.3105226927916E-13
+ Comparison of RMS-norms of solution error
+           1   0.2159863997170E+03 0.2159863997169E+03 0.2105444377435E-13
+           2   0.1557895592399E+02 0.1557895592399E+02 0.1356871827098E-13
+           3   0.5413188630772E+02 0.5413188630772E+02 0.2625228065103E-14
+           4   0.4822626431540E+02 0.4822626431540E+02 0.1915357885585E-14
+           5   0.4559029100433E+03 0.4559029100433E+03 0.3715558389157E-13
+ Comparison of surface integral
+               0.6664045535722E+02 0.6664045535722E+02 0.1492726639894E-14
+ Verification Successful
+
+
+ LU Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      250
+ Time in seconds =                  1419.33
+ Total threads   =                        1
+ Avail threads   =                        1
+ Mop/s total     =                  1436.60
+ Mop/s/thread    =                  1436.60
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      3.3
+ Compile date    =              26 Oct 2015
+
+ Compile options:
+    F77          = ifort -fopenmp -mcmodel=medium -g 
+    FLINK        = $(F77)
+    F_LIB        = -L/cluster/software/VERSIONS/openmpi.intel-...
+    F_INC        = -I/cluster/software/VERSIONS/openmpi.intel-...
+    FFLAGS       = -O3 -fopenmp
+    FLINKFLAGS   = -O3 -fopenmp
+    RAND         = (none)
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+ Time step  250
+
+ Verification being performed for class C
+ Accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1   0.1037669803235E+05 0.1037669803235E+05 0.4557685339280E-14
+           2   0.8922124588010E+03 0.8922124588010E+03 0.9684015933216E-14
+           3   0.2562388145827E+04 0.2562388145827E+04 0.1703713223783E-13
+           4   0.2191943438578E+04 0.2191943438578E+04 0.7261208022480E-14
+           5   0.1780780572611E+05 0.1780780572611E+05 0.3105226927916E-13
+ Comparison of RMS-norms of solution error
+           1   0.2159863997170E+03 0.2159863997169E+03 0.2105444377435E-13
+           2   0.1557895592399E+02 0.1557895592399E+02 0.1356871827098E-13
+           3   0.5413188630772E+02 0.5413188630772E+02 0.2625228065103E-14
+           4   0.4822626431540E+02 0.4822626431540E+02 0.1915357885585E-14
+           5   0.4559029100433E+03 0.4559029100433E+03 0.3715558389157E-13
+ Comparison of surface integral
+               0.6664045535722E+02 0.6664045535722E+02 0.1492726639894E-14
+ Verification Successful
+
+
+ LU Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      250
+ Time in seconds =                  1420.22
+ Total threads   =                        1
+ Avail threads   =                        1
+ Mop/s total     =                  1435.69
+ Mop/s/thread    =                  1435.69
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      3.3
+ Compile date    =              26 Oct 2015
+
+ Compile options:
+    F77          = ifort -fopenmp -mcmodel=medium -g 
+    FLINK        = $(F77)
+    F_LIB        = -L/cluster/software/VERSIONS/openmpi.intel-...
+    F_INC        = -I/cluster/software/VERSIONS/openmpi.intel-...
+    FFLAGS       = -O3 -fopenmp
+    FLINKFLAGS   = -O3 -fopenmp
+    RAND         = (none)
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+ Time step  250
+
+ Verification being performed for class C
+ Accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1   0.1037669803235E+05 0.1037669803235E+05 0.4557685339280E-14
+           2   0.8922124588010E+03 0.8922124588010E+03 0.9684015933216E-14
+           3   0.2562388145827E+04 0.2562388145827E+04 0.1703713223783E-13
+           4   0.2191943438578E+04 0.2191943438578E+04 0.7261208022480E-14
+           5   0.1780780572611E+05 0.1780780572611E+05 0.3105226927916E-13
+ Comparison of RMS-norms of solution error
+           1   0.2159863997170E+03 0.2159863997169E+03 0.2105444377435E-13
+           2   0.1557895592399E+02 0.1557895592399E+02 0.1356871827098E-13
+           3   0.5413188630772E+02 0.5413188630772E+02 0.2625228065103E-14
+           4   0.4822626431540E+02 0.4822626431540E+02 0.1915357885585E-14
+           5   0.4559029100433E+03 0.4559029100433E+03 0.3715558389157E-13
+ Comparison of surface integral
+               0.6664045535722E+02 0.6664045535722E+02 0.1492726639894E-14
+ Verification Successful
+
+
+ LU Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      250
+ Time in seconds =                  1422.22
+ Total threads   =                        1
+ Avail threads   =                        1
+ Mop/s total     =                  1433.68
+ Mop/s/thread    =                  1433.68
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      3.3
+ Compile date    =              26 Oct 2015
+
+ Compile options:
+    F77          = ifort -fopenmp -mcmodel=medium -g 
+    FLINK        = $(F77)
+    F_LIB        = -L/cluster/software/VERSIONS/openmpi.intel-...
+    F_INC        = -I/cluster/software/VERSIONS/openmpi.intel-...
+    FFLAGS       = -O3 -fopenmp
+    FLINKFLAGS   = -O3 -fopenmp
+    RAND         = (none)
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+
+ Verification being performed for class C
+ Accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1   0.1037669803235E+05 0.1037669803235E+05 0.4557685339280E-14
+           2   0.8922124588010E+03 0.8922124588010E+03 0.9684015933216E-14
+           3   0.2562388145827E+04 0.2562388145827E+04 0.1703713223783E-13
+           4   0.2191943438578E+04 0.2191943438578E+04 0.7261208022480E-14
+           5   0.1780780572611E+05 0.1780780572611E+05 0.3105226927916E-13
+ Comparison of RMS-norms of solution error
+           1   0.2159863997170E+03 0.2159863997169E+03 0.2105444377435E-13
+           2   0.1557895592399E+02 0.1557895592399E+02 0.1356871827098E-13
+           3   0.5413188630772E+02 0.5413188630772E+02 0.2625228065103E-14
+           4   0.4822626431540E+02 0.4822626431540E+02 0.1915357885585E-14
+           5   0.4559029100433E+03 0.4559029100433E+03 0.3715558389157E-13
+ Comparison of surface integral
+               0.6664045535722E+02 0.6664045535722E+02 0.1492726639894E-14
+ Verification Successful
+
+
+ LU Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      250
+ Time in seconds =                  1422.47
+ Total threads   =                        1
+ Avail threads   =                        1
+ Mop/s total     =                  1433.42
+ Mop/s/thread    =                  1433.42
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      3.3
+ Compile date    =              26 Oct 2015
+
+ Compile options:
+    F77          = ifort -fopenmp -mcmodel=medium -g 
+    FLINK        = $(F77)
+    F_LIB        = -L/cluster/software/VERSIONS/openmpi.intel-...
+    F_INC        = -I/cluster/software/VERSIONS/openmpi.intel-...
+    FFLAGS       = -O3 -fopenmp
+    FLINKFLAGS   = -O3 -fopenmp
+    RAND         = (none)
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+
+ Verification being performed for class C
+ Accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1   0.1037669803235E+05 0.1037669803235E+05 0.4557685339280E-14
+           2   0.8922124588010E+03 0.8922124588010E+03 0.9684015933216E-14
+           3   0.2562388145827E+04 0.2562388145827E+04 0.1703713223783E-13
+           4   0.2191943438578E+04 0.2191943438578E+04 0.7261208022480E-14
+           5   0.1780780572611E+05 0.1780780572611E+05 0.3105226927916E-13
+ Comparison of RMS-norms of solution error
+           1   0.2159863997170E+03 0.2159863997169E+03 0.2105444377435E-13
+           2   0.1557895592399E+02 0.1557895592399E+02 0.1356871827098E-13
+           3   0.5413188630772E+02 0.5413188630772E+02 0.2625228065103E-14
+           4   0.4822626431540E+02 0.4822626431540E+02 0.1915357885585E-14
+           5   0.4559029100433E+03 0.4559029100433E+03 0.3715558389157E-13
+ Comparison of surface integral
+               0.6664045535722E+02 0.6664045535722E+02 0.1492726639894E-14
+ Verification Successful
+
+
+ LU Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      250
+ Time in seconds =                  1423.99
+ Total threads   =                        1
+ Avail threads   =                        1
+ Mop/s total     =                  1431.89
+ Mop/s/thread    =                  1431.89
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      3.3
+ Compile date    =              26 Oct 2015
+
+ Compile options:
+    F77          = ifort -fopenmp -mcmodel=medium -g 
+    FLINK        = $(F77)
+    F_LIB        = -L/cluster/software/VERSIONS/openmpi.intel-...
+    F_INC        = -I/cluster/software/VERSIONS/openmpi.intel-...
+    FFLAGS       = -O3 -fopenmp
+    FLINKFLAGS   = -O3 -fopenmp
+    RAND         = (none)
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+
+ Verification being performed for class C
+ Accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1   0.1037669803235E+05 0.1037669803235E+05 0.4557685339280E-14
+           2   0.8922124588010E+03 0.8922124588010E+03 0.9684015933216E-14
+           3   0.2562388145827E+04 0.2562388145827E+04 0.1703713223783E-13
+           4   0.2191943438578E+04 0.2191943438578E+04 0.7261208022480E-14
+           5   0.1780780572611E+05 0.1780780572611E+05 0.3105226927916E-13
+ Comparison of RMS-norms of solution error
+           1   0.2159863997170E+03 0.2159863997169E+03 0.2105444377435E-13
+           2   0.1557895592399E+02 0.1557895592399E+02 0.1356871827098E-13
+           3   0.5413188630772E+02 0.5413188630772E+02 0.2625228065103E-14
+           4   0.4822626431540E+02 0.4822626431540E+02 0.1915357885585E-14
+           5   0.4559029100433E+03 0.4559029100433E+03 0.3715558389157E-13
+ Comparison of surface integral
+               0.6664045535722E+02 0.6664045535722E+02 0.1492726639894E-14
+ Verification Successful
+
+
+ LU Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      250
+ Time in seconds =                  1425.00
+ Total threads   =                        1
+ Avail threads   =                        1
+ Mop/s total     =                  1430.88
+ Mop/s/thread    =                  1430.88
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      3.3
+ Compile date    =              26 Oct 2015
+
+ Compile options:
+    F77          = ifort -fopenmp -mcmodel=medium -g 
+    FLINK        = $(F77)
+    F_LIB        = -L/cluster/software/VERSIONS/openmpi.intel-...
+    F_INC        = -I/cluster/software/VERSIONS/openmpi.intel-...
+    FFLAGS       = -O3 -fopenmp
+    FLINKFLAGS   = -O3 -fopenmp
+    RAND         = (none)
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+ Time step  250
+ Time step  250
+
+ Verification being performed for class C
+ Accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1   0.1037669803235E+05 0.1037669803235E+05 0.4557685339280E-14
+           2   0.8922124588010E+03 0.8922124588010E+03 0.9684015933216E-14
+           3   0.2562388145827E+04 0.2562388145827E+04 0.1703713223783E-13
+           4   0.2191943438578E+04 0.2191943438578E+04 0.7261208022480E-14
+           5   0.1780780572611E+05 0.1780780572611E+05 0.3105226927916E-13
+ Comparison of RMS-norms of solution error
+           1   0.2159863997170E+03 0.2159863997169E+03 0.2105444377435E-13
+           2   0.1557895592399E+02 0.1557895592399E+02 0.1356871827098E-13
+           3   0.5413188630772E+02 0.5413188630772E+02 0.2625228065103E-14
+           4   0.4822626431540E+02 0.4822626431540E+02 0.1915357885585E-14
+           5   0.4559029100433E+03 0.4559029100433E+03 0.3715558389157E-13
+ Comparison of surface integral
+               0.6664045535722E+02 0.6664045535722E+02 0.1492726639894E-14
+ Verification Successful
+
+
+ LU Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      250
+ Time in seconds =                  1429.19
+ Total threads   =                        1
+ Avail threads   =                        1
+ Mop/s total     =                  1426.68
+ Mop/s/thread    =                  1426.68
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      3.3
+ Compile date    =              26 Oct 2015
+
+ Compile options:
+    F77          = ifort -fopenmp -mcmodel=medium -g 
+    FLINK        = $(F77)
+    F_LIB        = -L/cluster/software/VERSIONS/openmpi.intel-...
+    F_INC        = -I/cluster/software/VERSIONS/openmpi.intel-...
+    FFLAGS       = -O3 -fopenmp
+    FLINKFLAGS   = -O3 -fopenmp
+    RAND         = (none)
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+ Time step  250
+
+ Verification being performed for class C
+ Accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1   0.1037669803235E+05 0.1037669803235E+05 0.4557685339280E-14
+           2   0.8922124588010E+03 0.8922124588010E+03 0.9684015933216E-14
+           3   0.2562388145827E+04 0.2562388145827E+04 0.1703713223783E-13
+           4   0.2191943438578E+04 0.2191943438578E+04 0.7261208022480E-14
+           5   0.1780780572611E+05 0.1780780572611E+05 0.3105226927916E-13
+ Comparison of RMS-norms of solution error
+           1   0.2159863997170E+03 0.2159863997169E+03 0.2105444377435E-13
+           2   0.1557895592399E+02 0.1557895592399E+02 0.1356871827098E-13
+           3   0.5413188630772E+02 0.5413188630772E+02 0.2625228065103E-14
+           4   0.4822626431540E+02 0.4822626431540E+02 0.1915357885585E-14
+           5   0.4559029100433E+03 0.4559029100433E+03 0.3715558389157E-13
+ Comparison of surface integral
+               0.6664045535722E+02 0.6664045535722E+02 0.1492726639894E-14
+ Verification Successful
+
+
+ LU Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      250
+ Time in seconds =                  1430.39
+ Total threads   =                        1
+ Avail threads   =                        1
+ Mop/s total     =                  1425.48
+ Mop/s/thread    =                  1425.48
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      3.3
+ Compile date    =              26 Oct 2015
+
+ Compile options:
+    F77          = ifort -fopenmp -mcmodel=medium -g 
+    FLINK        = $(F77)
+    F_LIB        = -L/cluster/software/VERSIONS/openmpi.intel-...
+    F_INC        = -I/cluster/software/VERSIONS/openmpi.intel-...
+    FFLAGS       = -O3 -fopenmp
+    FLINKFLAGS   = -O3 -fopenmp
+    RAND         = (none)
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+ Time step  250
+
+ Verification being performed for class C
+ Accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1   0.1037669803235E+05 0.1037669803235E+05 0.4557685339280E-14
+           2   0.8922124588010E+03 0.8922124588010E+03 0.9684015933216E-14
+           3   0.2562388145827E+04 0.2562388145827E+04 0.1703713223783E-13
+           4   0.2191943438578E+04 0.2191943438578E+04 0.7261208022480E-14
+           5   0.1780780572611E+05 0.1780780572611E+05 0.3105226927916E-13
+ Comparison of RMS-norms of solution error
+           1   0.2159863997170E+03 0.2159863997169E+03 0.2105444377435E-13
+           2   0.1557895592399E+02 0.1557895592399E+02 0.1356871827098E-13
+           3   0.5413188630772E+02 0.5413188630772E+02 0.2625228065103E-14
+           4   0.4822626431540E+02 0.4822626431540E+02 0.1915357885585E-14
+           5   0.4559029100433E+03 0.4559029100433E+03 0.3715558389157E-13
+ Comparison of surface integral
+               0.6664045535722E+02 0.6664045535722E+02 0.1492726639894E-14
+ Verification Successful
+
+
+ LU Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      250
+ Time in seconds =                  1433.45
+ Total threads   =                        1
+ Avail threads   =                        1
+ Mop/s total     =                  1422.44
+ Mop/s/thread    =                  1422.44
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      3.3
+ Compile date    =              26 Oct 2015
+
+ Compile options:
+    F77          = ifort -fopenmp -mcmodel=medium -g 
+    FLINK        = $(F77)
+    F_LIB        = -L/cluster/software/VERSIONS/openmpi.intel-...
+    F_INC        = -I/cluster/software/VERSIONS/openmpi.intel-...
+    FFLAGS       = -O3 -fopenmp
+    FLINKFLAGS   = -O3 -fopenmp
+    RAND         = (none)
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+ Time step  250
+
+ Verification being performed for class C
+ Accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1   0.1037669803235E+05 0.1037669803235E+05 0.4557685339280E-14
+           2   0.8922124588010E+03 0.8922124588010E+03 0.9684015933216E-14
+           3   0.2562388145827E+04 0.2562388145827E+04 0.1703713223783E-13
+           4   0.2191943438578E+04 0.2191943438578E+04 0.7261208022480E-14
+           5   0.1780780572611E+05 0.1780780572611E+05 0.3105226927916E-13
+ Comparison of RMS-norms of solution error
+           1   0.2159863997170E+03 0.2159863997169E+03 0.2105444377435E-13
+           2   0.1557895592399E+02 0.1557895592399E+02 0.1356871827098E-13
+           3   0.5413188630772E+02 0.5413188630772E+02 0.2625228065103E-14
+           4   0.4822626431540E+02 0.4822626431540E+02 0.1915357885585E-14
+           5   0.4559029100433E+03 0.4559029100433E+03 0.3715558389157E-13
+ Comparison of surface integral
+               0.6664045535722E+02 0.6664045535722E+02 0.1492726639894E-14
+ Verification Successful
+
+
+ LU Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      250
+ Time in seconds =                  1433.99
+ Total threads   =                        1
+ Avail threads   =                        1
+ Mop/s total     =                  1421.91
+ Mop/s/thread    =                  1421.91
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      3.3
+ Compile date    =              26 Oct 2015
+
+ Compile options:
+    F77          = ifort -fopenmp -mcmodel=medium -g 
+    FLINK        = $(F77)
+    F_LIB        = -L/cluster/software/VERSIONS/openmpi.intel-...
+    F_INC        = -I/cluster/software/VERSIONS/openmpi.intel-...
+    FFLAGS       = -O3 -fopenmp
+    FLINKFLAGS   = -O3 -fopenmp
+    RAND         = (none)
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+
+
+ Verification being performed for class C
+ Accuracy setting for epsilon =  0.1000000000000E-07
+ Comparison of RMS-norms of residual
+           1   0.1037669803235E+05 0.1037669803235E+05 0.4557685339280E-14
+           2   0.8922124588010E+03 0.8922124588010E+03 0.9684015933216E-14
+           3   0.2562388145827E+04 0.2562388145827E+04 0.1703713223783E-13
+           4   0.2191943438578E+04 0.2191943438578E+04 0.7261208022480E-14
+           5   0.1780780572611E+05 0.1780780572611E+05 0.3105226927916E-13
+ Comparison of RMS-norms of solution error
+           1   0.2159863997170E+03 0.2159863997169E+03 0.2105444377435E-13
+           2   0.1557895592399E+02 0.1557895592399E+02 0.1356871827098E-13
+           3   0.5413188630772E+02 0.5413188630772E+02 0.2625228065103E-14
+           4   0.4822626431540E+02 0.4822626431540E+02 0.1915357885585E-14
+           5   0.4559029100433E+03 0.4559029100433E+03 0.3715558389157E-13
+ Comparison of surface integral
+               0.6664045535722E+02 0.6664045535722E+02 0.1492726639894E-14
+ Verification Successful
+
+
+ LU Benchmark Completed.
+ Class           =                        C
+ Size            =            162x 162x 162
+ Iterations      =                      250
+ Time in seconds =                  1437.54
+ Total threads   =                        1
+ Avail threads   =                        1
+ Mop/s total     =                  1418.40
+ Mop/s/thread    =                  1418.40
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      3.3
+ Compile date    =              26 Oct 2015
+
+ Compile options:
+    F77          = ifort -fopenmp -mcmodel=medium -g 
+    FLINK        = $(F77)
+    F_LIB        = -L/cluster/software/VERSIONS/openmpi.intel-...
+    F_INC        = -I/cluster/software/VERSIONS/openmpi.intel-...
+    FFLAGS       = -O3 -fopenmp
+    FLINKFLAGS   = -O3 -fopenmp
+    RAND         = (none)
+
+
+ Please send all errors/feedbacks to:
+
+ NPB Development Team
+ npb@nas.nasa.gov
+
+

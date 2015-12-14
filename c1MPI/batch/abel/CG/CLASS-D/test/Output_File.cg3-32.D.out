@@ -1,0 +1,65 @@
+Starting job 13503977 ("CG-D") on c4-[10,16] at lø. 12. des. 17:45:47 +0100 2015
+
+Currently Loaded Modulefiles:
+  1) intel/2015.3          2) openmpi.intel/1.8.6
+
+Job step resource usage:
+       JobID    JobName  AllocCPUS  MaxVMSize     MaxRSS    Elapsed ExitCode 
+------------ ---------- ---------- ---------- ---------- ---------- -------- 
+13503977           CG-D         32                         00:00:01      0:0 
+13503977.0         true          2    270464K      1540K   00:00:00      0:0 
+13503977.1        orted          1          0          0   00:00:00      0:0 
+
+Job 13503977 ("CG-D") completed on c4-[10,16] at lø. 12. des. 17:45:48 +0100 2015
+Starting job 13503978 ("CG-D") on c4-[10,16] at lø. 12. des. 17:46:17 +0100 2015
+
+Currently Loaded Modulefiles:
+  1) intel/2015.3          2) openmpi.intel/1.8.6
+
+Job step resource usage:
+       JobID    JobName  AllocCPUS  MaxVMSize     MaxRSS    Elapsed ExitCode 
+------------ ---------- ---------- ---------- ---------- ---------- -------- 
+13503978           CG-D         32                         00:00:01      0:0 
+13503978.0         true          2    270464K      1244K   00:00:00      0:0 
+13503978.1        orted          1          0          0   00:00:00      0:0 
+
+Job 13503978 ("CG-D") completed on c4-[10,16] at lø. 12. des. 17:46:17 +0100 2015
+Starting job 13503979 ("CG-D") on c4-[10,16] at lø. 12. des. 17:46:47 +0100 2015
+
+Currently Loaded Modulefiles:
+  1) intel/2015.3          2) openmpi.intel/1.8.6
+
+Job step resource usage:
+       JobID    JobName  AllocCPUS  MaxVMSize     MaxRSS    Elapsed ExitCode 
+------------ ---------- ---------- ---------- ---------- ---------- -------- 
+13503979           CG-D         32                         00:00:01      0:0 
+13503979.0         true          2    270464K      1244K   00:00:00      0:0 
+13503979.1        orted          1          0          0   00:00:00      0:0 
+
+Job 13503979 ("CG-D") completed on c4-[10,16] at lø. 12. des. 17:46:47 +0100 2015
+Starting job 13503980 ("CG-D") on c4-[10,16] at lø. 12. des. 17:47:17 +0100 2015
+
+Currently Loaded Modulefiles:
+  1) intel/2015.3          2) openmpi.intel/1.8.6
+
+Job step resource usage:
+       JobID    JobName  AllocCPUS  MaxVMSize     MaxRSS    Elapsed ExitCode 
+------------ ---------- ---------- ---------- ---------- ---------- -------- 
+13503980           CG-D         32                         00:05:27      0:0 
+13503980.0         true          2    270464K      1540K   00:00:00      0:0 
+13503980.1        orted          1          0          0   00:05:26      0:0 
+
+Job 13503980 ("CG-D") completed on c4-[10,16] at lø. 12. des. 17:52:43 +0100 2015
+Starting job 13503992 ("CG-D") on c4-[10,16] at lø. 12. des. 17:52:47 +0100 2015
+
+Currently Loaded Modulefiles:
+  1) intel/2015.3          2) openmpi.intel/1.8.6
+
+Job step resource usage:
+       JobID    JobName  AllocCPUS  MaxVMSize     MaxRSS    Elapsed ExitCode 
+------------ ---------- ---------- ---------- ---------- ---------- -------- 
+13503992           CG-D         32                         00:05:18      0:0 
+13503992.0         true          2    270464K      1240K   00:00:00      0:0 
+13503992.1        orted          1          0          0   00:05:17      0:0 
+
+Job 13503992 ("CG-D") completed on c4-[10,16] at lø. 12. des. 17:58:04 +0100 2015

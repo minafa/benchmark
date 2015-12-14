@@ -1,0 +1,16 @@
+#!/bin/bash
+#SBATCH --job-name=LU.D.1
+#SBATCH --time=00:30:00
+#SBATCH --account=nn2849k
+#SBATCH --output=./Output_File.LU.1.out
+#SBATCH --nodes=1
+#SBATCH --ntasks-per-node=16
+#SBATCH --mem-per-cpu=3G
+
+source /cluster/bin/jobsetup
+
+module load intel/2015.3
+module load openmpi.intel/1.8.6
+
+mpirun -n 16 lu.D  > LU.D.1.result
+

@@ -1,0 +1,26 @@
+Starting job 12943738 ("MG.C.1") on c5-11 at Mon Oct 26 16:19:45 CET 2015
+----------------------------------------------------------------------------
+Open MPI has detected that a parameter given to a command line
+option does not match the expected format:
+
+  Option: n
+  Param:  1*16
+
+This is frequently caused by omitting to provide the parameter
+to an option that requires one. Please check the command line and try again.
+----------------------------------------------------------------------------
+
+Currently Loaded Modulefiles:
+  1) intel/2015.3          2) openmpi.intel/1.8.6
+
+Job script resource usage:
+       JobID  MaxVMSize     MaxRSS 
+------------ ---------- ---------- 
+12943738.ba+    446588K      7972K 
+
+Job step resource usage:
+       JobID    JobName  AllocCPUS  MaxVMSize     MaxRSS    Elapsed ExitCode 
+------------ ---------- ---------- ---------- ---------- ---------- -------- 
+12943738         MG.C.1         16                         00:00:08      0:0 
+
+Job 12943738 ("MG.C.1") completed on c5-11 at Mon Oct 26 16:19:52 CET 2015

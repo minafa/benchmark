@@ -1,0 +1,24 @@
+Starting job 12731581 ("mg-8") on c1-[18,28] at Tue Oct 6 16:07:49 CEST 2015
+Tue Oct  6 16:07:49 CEST 2015
+./mg.C.8: error while loading shared libraries: libmpi_usempi.so.1: cannot open shared object file: No such file or directory
+./mg.C.8: error while loading shared libraries: libmpi_usempi.so.1: cannot open shared object file: No such file or directory
+./mg.C.8: error while loading shared libraries: libmpi_usempi.so.1: cannot open shared object file: No such file or directory
+./mg.C.8: error while loading shared libraries: libmpi_usempi.so.1: cannot open shared object file: No such file or directory
+[mpiexec@compute-1-18.local] HYDU_sock_write (../../utils/sock/sock.c:417): write error (Bad file descriptor)
+[mpiexec@compute-1-18.local] HYD_pmcd_pmiserv_send_signal (../../pm/pmiserv/pmiserv_cb.c:244): unable to write data to proxy
+./mg.C.8: error while loading shared libraries: libmpi_usempi.so.1: cannot open shared object file: No such file or directory
+./mg.C.8: error while loading shared libraries: libmpi_usempi.so.1: cannot open shared object file: No such file or directory
+./mg.C.8: error while loading shared libraries: libmpi_usempi.so.1: cannot open shared object file: No such file or directory
+./mg.C.8: error while loading shared libraries: libmpi_usempi.so.1: cannot open shared object file: No such file or directory
+
+Currently Loaded Modulefiles:
+  1) intel/2015.1           2) intelmpi.intel/5.0.2   3) cuda/7.0
+
+Job step resource usage:
+       JobID    JobName  AllocCPUS  MaxVMSize     MaxRSS    Elapsed ExitCode 
+------------ ---------- ---------- ---------- ---------- ---------- -------- 
+12731581           mg-8          2                         00:00:05      0:0 
+12731581.0         true          2    270428K      1524K   00:00:00      0:0 
+12731581.1    pmi_proxy          2    270436K      1.50M   00:00:00      0:0 
+
+Job 12731581 ("mg-8") completed on c1-[18,28] at Tue Oct 6 16:07:52 CEST 2015

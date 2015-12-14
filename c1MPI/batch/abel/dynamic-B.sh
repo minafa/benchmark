@@ -20,6 +20,7 @@ echo "#!/bin/bash
 #SBATCH --ntasks-per-node=16
 #SBATCH --mem-per-cpu=3800M
 #SBATCH --exclusive
+#SBATCH --nodelist c10-[14,18]
 source /cluster/bin/jobsetup
 
 module load intel/2015.3

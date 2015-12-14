@@ -1,0 +1,13 @@
+Starting job 12744939 ("NASUPC") on c1-35,c5-[5,7,30,33],c6-[5,18],c31-26 at Thu Oct 8 17:05:07 CEST 2015
+
+Currently Loaded Modulefiles:
+  1) intel/2015.3          2) openmpi.intel/1.8.6
+
+Job step resource usage:
+       JobID    JobName  AllocCPUS  MaxVMSize     MaxRSS    Elapsed ExitCode 
+------------ ---------- ---------- ---------- ---------- ---------- -------- 
+12744939         NASUPC        128                         00:00:06      0:0 
+12744939.0         true          8    270428K      1604K   00:00:00      0:0 
+12744939.1        orted          7          0          0   00:00:01      0:0 
+
+Job 12744939 ("NASUPC") completed on c1-35,c5-[5,7,30,33],c6-[5,18],c31-26 at Thu Oct 8 17:05:11 CEST 2015
