@@ -1,4 +1,4 @@
-c NPROCS = 1024 CLASS = A
+c NPROCS = 8 CLASS = D
 c  
 c  
 c  This file is generated automatically by the setparams utility.
@@ -7,21 +7,21 @@ c  in this directory. Do not modify it by hand.
 c  
         integer            na, nonzer, niter
         double precision   shift, rcond
-        parameter(  na=14000,
-     >              nonzer=11,
-     >              niter=15,
-     >              shift=20.,
+        parameter(  na=1500000,
+     >              nonzer=21,
+     >              niter=100,
+     >              shift=500.,
      >              rcond=1.0d-1 )
 
 c number of nodes for which this version is compiled
         integer    nnodes_compiled
-        parameter( nnodes_compiled = 1024)
+        parameter( nnodes_compiled = 8)
         integer    num_proc_cols, num_proc_rows
-        parameter( num_proc_cols=32, num_proc_rows=32 )
+        parameter( num_proc_cols=4, num_proc_rows=2 )
         logical  convertdouble
         parameter (convertdouble = .false.)
         character*11 compiletime
-        parameter (compiletime='17 Nov 2015')
+        parameter (compiletime='31 Dec 2015')
         character*3 npbversion
         parameter (npbversion='3.3')
         character*45 cs1

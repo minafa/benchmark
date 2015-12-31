@@ -1,0 +1,17 @@
+Starting job 13657999 ("CG-D") on c18-9 at to. 31. des. 12:02:50 +0100 2015
+/var/spool/slurmd/job13657999/slurm_script: line 18: /usit/abel/u1/minafa/benchmark/c1MPI/batch/abel/CG/CLASS-D/test/oneonode/c18/p8/CG3-189.D.8: No such file or directory
+
+Currently Loaded Modulefiles:
+  1) intel/2015.3          2) openmpi.intel/1.8.6
+
+Job script resource usage:
+       JobID  MaxVMSize     MaxRSS 
+------------ ---------- ---------- 
+13657999.ba+    225656K      4420K 
+
+Job step resource usage:
+       JobID    JobName  AllocCPUS  MaxVMSize     MaxRSS    Elapsed ExitCode 
+------------ ---------- ---------- ---------- ---------- ---------- -------- 
+13657999           CG-D         16                         00:00:00      0:0 
+
+Job 13657999 ("CG-D") completed on c18-9 at to. 31. des. 12:02:50 +0100 2015
