@@ -1,4 +1,4 @@
-c NPROCS = 8 CLASS = D
+c NPROCS = 2 CLASS = D
 c  
 c  
 c  This file is generated automatically by the setparams utility.
@@ -15,13 +15,13 @@ c
 
 c number of nodes for which this version is compiled
         integer    nnodes_compiled
-        parameter( nnodes_compiled = 8)
+        parameter( nnodes_compiled = 2)
         integer    num_proc_cols, num_proc_rows
-        parameter( num_proc_cols=4, num_proc_rows=2 )
+        parameter( num_proc_cols=2, num_proc_rows=1 )
         logical  convertdouble
         parameter (convertdouble = .false.)
         character*11 compiletime
-        parameter (compiletime='31 Dec 2015')
+        parameter (compiletime='02 Jan 2016')
         character*3 npbversion
         parameter (npbversion='3.3')
         character*45 cs1
