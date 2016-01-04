@@ -1,0 +1,13 @@
+Starting job 13682157 ("CG-D") on c11-[6,8,11-12] at ma. 04. jan. 01:07:01 +0100 2016
+
+Currently Loaded Modulefiles:
+  1) intel/2015.3          2) openmpi.intel/1.8.6
+
+Job step resource usage:
+       JobID    JobName  AllocCPUS  MaxVMSize     MaxRSS    Elapsed ExitCode 
+------------ ---------- ---------- ---------- ---------- ---------- -------- 
+13682157           CG-D         64                         00:05:08      0:0 
+13682157.0         true          4    270464K      1544K   00:00:00      0:0 
+13682157.1        orted          3          0          0   00:05:07      0:0 
+
+Job 13682157 ("CG-D") completed on c11-[6,8,11-12] at ma. 04. jan. 01:12:09 +0100 2016
