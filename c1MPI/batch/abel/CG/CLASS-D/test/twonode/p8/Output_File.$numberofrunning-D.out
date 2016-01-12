@@ -1,0 +1,2 @@
+/var/spool/slurmd/job13725242/slurm_script: line 4: syntax error near unexpected token `do'
+/var/spool/slurmd/job13725242/slurm_script: line 4: `do '
