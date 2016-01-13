@@ -1,0 +1,10 @@
+--------------------------------------------------------------------------
+mpirun was unable to launch the specified application as it could not access
+or execute an executable:
+
+Executable: /usit/abel/u1/minafa/benchmark/c1MPI/bin/CG.C.64
+Node: compute-2-11
+
+while attempting to start process rank 0.
+--------------------------------------------------------------------------
+48 total processes failed to start

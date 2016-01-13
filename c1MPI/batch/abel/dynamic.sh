@@ -11,18 +11,18 @@ time=30
 #t=$4
 path=$4
 
-for ((i=1; i<=3; i++))
+for ((i=1; i<=10; i++))
 do
 echo "#!/bin/bash
 #SBATCH --job-name=$program.$class.$numberOfThreads
 #SBATCH --time=00:$time:00
 #SBATCH --account=nn2849k
 #SBATCH --output=./$path/Output_File.$program.$numberOfThreads.$class-$i.out
-##SBATCH --nodes=$numberOfNodes
+#SBATCH --nodes=$numberOfNodes
 #SBATCH --ntasks-per-node=16
 #SBATCH --mem-per-cpu=3900M
 #SBATCH --exclusive
-#SBATCH -w c3-26,c13-19
+
 source /cluster/bin/jobsetup
 
 module load intel/2015.3
