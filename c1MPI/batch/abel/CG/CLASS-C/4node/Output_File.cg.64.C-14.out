@@ -1,0 +1,13 @@
+Starting job 13759520 ("cg.C.64") on c5-[1,6,20],c31-1 at to. 14. jan. 21:02:18 +0100 2016
+
+Currently Loaded Modulefiles:
+  1) intel/2015.3          2) openmpi.intel/1.8.6
+
+Job step resource usage:
+       JobID    JobName  AllocCPUS  MaxVMSize     MaxRSS    Elapsed ExitCode 
+------------ ---------- ---------- ---------- ---------- ---------- -------- 
+13759520        cg.C.64         68                         00:00:15      0:0 
+13759520.0         true          4    270464K      1644K   00:00:00      0:0 
+13759520.1        orted          3          0          0   00:00:10      0:0 
+
+Job 13759520 ("cg.C.64") completed on c5-[1,6,20],c31-1 at to. 14. jan. 21:02:31 +0100 2016
