@@ -5,9 +5,9 @@
  No input file. Using compiled defaults 
  Size:  512x 512x 512  (class C)
  Iterations:   20
- Number of processes:    128
+ Number of processes:     16
 
- Initialization time:           1.035 seconds
+ Initialization time:           0.861 seconds
 
   iter    1
   iter    5
@@ -18,22 +18,22 @@
  Benchmark completed 
  VERIFICATION SUCCESSFUL 
  L2 Norm is  0.5706732285740E-06
- Error is    0.7551221791014E-13
+ Error is    0.7328581345087E-13
 
 
  MG Benchmark Completed.
  Class           =                        C
  Size            =            512x 512x 512
  Iterations      =                       20
- Time in seconds =                     1.33
- Total processes =                      128
- Compiled procs  =                      128
- Mop/s total     =                117239.25
- Mop/s/process   =                   915.93
+ Time in seconds =                     6.44
+ Total processes =                       16
+ Compiled procs  =                       16
+ Mop/s total     =                 24165.31
+ Mop/s/process   =                  1510.33
  Operation type  =           floating point
  Verification    =               SUCCESSFUL
  Version         =                      3.3
- Compile date    =              19 Jan 2016
+ Compile date    =              13 Oct 2015
 
  Compile options:
     MPIF77       = mpifort -mcmodel=medium -fno-range-check -g  
