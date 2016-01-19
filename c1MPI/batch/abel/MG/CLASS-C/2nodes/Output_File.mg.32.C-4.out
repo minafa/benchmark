@@ -1,0 +1,13 @@
+Starting job 13784347 ("mg.C.32") on c16-[6,24] at ma. 18. jan. 22:05:14 +0100 2016
+
+Currently Loaded Modulefiles:
+  1) intel/2015.3          2) openmpi.intel/1.8.6
+
+Job step resource usage:
+       JobID    JobName  AllocCPUS  MaxVMSize     MaxRSS    Elapsed ExitCode 
+------------ ---------- ---------- ---------- ---------- ---------- -------- 
+13784347        mg.C.32         32                         00:00:12      0:0 
+13784347.0         true          2    270464K      1540K   00:00:00      0:0 
+13784347.1        orted          1   4811212K    115216K   00:00:07      0:0 
+
+Job 13784347 ("mg.C.32") completed on c16-[6,24] at ma. 18. jan. 22:05:24 +0100 2016

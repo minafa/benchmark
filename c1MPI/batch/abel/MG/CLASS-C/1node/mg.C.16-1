@@ -1,0 +1,61 @@
+
+
+ NAS Parallel Benchmarks 3.3 -- MG Benchmark
+
+ No input file. Using compiled defaults 
+ Size:  512x 512x 512  (class C)
+ Iterations:   20
+ Number of processes:     16
+
+ Initialization time:           0.744 seconds
+
+  iter    1
+  iter    5
+  iter   10
+  iter   15
+  iter   20
+
+ Benchmark completed 
+ VERIFICATION SUCCESSFUL 
+ L2 Norm is  0.5706732285740E-06
+ Error is    0.7328581345087E-13
+
+
+ MG Benchmark Completed.
+ Class           =                        C
+ Size            =            512x 512x 512
+ Iterations      =                       20
+ Time in seconds =                     6.41
+ Total processes =                       16
+ Compiled procs  =                       16
+ Mop/s total     =                 24286.84
+ Mop/s/process   =                  1517.93
+ Operation type  =           floating point
+ Verification    =               SUCCESSFUL
+ Version         =                      3.3
+ Compile date    =              13 Oct 2015
+
+ Compile options:
+    MPIF77       = mpifort -mcmodel=medium -fno-range-check -g  
+    FLINK        = $(MPIF77)
+    FMPI_LIB     = -L/cluster/software/VERSIONS/openmpi.intel-...
+    FMPI_INC     = -I/cluster/software/VERSIONS/openmpi.intel-...
+    FFLAGS       = -O3
+    FLINKFLAGS   = -O3
+    RAND         = randi8
+
+
+ Please send the results of this run to:
+
+ NPB Development Team 
+ Internet: npb@nas.nasa.gov
+ 
+ If email is not available, send this to:
+
+ MS T27A-1
+ NASA Ames Research Center
+ Moffett Field, CA  94035-1000
+
+ Fax: 650-604-3957
+
+

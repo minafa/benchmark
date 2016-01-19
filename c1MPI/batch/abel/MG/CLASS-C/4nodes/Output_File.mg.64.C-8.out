@@ -1,0 +1,13 @@
+Starting job 13784704 ("mg.C.64") on c8-19,c31-[14,20,24] at ma. 18. jan. 22:39:51 +0100 2016
+
+Currently Loaded Modulefiles:
+  1) intel/2015.3          2) openmpi.intel/1.8.6
+
+Job step resource usage:
+       JobID    JobName  AllocCPUS  MaxVMSize     MaxRSS    Elapsed ExitCode 
+------------ ---------- ---------- ---------- ---------- ---------- -------- 
+13784704        mg.C.64         76                         00:00:13      0:0 
+13784704.0         true          4    270464K      1644K   00:00:00      0:0 
+13784704.1        orted          3   2524300K     77400K   00:00:07      0:0 
+
+Job 13784704 ("mg.C.64") completed on c8-19,c31-[14,20,24] at ma. 18. jan. 22:40:02 +0100 2016
