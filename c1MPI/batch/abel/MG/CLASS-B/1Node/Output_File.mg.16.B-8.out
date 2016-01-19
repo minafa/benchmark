@@ -1,0 +1,16 @@
+Starting job 13794544 ("mg.B.16") on c1-1 at ti. 19. jan. 23:49:30 +0100 2016
+
+Currently Loaded Modulefiles:
+  1) intel/2015.3          2) openmpi.intel/1.8.6
+
+Job script resource usage:
+       JobID  MaxVMSize     MaxRSS 
+------------ ---------- ---------- 
+13794544.ba+    241572K         6M 
+
+Job step resource usage:
+       JobID    JobName  AllocCPUS  MaxVMSize     MaxRSS    Elapsed ExitCode 
+------------ ---------- ---------- ---------- ---------- ---------- -------- 
+13794544        mg.B.16         16                         00:00:08      0:0 
+
+Job 13794544 ("mg.B.16") completed on c1-1 at ti. 19. jan. 23:49:36 +0100 2016
