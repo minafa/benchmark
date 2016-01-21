@@ -1,0 +1,13 @@
+Starting job 13805794 ("cg.D.256") on c1-15,c3-33,c4-[26,33,35],c6-25,c7-[6,36],c9-16,c13-7,c16-[23-24,35],c31-[3,24,26] at to. 21. jan. 05:40:36 +0100 2016
+
+Currently Loaded Modulefiles:
+  1) intel/2015.3          2) openmpi.intel/1.8.6
+
+Job step resource usage:
+       JobID    JobName  AllocCPUS  MaxVMSize     MaxRSS    Elapsed ExitCode 
+------------ ---------- ---------- ---------- ---------- ---------- -------- 
+13805794       cg.D.256        268                         00:01:39      0:0 
+13805794.0         true         16    270464K      1676K   00:00:01      0:0 
+13805794.1        orted         15          0          0   00:01:36      0:0 
+
+Job 13805794 ("cg.D.256") completed on c1-15,c3-33,c4-[26,33,35],c6-25,c7-[6,36],c9-16,c13-7,c16-[23-24,35],c31-[3,24,26] at to. 21. jan. 05:42:13 +0100 2016
