@@ -1,0 +1,13 @@
+Starting job 13805065 ("cg.D.128") on c2-[5-6,14,16-17,23],c6-[6,12] at to. 21. jan. 02:38:42 +0100 2016
+
+Currently Loaded Modulefiles:
+  1) intel/2015.3          2) openmpi.intel/1.8.6
+
+Job step resource usage:
+       JobID    JobName  AllocCPUS  MaxVMSize     MaxRSS    Elapsed ExitCode 
+------------ ---------- ---------- ---------- ---------- ---------- -------- 
+13805065       cg.D.128        128                         00:02:26      0:0 
+13805065.0         true          8    270464K      1540K   00:00:00      0:0 
+13805065.1        orted          7          0          0   00:02:22      0:0 
+
+Job 13805065 ("cg.D.128") completed on c2-[5-6,14,16-17,23],c6-[6,12] at to. 21. jan. 02:41:05 +0100 2016
