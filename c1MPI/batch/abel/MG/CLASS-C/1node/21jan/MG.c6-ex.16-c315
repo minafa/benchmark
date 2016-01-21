@@ -7,7 +7,7 @@
  Iterations:   20
  Number of processes:     16
 
- Initialization time:           1.442 seconds
+ Initialization time:           0.957 seconds
 
   iter    1
   iter    5
@@ -25,11 +25,11 @@
  Class           =                        C
  Size            =            512x 512x 512
  Iterations      =                       20
- Time in seconds =                    11.67
+ Time in seconds =                     8.43
  Total processes =                       16
  Compiled procs  =                       16
- Mop/s total     =                 13338.86
- Mop/s/process   =                   833.68
+ Mop/s total     =                 18467.16
+ Mop/s/process   =                  1154.20
  Operation type  =           floating point
  Verification    =               SUCCESSFUL
  Version         =                      3.3
