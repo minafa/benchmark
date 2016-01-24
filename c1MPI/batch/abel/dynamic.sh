@@ -11,7 +11,7 @@ time=30
 #t=$4
 path=$4
 
-for ((i=16; i<=18; i++))
+for ((i=18; i<=20; i++))
 do
 echo "#!/bin/bash
 #SBATCH --job-name=$program.$class.$numberOfThreads
@@ -28,7 +28,7 @@ source /cluster/bin/jobsetup
 module load intel/2015.3
 module load openmpi.intel/1.8.6
 
-mpirun -n $numberOfThreads /usit/abel/u1/minafa/benchmark/c1MPI/bin/$program.$class.$numberOfThreads  > /usit/abel/u1/minafa/benchmark/c1MPI/batch/abel/$path/$program.$class.$numberOfThreads-$i" > runfileD 
+mpirun -n $numberOfThreads --report-bindings /usit/abel/u1/minafa/benchmark/c1MPI/bin/$program.$class.$numberOfThreads  > /usit/abel/u1/minafa/benchmark/c1MPI/batch/abel/$path/$program.$class.$numberOfThreads-$i" > runfileD 
 sbatch runfileD
 rm runfileD
 done
