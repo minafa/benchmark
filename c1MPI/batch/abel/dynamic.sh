@@ -11,13 +11,13 @@ time=30
 #t=$4
 path=$4
 
-for ((i=18; i<=20; i++))
+for ((i=10; i<=10; i++))
 do
 echo "#!/bin/bash
 #SBATCH --job-name=$program.$class.$numberOfThreads
 #SBATCH --time=00:$time:00
 #SBATCH --account=nn2849k
-#SBATCH --output=./$path/Output_File.$program.$numberOfThreads.$class-$i.out
+#SBATCH --output=./$path/Output_File.$program.$numberOfThreads.$class-$i-core.out
 #SBATCH --nodes=$numberOfNodes
 #SBATCH --ntasks-per-node=16
 #SBATCH --mem-per-cpu=3900M
@@ -28,7 +28,7 @@ source /cluster/bin/jobsetup
 module load intel/2015.3
 module load openmpi.intel/1.8.6
 
-mpirun -n $numberOfThreads --report-bindings /usit/abel/u1/minafa/benchmark/c1MPI/bin/$program.$class.$numberOfThreads  > /usit/abel/u1/minafa/benchmark/c1MPI/batch/abel/$path/$program.$class.$numberOfThreads-$i" > runfileD 
+mpirun -n $numberOfThreads --report-bindings --bind-to-core /usit/abel/u1/minafa/benchmark/c1MPI/bin/$program.$class.$numberOfThreads  > /usit/abel/u1/minafa/benchmark/c1MPI/batch/abel/$path/$program.$class.$numberOfThreads-$i-core" > runfileD 
 sbatch runfileD
 rm runfileD
 done
