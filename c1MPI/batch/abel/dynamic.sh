@@ -11,7 +11,7 @@ time=30
 #t=$4
 path=$4
 
-for ((i=6; i<=6; i++))
+for ((i=3; i<=6; i++))
 do
 echo "#!/bin/bash
 #SBATCH --job-name=$program.$class.$numberOfThreads

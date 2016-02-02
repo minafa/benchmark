@@ -3,33 +3,39 @@
  NAS Parallel Benchmarks 3.3 -- MG Benchmark
 
  No input file. Using compiled defaults 
- Size:  512x 512x 512  (class C)
- Iterations:   20
+ Size: 1024x1024x1024  (class D)
+ Iterations:   50
  Number of processes:     16
 
- Initialization time:           0.709 seconds
+ Initialization time:           8.588 seconds
 
   iter    1
   iter    5
   iter   10
   iter   15
   iter   20
+  iter   25
+  iter   30
+  iter   35
+  iter   40
+  iter   45
+  iter   50
 
  Benchmark completed 
  VERIFICATION SUCCESSFUL 
- L2 Norm is  0.5706732285740E-06
- Error is    0.7328581345087E-13
+ L2 Norm is  0.1583275060421E-09
+ Error is    0.1215918621374E-10
 
 
  MG Benchmark Completed.
- Class           =                        C
- Size            =            512x 512x 512
- Iterations      =                       20
- Time in seconds =                     6.44
+ Class           =                        D
+ Size            =           1024x1024x1024
+ Iterations      =                       50
+ Time in seconds =                   153.38
  Total processes =                       16
  Compiled procs  =                       16
- Mop/s total     =                 24186.50
- Mop/s/process   =                  1511.66
+ Mop/s total     =                 20301.72
+ Mop/s/process   =                  1268.86
  Operation type  =           floating point
  Verification    =               SUCCESSFUL
  Version         =                      3.3
