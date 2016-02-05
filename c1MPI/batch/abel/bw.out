@@ -1,0 +1,16 @@
+Starting job 13903001 ("bw") on c8-[10,17] at to. 04. feb. 18:43:52 +0100 2016
+/var/spool/slurmd/job13903001/slurm_script: line 13: intel/2015.3: No such file or directory
+/var/spool/slurmd/job13903001/slurm_script: line 14: openmpi.intel/1.8.6: No such file or directory
+This test requires exactly two processes
+
+Currently Loaded Modulefiles:
+  1) intel/2015.3          2) openmpi.intel/1.8.6
+
+Job step resource usage:
+       JobID    JobName  AllocCPUS  MaxVMSize     MaxRSS    Elapsed ExitCode 
+------------ ---------- ---------- ---------- ---------- ---------- -------- 
+13903001             bw         32                         00:00:07      0:0 
+13903001.0         true          2    270464K      1.50M   00:00:00      0:0 
+13903001.1        orted          1    955624K     48988K   00:00:03      0:0 
+
+Job 13903001 ("bw") completed on c8-[10,17] at to. 04. feb. 18:43:57 +0100 2016
