@@ -1,0 +1,16 @@
+Starting job 13907589 ("CG-C-ex") on c4-11 at fr. 05. feb. 15:16:37 +0100 2016
+
+Currently Loaded Modulefiles:
+  1) intel/2015.3          2) openmpi.intel/1.8.6
+
+Job script resource usage:
+       JobID  MaxVMSize     MaxRSS 
+------------ ---------- ---------- 
+13907589.ba+    232764K      5976K 
+
+Job step resource usage:
+       JobID    JobName  AllocCPUS  MaxVMSize     MaxRSS    Elapsed ExitCode 
+------------ ---------- ---------- ---------- ---------- ---------- -------- 
+13907589        CG-C-ex         16                         00:00:22      0:0 
+
+Job 13907589 ("CG-C-ex") completed on c4-11 at fr. 05. feb. 15:16:58 +0100 2016
