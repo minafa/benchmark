@@ -1,0 +1,127 @@
+2016-08-24 20:48:24,349 - MainThread - awscli.clidriver - DEBUG - CLI version: aws-cli/1.10.59 Python/2.7.10 Darwin/15.0.0 botocore/1.4.49
+2016-08-24 20:48:24,349 - MainThread - awscli.clidriver - DEBUG - Arguments entered to CLI: ['s3api', 'put-object', '--bucket', 'bymspsbucket', '--key', 'AWS.png', '--body', 'Desktop/AWS.png', '--profile', 'spsadmin', '--debug']
+2016-08-24 20:48:24,350 - MainThread - botocore.hooks - DEBUG - Event session-initialized: calling handler 
+2016-08-24 20:48:24,350 - MainThread - botocore.hooks - DEBUG - Event session-initialized: calling handler 
+2016-08-24 20:48:24,354 - MainThread - botocore.loaders - DEBUG - Loading JSON file: /Library/Python/2.7/site-packages/botocore/data/s3/2006-03-01/service-2.json
+2016-08-24 20:48:24,383 - MainThread - botocore.hooks - DEBUG - Event service-data-loaded.s3: calling handler 
+2016-08-24 20:48:24,385 - MainThread - botocore.handlers - DEBUG - Registering retry handlers for service: s3
+2016-08-24 20:48:24,388 - MainThread - botocore.hooks - DEBUG - Event building-command-table.s3api: calling handler 
+2016-08-24 20:48:24,393 - MainThread - botocore.loaders - DEBUG - Loading JSON file: /Library/Python/2.7/site-packages/botocore/data/s3/2006-03-01/waiters-2.json
+2016-08-24 20:48:24,399 - MainThread - awscli.clidriver - DEBUG - OrderedDict([(u'acl', ), (u'body', ), (u'bucket', ), (u'cache-control', ), (u'content-disposition', ), (u'content-encoding', ), (u'content-language', ), (u'content-length', ), (u'content-md5', ), (u'content-type', ), (u'expires', ), (u'grant-full-control', ), (u'grant-read', ), (u'grant-read-acp', ), (u'grant-write-acp', ), (u'key', ), (u'metadata', ), (u'server-side-encryption', ), (u'storage-class', ), (u'website-redirect-location', ), (u'sse-customer-algorithm', ), (u'sse-customer-key', ), (u'sse-customer-key-md5', ), (u'ssekms-key-id', ), (u'request-payer', )])
+2016-08-24 20:48:24,399 - MainThread - botocore.hooks - DEBUG - Event building-argument-table.s3api.put-object: calling handler 
+2016-08-24 20:48:24,399 - MainThread - botocore.hooks - DEBUG - Event building-argument-table.s3api.put-object: calling handler 
+2016-08-24 20:48:24,399 - MainThread - botocore.hooks - DEBUG - Event building-argument-table.s3api.put-object: calling handler 
+2016-08-24 20:48:24,405 - MainThread - botocore.loaders - DEBUG - Loading JSON file: /Library/Python/2.7/site-packages/botocore/data/s3/2006-03-01/paginators-1.json
+2016-08-24 20:48:24,405 - MainThread - botocore.hooks - DEBUG - Event building-argument-table.s3api.put-object: calling handler 
+2016-08-24 20:48:24,406 - MainThread - botocore.hooks - DEBUG - Event before-building-argument-table-parser.s3api.put-object: calling handler >
+2016-08-24 20:48:24,406 - MainThread - botocore.hooks - DEBUG - Event before-building-argument-table-parser.s3api.put-object: calling handler >
+2016-08-24 20:48:24,409 - MainThread - botocore.hooks - DEBUG - Event load-cli-arg.s3.put-object.acl: calling handler 
+2016-08-24 20:48:24,409 - MainThread - botocore.hooks - DEBUG - Event load-cli-arg.s3.put-object.body: calling handler 
+2016-08-24 20:48:24,410 - MainThread - botocore.hooks - DEBUG - Event process-cli-arg.s3.put-object: calling handler 
+2016-08-24 20:48:24,410 - MainThread - awscli.arguments - DEBUG - Unpacked value of u'Desktop/AWS.png' for parameter "body": 
+2016-08-24 20:48:24,410 - MainThread - botocore.hooks - DEBUG - Event load-cli-arg.s3.put-object.bucket: calling handler 
+2016-08-24 20:48:24,410 - MainThread - botocore.hooks - DEBUG - Event process-cli-arg.s3.put-object: calling handler 
+2016-08-24 20:48:24,410 - MainThread - awscli.arguments - DEBUG - Unpacked value of u'bymspsbucket' for parameter "bucket": u'bymspsbucket'
+2016-08-24 20:48:24,411 - MainThread - botocore.hooks - DEBUG - Event load-cli-arg.s3.put-object.cache-control: calling handler 
+2016-08-24 20:48:24,411 - MainThread - botocore.hooks - DEBUG - Event load-cli-arg.s3.put-object.content-disposition: calling handler 
+2016-08-24 20:48:24,411 - MainThread - botocore.hooks - DEBUG - Event load-cli-arg.s3.put-object.content-encoding: calling handler 
+2016-08-24 20:48:24,411 - MainThread - botocore.hooks - DEBUG - Event load-cli-arg.s3.put-object.content-language: calling handler 
+2016-08-24 20:48:24,411 - MainThread - botocore.hooks - DEBUG - Event load-cli-arg.s3.put-object.content-length: calling handler 
+2016-08-24 20:48:24,412 - MainThread - botocore.hooks - DEBUG - Event load-cli-arg.s3.put-object.content-md5: calling handler 
+2016-08-24 20:48:24,412 - MainThread - botocore.hooks - DEBUG - Event load-cli-arg.s3.put-object.content-type: calling handler 
+2016-08-24 20:48:24,412 - MainThread - botocore.hooks - DEBUG - Event load-cli-arg.s3.put-object.expires: calling handler 
+2016-08-24 20:48:24,412 - MainThread - botocore.hooks - DEBUG - Event load-cli-arg.s3.put-object.grant-full-control: calling handler 
+2016-08-24 20:48:24,412 - MainThread - botocore.hooks - DEBUG - Event load-cli-arg.s3.put-object.grant-read: calling handler 
+2016-08-24 20:48:24,412 - MainThread - botocore.hooks - DEBUG - Event load-cli-arg.s3.put-object.grant-read-acp: calling handler 
+2016-08-24 20:48:24,413 - MainThread - botocore.hooks - DEBUG - Event load-cli-arg.s3.put-object.grant-write-acp: calling handler 
+2016-08-24 20:48:24,413 - MainThread - botocore.hooks - DEBUG - Event load-cli-arg.s3.put-object.key: calling handler 
+2016-08-24 20:48:24,413 - MainThread - botocore.hooks - DEBUG - Event process-cli-arg.s3.put-object: calling handler 
+2016-08-24 20:48:24,413 - MainThread - awscli.arguments - DEBUG - Unpacked value of u'AWS.png' for parameter "key": u'AWS.png'
+2016-08-24 20:48:24,413 - MainThread - botocore.hooks - DEBUG - Event load-cli-arg.s3.put-object.metadata: calling handler 
+2016-08-24 20:48:24,413 - MainThread - botocore.hooks - DEBUG - Event load-cli-arg.s3.put-object.server-side-encryption: calling handler 
+2016-08-24 20:48:24,413 - MainThread - botocore.hooks - DEBUG - Event load-cli-arg.s3.put-object.storage-class: calling handler 
+2016-08-24 20:48:24,414 - MainThread - botocore.hooks - DEBUG - Event load-cli-arg.s3.put-object.website-redirect-location: calling handler 
+2016-08-24 20:48:24,414 - MainThread - botocore.hooks - DEBUG - Event load-cli-arg.s3.put-object.sse-customer-algorithm: calling handler 
+2016-08-24 20:48:24,414 - MainThread - botocore.hooks - DEBUG - Event load-cli-arg.s3.put-object.sse-customer-key: calling handler 
+2016-08-24 20:48:24,414 - MainThread - botocore.hooks - DEBUG - Event load-cli-arg.s3.put-object.sse-customer-key-md5: calling handler 
+2016-08-24 20:48:24,414 - MainThread - botocore.hooks - DEBUG - Event load-cli-arg.s3.put-object.ssekms-key-id: calling handler 
+2016-08-24 20:48:24,414 - MainThread - botocore.hooks - DEBUG - Event load-cli-arg.s3.put-object.request-payer: calling handler 
+2016-08-24 20:48:24,415 - MainThread - botocore.hooks - DEBUG - Event load-cli-arg.s3.put-object.cli-input-json: calling handler 
+2016-08-24 20:48:24,415 - MainThread - botocore.hooks - DEBUG - Event load-cli-arg.s3.put-object.generate-cli-skeleton: calling handler 
+2016-08-24 20:48:24,415 - MainThread - botocore.hooks - DEBUG - Event calling-command.s3api.put-object: calling handler >
+2016-08-24 20:48:24,415 - MainThread - botocore.hooks - DEBUG - Event calling-command.s3api.put-object: calling handler >
+2016-08-24 20:48:24,415 - MainThread - botocore.credentials - DEBUG - Looking for credentials via: assume-role
+2016-08-24 20:48:24,416 - MainThread - botocore.credentials - DEBUG - Looking for credentials via: shared-credentials-file
+2016-08-24 20:48:24,416 - MainThread - botocore.credentials - INFO - Found credentials in shared credentials file: ~/.aws/credentials
+2016-08-24 20:48:24,418 - MainThread - botocore.loaders - DEBUG - Loading JSON file: /Library/Python/2.7/site-packages/botocore/data/endpoints.json
+2016-08-24 20:48:24,431 - MainThread - botocore.client - DEBUG - Registering retry handlers for service: s3
+2016-08-24 20:48:24,433 - MainThread - botocore.hooks - DEBUG - Event creating-client-class.s3: calling handler 
+2016-08-24 20:48:24,433 - MainThread - botocore.hooks - DEBUG - Event creating-client-class.s3: calling handler 
+2016-08-24 20:48:24,434 - MainThread - botocore.client - DEBUG - Assuming an endpoint for s3, Ireland: https://s3.Ireland.amazonaws.com
+2016-08-24 20:48:24,434 - MainThread - botocore.args - DEBUG - The s3 config key is not a dictionary type, ignoring its value of: None
+2016-08-24 20:48:24,484 - MainThread - botocore.endpoint - DEBUG - Setting s3 timeout as (60, 60)
+2016-08-24 20:48:24,490 - MainThread - botocore.hooks - DEBUG - Event before-parameter-build.s3.PutObject: calling handler 
+2016-08-24 20:48:24,491 - MainThread - botocore.hooks - DEBUG - Event before-parameter-build.s3.PutObject: calling handler 
+2016-08-24 20:48:24,491 - MainThread - botocore.hooks - DEBUG - Event before-parameter-build.s3.PutObject: calling handler 
+2016-08-24 20:48:24,491 - MainThread - botocore.hooks - DEBUG - Event before-parameter-build.s3.PutObject: calling handler 
+2016-08-24 20:48:24,491 - MainThread - botocore.hooks - DEBUG - Event before-parameter-build.s3.PutObject: calling handler >
+2016-08-24 20:48:24,493 - MainThread - botocore.hooks - DEBUG - Event before-call.s3.PutObject: calling handler 
+2016-08-24 20:48:24,494 - MainThread - botocore.hooks - DEBUG - Event before-call.s3.PutObject: calling handler 
+2016-08-24 20:48:24,494 - MainThread - botocore.handlers - DEBUG - Adding expect 100 continue header to request.
+2016-08-24 20:48:24,494 - MainThread - botocore.hooks - DEBUG - Event before-call.s3.PutObject: calling handler >
+2016-08-24 20:48:24,495 - MainThread - botocore.endpoint - DEBUG - Making request for OperationModel(name=PutObject) (verify_ssl=True) with params: {'body': , 'url': u'https://s3.Ireland.amazonaws.com/bymspsbucket/AWS.png', 'headers': {'Content-MD5': u'AD9ZSLXKAhZ+/WomszsmPg==', 'Expect': '100-continue', 'User-Agent': 'aws-cli/1.10.59 Python/2.7.10 Darwin/15.0.0 botocore/1.4.49'}, 'context': {'client_region': 'Ireland', 'signing': {'bucket': u'bymspsbucket'}, 'has_streaming_input': True, 'client_config': }, 'query_string': {}, 'url_path': u'/bymspsbucket/AWS.png', 'method': u'PUT'}
+2016-08-24 20:48:24,495 - MainThread - botocore.hooks - DEBUG - Event request-created.s3.PutObject: calling handler >
+2016-08-24 20:48:24,496 - MainThread - botocore.hooks - DEBUG - Event before-sign.s3.PutObject: calling handler 
+2016-08-24 20:48:24,496 - MainThread - botocore.utils - DEBUG - Checking for DNS compatible bucket for: https://s3.Ireland.amazonaws.com/bymspsbucket/AWS.png
+2016-08-24 20:48:24,496 - MainThread - botocore.utils - DEBUG - URI updated to: https://bymspsbucket.s3.amazonaws.com/AWS.png
+2016-08-24 20:48:24,499 - MainThread - botocore.auth - DEBUG - Calculating signature using v4 auth.
+2016-08-24 20:48:24,499 - MainThread - botocore.auth - DEBUG - CanonicalRequest:
+PUT
+/AWS.png
+
+content-md5:AD9ZSLXKAhZ+/WomszsmPg==
+host:bymspsbucket.s3.amazonaws.com
+x-amz-date:20160824T184824Z
+
+content-md5;host;x-amz-date
+6e8bd6c513968675f792bca809906b7ca58f5cf876cb87cdfb424773f5c99607
+2016-08-24 20:48:24,499 - MainThread - botocore.auth - DEBUG - StringToSign:
+AWS4-HMAC-SHA256
+20160824T184824Z
+20160824/Ireland/s3/aws4_request
+4d6bfe2f2646030e05367ad33723774c40a06946408c466a13405a4c9f71db81
+2016-08-24 20:48:24,500 - MainThread - botocore.auth - DEBUG - Signature:
+d17a07b8dc9dadc7d7b054a60d5678de067c5a59536f650a3e6a242738f870c2
+2016-08-24 20:48:24,513 - MainThread - botocore.endpoint - DEBUG - Sending http request: 
+2016-08-24 20:48:24,514 - MainThread - botocore.vendored.requests.packages.urllib3.connectionpool - INFO - Starting new HTTPS connection (1): bymspsbucket.s3.amazonaws.com
+2016-08-24 20:48:25,089 - MainThread - botocore.awsrequest - DEBUG - Waiting for 100 Continue response.
+2016-08-24 20:48:25,136 - MainThread - botocore.awsrequest - DEBUG - Received a non 100 Continue response from the server, NOT sending request body.
+2016-08-24 20:48:25,137 - MainThread - botocore.vendored.requests.packages.urllib3.connectionpool - DEBUG - "PUT /AWS.png HTTP/1.1" 400 None
+2016-08-24 20:48:25,142 - MainThread - botocore.parsers - DEBUG - Response headers: {'x-amz-id-2': 'E8uxqxQxl3lk8V/lB+X2zX1kz3kloDVvnwNmrs4DfSOxJIHBgiaovylO0SvDcoC2xlSZS2NIhNE=', 'server': 'AmazonS3', 'transfer-encoding': 'chunked', 'connection': 'close', 'x-amz-request-id': 'C3BCE4CB6D1B1761', 'date': 'Wed, 24 Aug 2016 18:48:24 GMT', 'content-type': 'application/xml'}
+2016-08-24 20:48:25,142 - MainThread - botocore.parsers - DEBUG - Response body:
+<?xml version="1.0" encoding="UTF-8"?>
+InvalidRequestMissing required header for this request: x-amz-content-sha256C3BCE4CB6D1B1761E8uxqxQxl3lk8V/lB+X2zX1kz3kloDVvnwNmrs4DfSOxJIHBgiaovylO0SvDcoC2xlSZS2NIhNE=
+2016-08-24 20:48:25,143 - MainThread - botocore.hooks - DEBUG - Event needs-retry.s3.PutObject: calling handler 
+2016-08-24 20:48:25,143 - MainThread - botocore.retryhandler - DEBUG - No retry needed.
+2016-08-24 20:48:25,143 - MainThread - botocore.hooks - DEBUG - Event needs-retry.s3.PutObject: calling handler >
+2016-08-24 20:48:25,144 - MainThread - botocore.hooks - DEBUG - Event after-call.s3.PutObject: calling handler 
+2016-08-24 20:48:25,144 - MainThread - awscli.clidriver - DEBUG - Exception caught in main()
+Traceback (most recent call last):
+File "/Library/Python/2.7/site-packages/awscli/clidriver.py", line 186, in main
+return command_tableparsed_args.command
+File "/Library/Python/2.7/site-packages/awscli/clidriver.py", line 381, in call
+return command_tableparsed_args.operation
+File "/Library/Python/2.7/site-packages/awscli/clidriver.py", line 551, in call
+call_parameters, parsed_globals)
+File "/Library/Python/2.7/site-packages/awscli/clidriver.py", line 675, in invoke
+**parameters)
+File "/Library/Python/2.7/site-packages/botocore/client.py", line 159, in _api_call
+return self._make_api_call(operation_name, kwargs)
+File "/Library/Python/2.7/site-packages/botocore/client.py", line 494, in _make_api_call
+raise ClientError(parsed_response, operation_name)
+ClientError: An error occurred (InvalidRequest) when calling the PutObject operation: Missing required header for this request: x-amz-content-sha256
+2016-08-24 20:48:25,148 - MainThread - awscli.clidriver - DEBUG - Exiting with rc 255
+
+An error occurred (InvalidRequest) when calling the PutObject operation: Missing required header for this request: x-amz-content-sha256
+
+
